@@ -44,19 +44,22 @@
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "DMA",
+    "term": "DMA（Direct Memory Access）",
+    "key": "DMA",
     "description": "CPUを介さず、入出力装置と主記憶の間でデータ転送を行う方式"
   },
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "RAID 1",
+    "term": "RAID 1（Redundant Arrays of Independent Disks レベル1）",
+    "key": "RAID 1",
     "description": "複数ディスクに同じデータを書き込むミラーリング方式"
   },
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "RAID 5",
+    "term": "RAID 5（Redundant Arrays of Independent Disks レベル5）",
+    "key": "RAID 5",
     "description": "データとパリティを複数ディスクに分散記録し、1台の故障に耐える方式"
   },
   {
@@ -146,55 +149,64 @@
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "TCP",
+    "term": "TCP（Transmission Control Protocol）",
+    "key": "TCP",
     "description": "接続を確立し、順序制御や再送制御によって信頼性のある通信を提供するトランスポート層プロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "UDP",
+    "term": "UDP（User Datagram Protocol）",
+    "key": "UDP",
     "description": "接続確立や到達保証を標準では行わない、軽量なトランスポート層プロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "IP",
+    "term": "IP（Internet Protocol）",
+    "key": "IP",
     "description": "宛先IPアドレスを基にパケットをネットワーク間で配送するプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "ARP",
+    "term": "ARP（Address Resolution Protocol）",
+    "key": "ARP",
     "description": "IPv4アドレスから同一リンク上のMACアドレスを調べるプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "ICMP",
+    "term": "ICMP（Internet Control Message Protocol）",
+    "key": "ICMP",
     "description": "IPネットワークにおけるエラー通知や疎通確認に使う制御メッセージのプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "DHCP",
+    "term": "DHCP（Dynamic Host Configuration Protocol）",
+    "key": "DHCP",
     "description": "端末にIPアドレスやDNSサーバーなどの設定を自動配布する仕組み"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "DNS",
+    "term": "DNS（Domain Name System）",
+    "key": "DNS",
     "description": "ドメイン名とIPアドレスなどの情報を対応付けて名前解決する仕組み"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "NAT",
+    "term": "NAT（Network Address Translation）",
+    "key": "NAT",
     "description": "通信時にIPアドレスを別のIPアドレスへ変換する仕組み"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "CIDR",
+    "term": "CIDR（Classless Inter-Domain Routing）",
+    "key": "CIDR",
     "description": "IPアドレスのネットワーク部の長さをプレフィックス長で表す表記・経路集約の方式"
   },
   {
@@ -212,7 +224,8 @@
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "TTL",
+    "term": "TTL（Time To Live）",
+    "key": "TTL",
     "description": "IPv4パケットのルータ転送ごとに減少し、0になると破棄される生存時間の上限を示すヘッダ値"
   },
   {
@@ -248,7 +261,8 @@
   {
     "exam": "A-1",
     "category": "データベース",
-    "term": "ACID",
+    "term": "ACID（Atomicity, Consistency, Isolation, Durability）",
+    "key": "ACID",
     "description": "データベースのトランザクションが備えるべき原子性・一貫性・独立性（隔離性）・永続性の4特性"
   },
   {
@@ -308,13 +322,15 @@
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "CI",
+    "term": "CI（Continuous Integration）",
+    "key": "CI",
     "description": "コード変更を頻繁に統合し、自動ビルドやテストで継続的に検証する仕組み"
   },
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "継続的デリバリー（CD）",
+    "term": "継続的デリバリー（CD：Continuous Delivery）",
+    "key": "継続的デリバリー（CD）",
     "description": "変更をいつでも本番リリースできる状態に保つための自動化と運用"
   },
   {
@@ -350,61 +366,71 @@
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "ITIL",
+    "term": "ITIL（Information Technology Infrastructure Library）",
+    "key": "ITIL",
     "description": "ITサービスマネジメントの実践知をまとめたフレームワーク"
   },
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "SLA",
+    "term": "SLA（Service Level Agreement）",
+    "key": "SLA",
     "description": "サービス提供者と利用者が合意するサービス水準を定めた合意"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "SWOT分析",
+    "term": "SWOT分析（Strengths, Weaknesses, Opportunities, Threats）",
+    "key": "SWOT分析",
     "description": "強み・弱み・機会・脅威の4視点で事業環境を整理する分析"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "PPM",
+    "term": "PPM（Product Portfolio Management）",
+    "key": "PPM",
     "description": "市場成長率と相対市場シェアなどで事業を位置付け、資源配分を検討する手法"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "ROI",
+    "term": "ROI（Return on Investment）",
+    "key": "ROI",
     "description": "投資に対してどれだけ利益を得たかを表す投資利益率"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "TCO",
+    "term": "TCO（Total Cost of Ownership）",
+    "key": "TCO",
     "description": "導入費だけでなく運用・保守・廃棄などを含めた総保有コスト"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "BSC",
+    "term": "BSC（Balanced Scorecard）",
+    "key": "BSC",
     "description": "財務・顧客・業務プロセス・学習と成長など複数視点から戦略を管理する手法"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "BCP",
+    "term": "BCP（Business Continuity Plan）",
+    "key": "BCP",
     "description": "災害や事故が起きても重要業務を継続・早期復旧するための計画"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "RPO",
+    "term": "RPO（Recovery Point Objective）",
+    "key": "RPO",
     "description": "障害時に復旧するデータについて、どの時点までの損失を許容するかを示す目標復旧時点"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "RTO",
+    "term": "RTO（Recovery Time Objective）",
+    "key": "RTO",
     "description": "障害発生後、業務やサービスをいつまでに復旧するかを示す目標時間"
   },
   {
@@ -446,25 +472,29 @@
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "多要素認証（MFA）",
+    "term": "多要素認証（MFA：Multi-Factor Authentication）",
+    "key": "多要素認証（MFA）",
     "description": "知識・所持・生体など異なる種類の要素を二つ以上組み合わせて本人確認する方式"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "シングルサインオン（SSO）",
+    "term": "シングルサインオン（SSO：Single Sign-On）",
+    "key": "シングルサインオン（SSO）",
     "description": "一度の認証で複数サービスを利用できるようにする仕組み"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "SAML",
+    "term": "SAML（Security Assertion Markup Language）",
+    "key": "SAML",
     "description": "認証結果などの情報をXMLベースのアサーションで組織間連携する標準"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "OAuth 2.0",
+    "term": "OAuth 2.0（Open Authorization 2.0）",
+    "key": "OAuth 2.0",
     "description": "アプリケーションに保護されたリソースへの限定的なアクセス権限を付与・委譲するための認可フレームワーク"
   },
   {
@@ -476,7 +506,8 @@
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "FIDO2",
+    "term": "FIDO2（Fast IDentity Online 2）",
+    "key": "FIDO2",
     "description": "公開鍵暗号を活用したパスワードに依存しない認証などを実現する規格群"
   },
   {
@@ -488,13 +519,15 @@
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "RBAC",
+    "term": "RBAC（Role-Based Access Control）",
+    "key": "RBAC",
     "description": "利用者に割り当てた役割（ロール）に応じてアクセス権限を決める方式"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "ABAC",
+    "term": "ABAC（Attribute-Based Access Control）",
+    "key": "ABAC",
     "description": "利用者・資源・環境などの属性を評価してアクセスの可否を決める方式"
   },
   {
@@ -542,7 +575,8 @@
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "HMAC",
+    "term": "HMAC（Hash-based Message Authentication Code）",
+    "key": "HMAC",
     "description": "秘密鍵とハッシュ関数から認証コードを生成し、改ざんの有無と秘密鍵を知る主体による生成を検証する方式"
   },
   {
@@ -560,19 +594,22 @@
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "認証局（CA）",
+    "term": "認証局（CA：Certificate Authority）",
+    "key": "認証局（CA）",
     "description": "公開鍵証明書を発行し、主体と公開鍵の結び付きを証明する機関"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "PKI",
+    "term": "PKI（Public Key Infrastructure）",
+    "key": "PKI",
     "description": "公開鍵証明書の発行・管理・失効などを支える仕組みの総称"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "TLS",
+    "term": "TLS（Transport Layer Security）",
+    "key": "TLS",
     "description": "ネットワーク上の通信を暗号化し、相手の認証や改ざん検知も提供するプロトコル"
   },
   {
@@ -614,37 +651,43 @@
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "IDS",
+    "term": "IDS（Intrusion Detection System）",
+    "key": "IDS",
     "description": "不審な通信や侵入の兆候を検知して通知するシステム"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "IPS",
+    "term": "IPS（Intrusion Prevention System）",
+    "key": "IPS",
     "description": "不審な通信や侵入の兆候を検知し、遮断などの防御措置を行うシステム"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "WAF",
+    "term": "WAF（Web Application Firewall）",
+    "key": "WAF",
     "description": "HTTPなどのWebアプリ向け通信を検査し、攻撃を防ぐ仕組み"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "VPN",
+    "term": "VPN（Virtual Private Network）",
+    "key": "VPN",
     "description": "共有ネットワーク上に論理的な専用通信路を構築する技術"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "IPsec",
+    "term": "IPsec（Internet Protocol Security）",
+    "key": "IPsec",
     "description": "IP層で通信の認証・完全性保護・暗号化などを行うためのプロトコル群"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "DMZ",
+    "term": "DMZ（DeMilitarized Zone）",
+    "key": "DMZ",
     "description": "外部公開サーバーなどを社内ネットワークから分離して置く中間のネットワーク領域"
   },
   {
@@ -668,25 +711,29 @@
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "SQLインジェクション",
+    "term": "SQLインジェクション（Structured Query Language）",
+    "key": "SQLインジェクション",
     "description": "外部入力をSQLの構文として解釈させ、不正な問合せや更新を行わせる攻撃"
   },
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "クロスサイトスクリプティング（XSS）",
+    "term": "クロスサイトスクリプティング（XSS：Cross-Site Scripting）",
+    "key": "クロスサイトスクリプティング（XSS）",
     "description": "Webページに悪意あるスクリプトを混入させ、閲覧者のブラウザで実行させる攻撃"
   },
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "CSRF",
+    "term": "CSRF（Cross-Site Request Forgery）",
+    "key": "CSRF",
     "description": "ログイン中の利用者のブラウザに、意図しないリクエストを送らせる攻撃"
   },
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "SSRF",
+    "term": "SSRF（Server-Side Request Forgery）",
+    "key": "SSRF",
     "description": "サーバーに攻撃者指定の宛先へリクエストを送らせ、内部資源などにアクセスさせる攻撃"
   },
   {
@@ -704,7 +751,8 @@
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "OSコマンドインジェクション",
+    "term": "OSコマンドインジェクション（Operating System）",
+    "key": "OSコマンドインジェクション",
     "description": "外部入力をOSのコマンドとして実行させ、任意の処理を行わせる攻撃"
   },
   {
@@ -734,13 +782,15 @@
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "CSP",
+    "term": "CSP（Content Security Policy）",
+    "key": "CSP",
     "description": "Webページで読み込み・実行を許可するスクリプト等の取得元を制約する仕組み"
   },
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "MITB",
+    "term": "MITB（Man-in-the-Browser）",
+    "key": "MITB",
     "description": "利用者のブラウザ内で不正プログラムが通信や表示を改ざんする攻撃"
   },
   {
@@ -776,7 +826,8 @@
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "APT",
+    "term": "APT（Advanced Persistent Threat）",
+    "key": "APT",
     "description": "特定対象に対して長期的・継続的に侵入や情報窃取を試みる脅威主体・活動の概念"
   },
   {
@@ -794,19 +845,22 @@
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "CVE",
+    "term": "CVE（Common Vulnerabilities and Exposures）",
+    "key": "CVE",
     "description": "個別の公知の脆弱性に共通の識別番号を割り当てて参照しやすくする仕組み"
   },
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "CVSS",
+    "term": "CVSS（Common Vulnerability Scoring System）",
+    "key": "CVSS",
     "description": "脆弱性の深刻度を共通の評価軸に基づき数値などで表すための指標体系"
   },
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "SBOM",
+    "term": "SBOM（Software Bill of Materials）",
+    "key": "SBOM",
     "description": "ソフトウェアを構成する部品・バージョン・依存関係などを一覧化した構成表"
   },
   {
@@ -824,43 +878,50 @@
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "SIEM",
+    "term": "SIEM（Security Information and Event Management）",
+    "key": "SIEM",
     "description": "多様なシステムからログを集約し、相関分析して脅威の検知を支援する仕組み"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "SOAR",
+    "term": "SOAR（Security Orchestration, Automation and Response）",
+    "key": "SOAR",
     "description": "セキュリティ運用の手順を統合し、調査や対応を自動化する仕組み"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "EDR",
+    "term": "EDR（Endpoint Detection and Response）",
+    "key": "EDR",
     "description": "PCやサーバーなど端末上の挙動を監視し、脅威の検知と対応を支援する技術"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "XDR",
+    "term": "XDR（Extended Detection and Response）",
+    "key": "XDR",
     "description": "端末・ネットワークなど複数領域のデータを統合して脅威の検知・対応を支援する技術"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "SOC",
+    "term": "SOC（Security Operation Center）",
+    "key": "SOC",
     "description": "セキュリティ監視や脅威分析を継続的に行う組織・機能"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "CSIRT",
+    "term": "CSIRT（Computer Security Incident Response Team）",
+    "key": "CSIRT",
     "description": "セキュリティインシデントの受付、分析、対応を調整するチーム"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "IOC",
+    "term": "IOC（Indicator of Compromise）",
+    "key": "IOC",
     "description": "不正なIPアドレスやファイルハッシュなど、侵害の兆候を示す情報"
   },
   {
@@ -896,7 +957,8 @@
   {
     "exam": "A-2",
     "category": "管理・標準",
-    "term": "ISMS",
+    "term": "ISMS（Information Security Management System）",
+    "key": "ISMS",
     "description": "情報セキュリティを組織的・継続的に管理するためのマネジメントシステム"
   },
   {
@@ -944,7 +1006,8 @@
   {
     "exam": "A-2",
     "category": "管理・標準",
-    "term": "CIA（機密性・完全性・可用性）",
+    "term": "CIA（Confidentiality, Integrity, Availability：機密性・完全性・可用性）",
+    "key": "CIA（機密性・完全性・可用性）",
     "description": "情報を権限外に漏らさず、改ざんを防ぎ、必要なときに利用できるよう守る三つの性質の総称"
   },
   {
@@ -956,7 +1019,8 @@
   {
     "exam": "A-2",
     "category": "管理・標準",
-    "term": "PDCAサイクル",
+    "term": "PDCAサイクル（Plan, Do, Check, Act）",
+    "key": "PDCAサイクル",
     "description": "計画・実行・評価・改善を繰り返す継続的改善の考え方"
   },
   {
@@ -974,25 +1038,29 @@
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "ROM",
+    "term": "ROM（Read Only Memory）",
+    "key": "ROM",
     "description": "電源を切っても内容が失われない読み出し中心の半導体記憶装置"
   },
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "SSD",
+    "term": "SSD（Solid State Drive）",
+    "key": "SSD",
     "description": "フラッシュメモリなどを利用し、機械的な回転部を持たずにデータを記録する装置"
   },
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "HDD",
+    "term": "HDD（Hard Disk Drive）",
+    "key": "HDD",
     "description": "回転する磁気ディスクにデータを記録する補助記憶装置"
   },
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "CPUクロック周波数",
+    "term": "CPUクロック周波数（Central Processing Unit）",
+    "key": "CPUクロック周波数",
     "description": "CPUが動作の基準として使うクロック信号の1秒当たりの周期数"
   },
   {
@@ -1040,13 +1108,15 @@
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "LRU",
+    "term": "LRU（Least Recently Used）",
+    "key": "LRU",
     "description": "最後に使われてから最も長い時間が経過した項目を優先して置換する方式"
   },
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "FIFOページ置換",
+    "term": "FIFOページ置換（First In, First Out）",
+    "key": "FIFOページ置換",
     "description": "主記憶に最も早く読み込まれたページから置換する方式"
   },
   {
@@ -1082,13 +1152,15 @@
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "RAID 0",
+    "term": "RAID 0（Redundant Arrays of Independent Disks レベル0）",
+    "key": "RAID 0",
     "description": "複数ディスクへデータを分散し速度向上を図るが、冗長性を持たない方式"
   },
   {
     "exam": "A-1",
     "category": "コンピュータ・OS",
-    "term": "RAID 6",
+    "term": "RAID 6（Redundant Arrays of Independent Disks レベル6）",
+    "key": "RAID 6",
     "description": "二種類のパリティを分散保持し、通常はディスク2台の同時故障に耐えられるRAID方式"
   },
   {
@@ -1106,13 +1178,15 @@
   {
     "exam": "A-1",
     "category": "アルゴリズム",
-    "term": "深さ優先探索（DFS）",
+    "term": "深さ優先探索（DFS：Depth-First Search）",
+    "key": "深さ優先探索（DFS）",
     "description": "探索できる枝をできるだけ深く進み、戻りながら未探索の枝を調べる手法"
   },
   {
     "exam": "A-1",
     "category": "アルゴリズム",
-    "term": "幅優先探索（BFS）",
+    "term": "幅優先探索（BFS：Breadth-First Search）",
+    "key": "幅優先探索（BFS）",
     "description": "始点から距離が近い頂点を先に調べるグラフ探索手法"
   },
   {
@@ -1238,7 +1312,8 @@
   {
     "exam": "A-1",
     "category": "基礎理論・数理",
-    "term": "排他的論理和（XOR）",
+    "term": "排他的論理和（XOR：eXclusive OR）",
+    "key": "排他的論理和（XOR）",
     "description": "二つの入力の真偽が異なる場合に真となる論理演算"
   },
   {
@@ -1268,7 +1343,8 @@
   {
     "exam": "A-1",
     "category": "基礎理論・数理",
-    "term": "CRC",
+    "term": "CRC（Cyclic Redundancy Check）",
+    "key": "CRC",
     "description": "データを多項式の剰余として表した検査値で、伝送誤りを検出する方式"
   },
   {
@@ -1292,13 +1368,15 @@
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "OSI参照モデル",
+    "term": "OSI参照モデル（Open Systems Interconnection）",
+    "key": "OSI参照モデル",
     "description": "通信機能を7階層に分けて整理したネットワークの参照モデル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "MACアドレス",
+    "term": "MACアドレス（Media Access Control）",
+    "key": "MACアドレス",
     "description": "主にデータリンク層で機器のインタフェースを識別するアドレス"
   },
   {
@@ -1310,7 +1388,8 @@
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "VLAN",
+    "term": "VLAN（Virtual Local Area Network）",
+    "key": "VLAN",
     "description": "一つの物理ネットワークを論理的な複数のLANに分割する技術"
   },
   {
@@ -1334,25 +1413,29 @@
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "IPv6",
+    "term": "IPv6（Internet Protocol version 6）",
+    "key": "IPv6",
     "description": "128ビットのアドレス空間を持つインターネットプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "NDP",
+    "term": "NDP（Neighbor Discovery Protocol）",
+    "key": "NDP",
     "description": "IPv6で近隣ノードの発見やアドレス解決などを行う仕組み"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "SLAAC",
+    "term": "SLAAC（Stateless Address Autoconfiguration）",
+    "key": "SLAAC",
     "description": "IPv6端末がルータ広告の情報などからアドレスを自動設定する方式"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "NAPT",
+    "term": "NAPT（Network Address Port Translation）",
+    "key": "NAPT",
     "description": "IPアドレスに加えてポート番号も変換し、複数端末でアドレスを共有する仕組み"
   },
   {
@@ -1400,61 +1483,71 @@
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "HTTP",
+    "term": "HTTP（HyperText Transfer Protocol）",
+    "key": "HTTP",
     "description": "クライアントとサーバー間でWeb上の資源をやり取りするアプリケーション層プロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "HTTPS",
+    "term": "HTTPS（HyperText Transfer Protocol Secure）",
+    "key": "HTTPS",
     "description": "HTTPをTLSなどで保護し、通信の暗号化や相手認証を可能にする方式"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "SMTP",
+    "term": "SMTP（Simple Mail Transfer Protocol）",
+    "key": "SMTP",
     "description": "電子メールを送信・転送するためのプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "IMAP",
+    "term": "IMAP（Internet Message Access Protocol）",
+    "key": "IMAP",
     "description": "メールをサーバー上で管理しながら参照するためのプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "POP3",
+    "term": "POP3（Post Office Protocol version 3）",
+    "key": "POP3",
     "description": "メールサーバーからメールを受信・取得するためのプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "NTP",
+    "term": "NTP（Network Time Protocol）",
+    "key": "NTP",
     "description": "ネットワーク上の機器間で時刻を同期するプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "SNMP",
+    "term": "SNMP（Simple Network Management Protocol）",
+    "key": "SNMP",
     "description": "ネットワーク機器の状態監視や管理情報の取得に利用するプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "SSH",
+    "term": "SSH（Secure Shell）",
+    "key": "SSH",
     "description": "暗号化された通信路で遠隔ログインやコマンド実行を行うプロトコル"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "FTP",
+    "term": "FTP（File Transfer Protocol）",
+    "key": "FTP",
     "description": "ファイルを転送するための古典的なプロトコルで、通常は認証情報も平文で流れる"
   },
   {
     "exam": "A-1",
     "category": "ネットワーク基礎",
-    "term": "SFTP",
+    "term": "SFTP（SSH File Transfer Protocol）",
+    "key": "SFTP",
     "description": "SSHの通信路上で安全にファイルを転送するプロトコル"
   },
   {
@@ -1508,19 +1601,22 @@
   {
     "exam": "A-1",
     "category": "データベース",
-    "term": "ER図",
+    "term": "ER図（Entity-Relationship Diagram）",
+    "key": "ER図",
     "description": "エンティティとその属性・関連を図式化したデータモデル"
   },
   {
     "exam": "A-1",
     "category": "データベース",
-    "term": "DDL",
+    "term": "DDL（Data Definition Language）",
+    "key": "DDL",
     "description": "CREATEやALTERなど、データベースの構造を定義するSQLの分類"
   },
   {
     "exam": "A-1",
     "category": "データベース",
-    "term": "DML",
+    "term": "DML（Data Manipulation Language）",
+    "key": "DML",
     "description": "SELECTやINSERT、UPDATEなど、表データを操作するSQLの分類"
   },
   {
@@ -1556,7 +1652,8 @@
   {
     "exam": "A-1",
     "category": "データベース",
-    "term": "MVCC",
+    "term": "MVCC（Multi-Version Concurrency Control）",
+    "key": "MVCC",
     "description": "更新前後の複数バージョンを管理して読み取りと更新の競合を軽減する方式"
   },
   {
@@ -1574,13 +1671,15 @@
   {
     "exam": "A-1",
     "category": "データベース",
-    "term": "データウェアハウス（DWH）",
+    "term": "データウェアハウス（DWH：Data Warehouse）",
+    "key": "データウェアハウス（DWH）",
     "description": "分析を目的に複数システムのデータを集約して蓄積する基盤"
   },
   {
     "exam": "A-1",
     "category": "データベース",
-    "term": "OLAP",
+    "term": "OLAP（Online Analytical Processing）",
+    "key": "OLAP",
     "description": "多次元的にデータを集計・分析する処理方式"
   },
   {
@@ -1598,7 +1697,8 @@
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "テスト駆動開発（TDD）",
+    "term": "テスト駆動開発（TDD：Test-Driven Development）",
+    "key": "テスト駆動開発（TDD）",
     "description": "失敗するテストを書き、実装を行ってリファクタリングする短いサイクル"
   },
   {
@@ -1688,25 +1788,29 @@
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "IaC",
+    "term": "IaC（Infrastructure as Code）",
+    "key": "IaC",
     "description": "インフラの構成や設定をコードで定義し、再現可能に管理する手法"
   },
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "API",
+    "term": "API（Application Programming Interface）",
+    "key": "API",
     "description": "ソフトウェアの機能を外部から利用するためのインタフェース"
   },
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "REST",
+    "term": "REST（Representational State Transfer）",
+    "key": "REST",
     "description": "リソースをURIで識別し、HTTPの標準的な操作などを利用するアーキテクチャ様式"
   },
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "UML",
+    "term": "UML（Unified Modeling Language）",
+    "key": "UML",
     "description": "ソフトウェアの構造や振る舞いを複数の図でモデル化するための統一表記法"
   },
   {
@@ -1742,13 +1846,15 @@
   {
     "exam": "A-1",
     "category": "システム構成・信頼性",
-    "term": "MTBF",
+    "term": "MTBF（Mean Time Between Failures）",
+    "key": "MTBF",
     "description": "修理可能なシステムで故障から次の故障までの平均稼働時間"
   },
   {
     "exam": "A-1",
     "category": "システム構成・信頼性",
-    "term": "MTTR",
+    "term": "MTTR（Mean Time To Repair）",
+    "key": "MTTR",
     "description": "故障から修理・復旧するまでに必要な平均時間"
   },
   {
@@ -1838,7 +1944,8 @@
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "PEST分析",
+    "term": "PEST分析（Politics, Economy, Society, Technology）",
+    "key": "PEST分析",
     "description": "政治・経済・社会・技術の観点から外部のマクロ環境を分析する手法"
   },
   {
@@ -1850,19 +1957,22 @@
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "KPI",
+    "term": "KPI（Key Performance Indicator）",
+    "key": "KPI",
     "description": "目標達成に向けた進捗を測る重要業績評価指標"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "KGI",
+    "term": "KGI（Key Goal Indicator）",
+    "key": "KGI",
     "description": "最終的な事業目標の達成度を測る重要目標達成指標"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "NPV",
+    "term": "NPV（Net Present Value）",
+    "key": "NPV",
     "description": "将来のキャッシュフローを割引いて現在価値に換算し投資額と比較する評価指標"
   },
   {
@@ -1928,7 +2038,8 @@
   {
     "exam": "A-1",
     "category": "プロジェクト管理",
-    "term": "WBS",
+    "term": "WBS（Work Breakdown Structure）",
+    "key": "WBS",
     "description": "プロジェクトの成果物や作業を階層的に分解した構成図"
   },
   {
@@ -1940,37 +2051,43 @@
   {
     "exam": "A-1",
     "category": "プロジェクト管理",
-    "term": "EVM",
+    "term": "EVM（Earned Value Management）",
+    "key": "EVM",
     "description": "計画価値・出来高・実コストを比較して進捗やコストを管理する手法"
   },
   {
     "exam": "A-1",
     "category": "プロジェクト管理",
-    "term": "PV（計画価値）",
+    "term": "PV（Planned Value：計画価値）",
+    "key": "PV（計画価値）",
     "description": "ある時点までに予定されている作業の予算上の価値"
   },
   {
     "exam": "A-1",
     "category": "プロジェクト管理",
-    "term": "EV（出来高）",
+    "term": "EV（Earned Value：出来高）",
+    "key": "EV（出来高）",
     "description": "実際に完了した作業を予算額に換算した価値"
   },
   {
     "exam": "A-1",
     "category": "プロジェクト管理",
-    "term": "AC（実コスト）",
+    "term": "AC（Actual Cost：実コスト）",
+    "key": "AC（実コスト）",
     "description": "実際に完了した作業などに費やした費用"
   },
   {
     "exam": "A-1",
     "category": "プロジェクト管理",
-    "term": "SPI",
+    "term": "SPI（Schedule Performance Index）",
+    "key": "SPI",
     "description": "EVMで出来高を計画価値で割ったスケジュール効率指標"
   },
   {
     "exam": "A-1",
     "category": "プロジェクト管理",
-    "term": "CPI",
+    "term": "CPI（Cost Performance Index）",
+    "key": "CPI",
     "description": "EVMで出来高を実コストで割ったコスト効率指標"
   },
   {
@@ -2048,13 +2165,15 @@
   {
     "exam": "A-1",
     "category": "AI・データ分析",
-    "term": "主成分分析（PCA）",
+    "term": "主成分分析（PCA：Principal Component Analysis）",
+    "key": "主成分分析（PCA）",
     "description": "データの分散を大きく保つ方向へ軸を変換して次元を削減する手法"
   },
   {
     "exam": "A-1",
     "category": "AI・データ分析",
-    "term": "生成AI",
+    "term": "生成AI（Artificial Intelligence）",
+    "key": "生成AI",
     "description": "学習データの特徴を基に文章・画像・コードなどの新しい内容を生成するAI"
   },
   {
@@ -2150,7 +2269,8 @@
   {
     "exam": "A-2",
     "category": "セキュリティ基礎",
-    "term": "シャドーIT",
+    "term": "シャドーIT（Information Technology）",
+    "key": "シャドーIT",
     "description": "組織の承認・管理を経ずに利用されるITサービスや機器"
   },
   {
@@ -2210,13 +2330,15 @@
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "RAT（遠隔操作型トロイの木馬）",
+    "term": "RAT（Remote Access Trojan：遠隔操作型トロイの木馬）",
+    "key": "RAT（遠隔操作型トロイの木馬）",
     "description": "感染した端末を攻撃者が遠隔操作するための不正プログラム"
   },
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "C2（C&C）サーバー",
+    "term": "C2（C&C）サーバー（Command and Control）",
+    "key": "C2（C&C）サーバー",
     "description": "感染端末に命令を送り、盗んだ情報を受け取るなどのために使う攻撃者側のサーバー"
   },
   {
@@ -2240,7 +2362,8 @@
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "BEC（ビジネスメール詐欺）",
+    "term": "BEC（Business Email Compromise：ビジネスメール詐欺）",
+    "key": "BEC（ビジネスメール詐欺）",
     "description": "経営者や取引先になりすまして送金や機密情報の提供を誘導する詐欺"
   },
   {
@@ -2282,7 +2405,8 @@
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "中間者攻撃（MITM）",
+    "term": "中間者攻撃（MITM：Man-in-the-Middle）",
+    "key": "中間者攻撃（MITM）",
     "description": "通信の途中に介入して通信内容の盗聴や改ざんを行う攻撃"
   },
   {
@@ -2312,13 +2436,15 @@
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "DoS攻撃",
+    "term": "DoS攻撃（Denial of Service）",
+    "key": "DoS攻撃",
     "description": "単一または限られた発信元などから過剰な要求等を送りサービスを妨害する攻撃"
   },
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "DDoS攻撃",
+    "term": "DDoS攻撃（Distributed Denial of Service）",
+    "key": "DDoS攻撃",
     "description": "多数の端末などから分散して通信を送り、サービスの可用性を低下させる攻撃"
   },
   {
@@ -2336,7 +2462,8 @@
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "SYNフラッド攻撃",
+    "term": "SYNフラッド攻撃（Synchronize）",
+    "key": "SYNフラッド攻撃",
     "description": "TCP接続要求を大量送信し、未完了接続の管理資源などを消費させる攻撃"
   },
   {
@@ -2360,19 +2487,22 @@
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "CWE",
+    "term": "CWE（Common Weakness Enumeration）",
+    "key": "CWE",
     "description": "ソフトウェアやハードウェアの弱点の種類を共通の分類で識別する仕組み"
   },
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "NVD",
+    "term": "NVD（National Vulnerability Database）",
+    "key": "NVD",
     "description": "米国NISTが運営し、CVEなどの脆弱性情報を公開・整理するデータベース"
   },
   {
     "exam": "A-2",
     "category": "脆弱性・脅威",
-    "term": "CPE",
+    "term": "CPE（Common Platform Enumeration）",
+    "key": "CPE",
     "description": "製品やプラットフォームを共通の形式で識別するための命名規格"
   },
   {
@@ -2414,13 +2544,15 @@
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "DOMベースXSS",
+    "term": "DOMベースXSS（Document Object Model）",
+    "key": "DOMベースXSS",
     "description": "ブラウザ内のDOM操作が信頼できない入力を危険な形で解釈して生じるXSS"
   },
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "HTMLエスケープ",
+    "term": "HTMLエスケープ（HyperText Markup Language）",
+    "key": "HTMLエスケープ",
     "description": "HTMLの文脈で特別な意味を持つ文字を文字参照に変換し、データとして表示する処理"
   },
   {
@@ -2480,7 +2612,8 @@
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "XXE",
+    "term": "XXE（XML External Entity）",
+    "key": "XXE",
     "description": "XMLの外部実体参照を悪用し、サーバー内のファイル取得や外部通信などを狙う攻撃"
   },
   {
@@ -2510,7 +2643,8 @@
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "TOCTOU",
+    "term": "TOCTOU（Time Of Check to Time Of Use）",
+    "key": "TOCTOU",
     "description": "対象を検査した時点と利用する時点の間の状態変化を悪用できる競合問題"
   },
   {
@@ -2552,7 +2686,8 @@
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "CORS",
+    "term": "CORS（Cross-Origin Resource Sharing）",
+    "key": "CORS",
     "description": "ブラウザが異なるオリジン間でWeb資源を読み取る権限を調整する仕組み"
   },
   {
@@ -2570,7 +2705,8 @@
   {
     "exam": "A-2",
     "category": "Web攻撃・対策",
-    "term": "JWT",
+    "term": "JWT（JSON Web Token）",
+    "key": "JWT",
     "description": "JSON形式のクレームを署名などで保護して転送できるトークン形式"
   },
   {
@@ -2612,19 +2748,22 @@
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "ワンタイムパスワード（OTP）",
+    "term": "ワンタイムパスワード（OTP：One-Time Password）",
+    "key": "ワンタイムパスワード（OTP）",
     "description": "1回または短時間だけ利用可能な認証用コード"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "TOTP",
+    "term": "TOTP（Time-based One-Time Password）",
+    "key": "TOTP",
     "description": "時刻を基に共有秘密から短時間有効な認証コードを生成する方式"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "HOTP",
+    "term": "HOTP（HMAC-based One-Time Password）",
+    "key": "HOTP",
     "description": "共有秘密とカウンタ値から認証コードを生成する方式"
   },
   {
@@ -2654,49 +2793,57 @@
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "KDC",
+    "term": "KDC（Key Distribution Center）",
+    "key": "KDC",
     "description": "Kerberosで認証用のチケットを発行する中心的なサーバー"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "LDAP",
+    "term": "LDAP（Lightweight Directory Access Protocol）",
+    "key": "LDAP",
     "description": "ディレクトリに格納された利用者や組織の情報を検索・管理するプロトコル"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "RADIUS",
+    "term": "RADIUS（Remote Authentication Dial-In User Service）",
+    "key": "RADIUS",
     "description": "ネットワークアクセスの認証・認可・利用状況の記録を提供するプロトコル"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "TACACS+",
+    "term": "TACACS+（Terminal Access Controller Access-Control System Plus）",
+    "key": "TACACS+",
     "description": "ネットワーク機器管理などに用いられる認証・認可・アカウンティングのプロトコル"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "PAP",
+    "term": "PAP（Password Authentication Protocol）",
+    "key": "PAP",
     "description": "PPPなどでID・パスワードを平文相当で送る認証方式"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "CHAP",
+    "term": "CHAP（Challenge Handshake Authentication Protocol）",
+    "key": "CHAP",
     "description": "チャレンジに対する応答を使い、パスワードそのものの送信を避けるPPP認証方式"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "IdP",
+    "term": "IdP（Identity Provider）",
+    "key": "IdP",
     "description": "利用者の認証を行い、その結果を他サービスに伝えるIDプロバイダ"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "SP（サービスプロバイダ）",
+    "term": "SP（Service Provider：サービスプロバイダ）",
+    "key": "SP（サービスプロバイダ）",
     "description": "SAMLなどの連携でIdPの認証結果を利用してサービスを提供する側"
   },
   {
@@ -2714,7 +2861,8 @@
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "PKCE",
+    "term": "PKCE（Proof Key for Code Exchange）",
+    "key": "PKCE",
     "description": "OAuthの認可コード横取りに対する防御のため、認可要求とトークン要求を結び付ける仕組み"
   },
   {
@@ -2738,37 +2886,43 @@
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "WebAuthn",
+    "term": "WebAuthn（Web Authentication）",
+    "key": "WebAuthn",
     "description": "Webアプリから公開鍵ベースの認証機能を利用するためのWeb標準API"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "U2F",
+    "term": "U2F（Universal 2nd Factor）",
+    "key": "U2F",
     "description": "公開鍵暗号を用いた二要素認証用プロトコルで、FIDOの初期の規格"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "PAM",
+    "term": "PAM（Pluggable Authentication Modules）",
+    "key": "PAM",
     "description": "OSなどでアプリケーションの認証処理を共通モジュールとして組み込める仕組み"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "DAC",
+    "term": "DAC（Discretionary Access Control）",
+    "key": "DAC",
     "description": "資源の所有者がアクセス権限を設定する任意アクセス制御方式"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "MAC（強制アクセス制御）",
+    "term": "MAC（Mandatory Access Control：強制アクセス制御）",
+    "key": "MAC（強制アクセス制御）",
     "description": "セキュリティラベルや規則によってアクセスを制御し、所有者の裁量を制限する方式"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "ACL",
+    "term": "ACL（Access Control List）",
+    "key": "ACL",
     "description": "対象資源に対する主体ごとの許可・拒否を一覧化したアクセス制御リスト"
   },
   {
@@ -2780,13 +2934,15 @@
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "PAM（特権アクセス管理）",
+    "term": "PAM（Privileged Access Management：特権アクセス管理）",
+    "key": "PAM（特権アクセス管理）",
     "description": "特権アカウントの利用・認証・操作を統制し、監査する仕組み"
   },
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "JITアクセス",
+    "term": "JITアクセス（Just-In-Time）",
+    "key": "JITアクセス",
     "description": "必要な作業の時だけ必要な権限を一時的に付与するアクセス制御方式"
   },
   {
@@ -2798,37 +2954,43 @@
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "AES",
+    "term": "AES（Advanced Encryption Standard）",
+    "key": "AES",
     "description": "128ビットのブロック長と128・192・256ビットの鍵長を持つ共通鍵ブロック暗号"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "DES",
+    "term": "DES（Data Encryption Standard）",
+    "key": "DES",
     "description": "56ビットの実効鍵長を持つ古い共通鍵ブロック暗号で、現在は強度不足とされる方式"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "3DES",
+    "term": "3DES（Triple Data Encryption Standard）",
+    "key": "3DES",
     "description": "DESを原則3回適用して強度を高めた旧式の共通鍵暗号方式"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "RSA",
+    "term": "RSA（Rivest-Shamir-Adleman）",
+    "key": "RSA",
     "description": "大きな整数の素因数分解の困難さなどを安全性の基盤とする公開鍵暗号・署名方式"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "楕円曲線暗号（ECC）",
+    "term": "楕円曲線暗号（ECC：Elliptic Curve Cryptography）",
+    "key": "楕円曲線暗号（ECC）",
     "description": "楕円曲線上の離散対数問題の難しさを利用する公開鍵暗号技術"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "ECDHE",
+    "term": "ECDHE（Elliptic Curve Diffie-Hellman Ephemeral）",
+    "key": "ECDHE",
     "description": "楕円曲線上の一時的なDiffie-Hellman鍵共有によりセッション鍵を確立する方式"
   },
   {
@@ -2840,37 +3002,43 @@
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "AES-GCM",
+    "term": "AES-GCM（Advanced Encryption Standard - Galois/Counter Mode）",
+    "key": "AES-GCM",
     "description": "暗号化と改ざん検知を組み合わせて提供する認証付き暗号方式"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "CBCモード",
+    "term": "CBCモード（Cipher Block Chaining）",
+    "key": "CBCモード",
     "description": "直前の暗号文ブロックを次の平文ブロックと組み合わせるブロック暗号の動作モード"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "CTRモード",
+    "term": "CTRモード（Counter）",
+    "key": "CTRモード",
     "description": "カウンタ値を暗号化して生成した鍵ストリームと平文をXORする動作モード"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "認証付き暗号（AEAD）",
+    "term": "認証付き暗号（AEAD：Authenticated Encryption with Associated Data）",
+    "key": "認証付き暗号（AEAD）",
     "description": "暗号文の機密性と完全性を併せて保護する暗号化方式"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "SHA-256",
+    "term": "SHA-256（Secure Hash Algorithm 256-bit）",
+    "key": "SHA-256",
     "description": "SHA-2ファミリに属し256ビットのハッシュ値を出力する暗号学的ハッシュ関数"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "SHA-1",
+    "term": "SHA-1（Secure Hash Algorithm 1）",
+    "key": "SHA-1",
     "description": "160ビットのハッシュ値を生成するが衝突耐性が破られ署名用途には不適切なハッシュ関数"
   },
   {
@@ -2894,7 +3062,8 @@
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "PBKDF2",
+    "term": "PBKDF2（Password-Based Key Derivation Function 2）",
+    "key": "PBKDF2",
     "description": "パスワードとソルトから反復計算で鍵などを導出する方式"
   },
   {
@@ -2930,13 +3099,15 @@
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "CRL",
+    "term": "CRL（Certificate Revocation List）",
+    "key": "CRL",
     "description": "認証局が失効済み証明書の情報を一覧として公開する仕組み"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "OCSP",
+    "term": "OCSP（Online Certificate Status Protocol）",
+    "key": "OCSP",
     "description": "証明書の失効状態をオンラインで照会するプロトコル"
   },
   {
@@ -2954,19 +3125,22 @@
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "鍵導出関数（KDF）",
+    "term": "鍵導出関数（KDF：Key Derivation Function）",
+    "key": "鍵導出関数（KDF）",
     "description": "パスワードや共有秘密などを入力に暗号鍵を安全に導く関数"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "HSM",
+    "term": "HSM（Hardware Security Module）",
+    "key": "HSM",
     "description": "秘密鍵の生成・保管・暗号処理を耐タンパー性などを備えた専用装置で行う仕組み"
   },
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "TPM",
+    "term": "TPM（Trusted Platform Module）",
+    "key": "TPM",
     "description": "鍵の保護や機器状態の測定などを行うためのセキュリティ用チップ・機能"
   },
   {
@@ -2990,7 +3164,8 @@
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "DNSSEC",
+    "term": "DNSSEC（Domain Name System Security Extensions）",
+    "key": "DNSSEC",
     "description": "DNS応答に電子署名を付け、名前解決データの出所と完全性を検証できる仕組み"
   },
   {
@@ -3008,43 +3183,50 @@
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "メール送信ドメイン認証（SPF）",
+    "term": "メール送信ドメイン認証（SPF：Sender Policy Framework）",
+    "key": "メール送信ドメイン認証（SPF）",
     "description": "送信元ドメインが許可するメール送信サーバーのIPアドレスなどをDNSで示す仕組み"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "DKIM",
+    "term": "DKIM（DomainKeys Identified Mail）",
+    "key": "DKIM",
     "description": "送信側がメールに電子署名を付与し、受信側がDNSの公開鍵で改ざんなどを検証する仕組み"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "DMARC",
+    "term": "DMARC（Domain-based Message Authentication, Reporting and Conformance）",
+    "key": "DMARC",
     "description": "SPF・DKIMの検証結果とFromドメインの整合性に基づく処理方針を公開する仕組み"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "MTA-STS",
+    "term": "MTA-STS（Mail Transfer Agent Strict Transport Security）",
+    "key": "MTA-STS",
     "description": "メール送信先がTLSを利用すべきことをポリシーで示し、中継時の暗号化を強化する仕組み"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "IPsec AH",
+    "term": "IPsec AH（Authentication Header）",
+    "key": "IPsec AH",
     "description": "IPパケットの完全性と送信元認証などを提供するがペイロードの暗号化はしない方式"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "IPsec ESP",
+    "term": "IPsec ESP（Encapsulating Security Payload）",
+    "key": "IPsec ESP",
     "description": "IPsecでペイロードの暗号化や完全性保護などを提供するプロトコル"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "IKEv2",
+    "term": "IKEv2（Internet Key Exchange version 2）",
+    "key": "IKEv2",
     "description": "IPsecの通信相手を認証し鍵やセキュリティアソシエーションを確立するプロトコル"
   },
   {
@@ -3062,25 +3244,29 @@
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "SSL-VPN",
+    "term": "SSL-VPN（Secure Sockets Layer Virtual Private Network）",
+    "key": "SSL-VPN",
     "description": "TLSを利用してリモートアクセスなどのVPN接続を提供する方式"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "NIDS",
+    "term": "NIDS（Network-based Intrusion Detection System）",
+    "key": "NIDS",
     "description": "ネットワーク上のトラフィックから不正な通信や侵入の兆候を検知する仕組み"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "HIDS",
+    "term": "HIDS（Host-based Intrusion Detection System）",
+    "key": "HIDS",
     "description": "端末上のログやファイル変更などを監視して不正の兆候を検知する仕組み"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "NIPS",
+    "term": "NIPS（Network-based Intrusion Prevention System）",
+    "key": "NIPS",
     "description": "ネットワーク通信を検査し、悪意ある通信の遮断などを行う侵入防止の仕組み"
   },
   {
@@ -3092,43 +3278,50 @@
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "次世代ファイアウォール（NGFW）",
+    "term": "次世代ファイアウォール（NGFW：Next-Generation Firewall）",
+    "key": "次世代ファイアウォール（NGFW）",
     "description": "アプリケーション識別や侵入防御などを統合するファイアウォール"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "SWG",
+    "term": "SWG（Secure Web Gateway）",
+    "key": "SWG",
     "description": "Webアクセスを中継・検査し、危険なサイトやコンテンツへの通信を制御する仕組み"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "CASB",
+    "term": "CASB（Cloud Access Security Broker）",
+    "key": "CASB",
     "description": "クラウドサービス利用の可視化やアクセス・データ保護を支援するセキュリティ機能"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "SASE",
+    "term": "SASE（Secure Access Service Edge）",
+    "key": "SASE",
     "description": "ネットワーク接続機能と複数のセキュリティ機能をクラウドなどから統合提供するアーキテクチャ"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "SSE",
+    "term": "SSE（Security Service Edge）",
+    "key": "SSE",
     "description": "SWG・CASB・ZTNAなどのセキュリティサービスを統合して提供する枠組み"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "ZTNA",
+    "term": "ZTNA（Zero Trust Network Access）",
+    "key": "ZTNA",
     "description": "利用者・端末・状況を評価し、許可したアプリ単位でアクセスを提供する方式"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "NAC",
+    "term": "NAC（Network Access Control）",
+    "key": "NAC",
     "description": "端末の認証やセキュリティ状態に応じてネットワーク接続の可否を制御する仕組み"
   },
   {
@@ -3140,19 +3333,22 @@
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "WPA3",
+    "term": "WPA3（Wi-Fi Protected Access 3）",
+    "key": "WPA3",
     "description": "無線LANの認証と暗号化を強化したセキュリティ規格"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "WPA2-Enterprise",
+    "term": "WPA2-Enterprise（Wi-Fi Protected Access 2 - Enterprise）",
+    "key": "WPA2-Enterprise",
     "description": "802.1Xなどを使った利用者・端末ごとの認証で無線LANを保護する方式"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "SSID",
+    "term": "SSID（Service Set Identifier）",
+    "key": "SSID",
     "description": "無線LANのネットワークを識別するための名称"
   },
   {
@@ -3170,7 +3366,8 @@
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "RPKI",
+    "term": "RPKI（Resource Public Key Infrastructure）",
+    "key": "RPKI",
     "description": "インターネット経路広告でプレフィックスとASの正当な対応を証明する公開鍵基盤"
   },
   {
@@ -3182,7 +3379,8 @@
   {
     "exam": "A-2",
     "category": "ネットワーク・通信応用",
-    "term": "IPv4プライベートアドレス",
+    "term": "IPv4プライベートアドレス（Internet Protocol version 4）",
+    "key": "IPv4プライベートアドレス",
     "description": "RFC 1918で定義された、公共インターネットで直接ルーティングしないIPv4のアドレス範囲"
   },
   {
@@ -3212,19 +3410,22 @@
   {
     "exam": "A-2",
     "category": "ネットワーク・通信応用",
-    "term": "TCP RST",
+    "term": "TCP RST（Reset）",
+    "key": "TCP RST",
     "description": "接続の拒否や異常終了などでTCP接続をリセットするフラグ"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク・通信応用",
-    "term": "MSS",
+    "term": "MSS（Maximum Segment Size）",
+    "key": "MSS",
     "description": "TCPセグメントで運べるデータ部の最大サイズ"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク・通信応用",
-    "term": "MTU",
+    "term": "MTU（Maximum Transmission Unit）",
+    "key": "MTU",
     "description": "一つのリンクで分割せずに送信できるパケットなどの最大サイズ"
   },
   {
@@ -3242,31 +3443,36 @@
   {
     "exam": "A-2",
     "category": "ネットワーク・通信応用",
-    "term": "OSPF",
+    "term": "OSPF（Open Shortest Path First）",
+    "key": "OSPF",
     "description": "リンク状態情報を交換し、最短経路を計算する動的ルーティングプロトコル"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク・通信応用",
-    "term": "BGP",
+    "term": "BGP（Border Gateway Protocol）",
+    "key": "BGP",
     "description": "自律システム間などで到達可能なIPプレフィックスの経路情報を交換するプロトコル"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク・通信応用",
-    "term": "VRRP",
+    "term": "VRRP（Virtual Router Redundancy Protocol）",
+    "key": "VRRP",
     "description": "仮想ルータを複数機器で共有し、ゲートウェイの冗長化を実現するプロトコル"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク・通信応用",
-    "term": "L2スイッチ",
+    "term": "L2スイッチ（Layer 2）",
+    "key": "L2スイッチ",
     "description": "MACアドレスを使ってLAN内のフレームを転送するネットワーク機器"
   },
   {
     "exam": "A-2",
     "category": "ネットワーク・通信応用",
-    "term": "L3スイッチ",
+    "term": "L3スイッチ（Layer 3）",
+    "key": "L3スイッチ",
     "description": "IPアドレスに基づくルーティング機能を持つスイッチ"
   },
   {
@@ -3344,37 +3550,43 @@
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "TTP",
+    "term": "TTP（Tactics, Techniques, and Procedures）",
+    "key": "TTP",
     "description": "攻撃者の戦術・技術・手順をまとめて表す概念"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "MITRE ATT&CK",
+    "term": "MITRE ATT&CK（Adversarial Tactics, Techniques, and Common Knowledge）",
+    "key": "MITRE ATT&CK",
     "description": "実際の攻撃者の戦術や技術を整理した知識ベース"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "MITRE CAPEC",
+    "term": "MITRE CAPEC（Common Attack Pattern Enumeration and Classification）",
+    "key": "MITRE CAPEC",
     "description": "サイバー攻撃パターンを共通分類・記述で整理した知識ベース"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "STIX",
+    "term": "STIX（Structured Threat Information Expression）",
+    "key": "STIX",
     "description": "サイバー脅威インテリジェンスを構造化して表現するためのデータ形式"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "TAXII",
+    "term": "TAXII（Trusted Automated Exchange of Intelligence Information）",
+    "key": "TAXII",
     "description": "構造化したサイバー脅威情報を交換するための通信プロトコル"
   },
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "IOA（攻撃の兆候）",
+    "term": "IOA（Indicator of Attack：攻撃の兆候）",
+    "key": "IOA（攻撃の兆候）",
     "description": "実行された操作や振る舞いから攻撃が進行している可能性を示す行動ベースの指標"
   },
   {
@@ -3482,7 +3694,8 @@
   {
     "exam": "A-2",
     "category": "管理・標準",
-    "term": "適用宣言書（SoA）",
+    "term": "適用宣言書（SoA：Statement of Applicability）",
+    "key": "適用宣言書（SoA）",
     "description": "ISMSで管理策の採否とその理由などをまとめた文書"
   },
   {
@@ -3512,19 +3725,22 @@
   {
     "exam": "A-2",
     "category": "管理・標準",
-    "term": "NIST CSF",
+    "term": "NIST CSF（National Institute of Standards and Technology Cybersecurity Framework）",
+    "key": "NIST CSF",
     "description": "組織のサイバーセキュリティリスク管理を体系化するNISTのフレームワーク"
   },
   {
     "exam": "A-2",
     "category": "管理・標準",
-    "term": "NIST SP 800-53",
+    "term": "NIST SP 800-53（National Institute of Standards and Technology Special Publication 800-53）",
+    "key": "NIST SP 800-53",
     "description": "米国NISTが情報システムと組織向けのセキュリティ・プライバシー管理策を整理した文書"
   },
   {
     "exam": "A-2",
     "category": "管理・標準",
-    "term": "CIS Controls",
+    "term": "CIS Controls（Center for Internet Security Controls）",
+    "key": "CIS Controls",
     "description": "サイバー攻撃のリスクを減らすための優先的なセキュリティ対策群"
   },
   {
@@ -3554,31 +3770,36 @@
   {
     "exam": "A-2",
     "category": "セキュア開発",
-    "term": "SDL（セキュア開発ライフサイクル）",
+    "term": "SDL（Secure Development Lifecycle：セキュア開発ライフサイクル）",
+    "key": "SDL（セキュア開発ライフサイクル）",
     "description": "企画・設計・開発・テスト・運用の全工程にセキュリティ活動を組み込むプロセス"
   },
   {
     "exam": "A-2",
     "category": "セキュア開発",
-    "term": "SAST",
+    "term": "SAST（Static Application Security Testing）",
+    "key": "SAST",
     "description": "ソースコードやバイナリを実行せずに欠陥・脆弱性を検出する静的アプリケーション解析"
   },
   {
     "exam": "A-2",
     "category": "セキュア開発",
-    "term": "DAST",
+    "term": "DAST（Dynamic Application Security Testing）",
+    "key": "DAST",
     "description": "稼働するアプリケーションへ外部からアクセスし、脆弱性を検査する動的アプリケーション解析"
   },
   {
     "exam": "A-2",
     "category": "セキュア開発",
-    "term": "SCA",
+    "term": "SCA（Software Composition Analysis）",
+    "key": "SCA",
     "description": "ライブラリなどソフトウェア部品の構成や既知の脆弱性を調べる解析手法"
   },
   {
     "exam": "A-2",
     "category": "セキュア開発",
-    "term": "IAST",
+    "term": "IAST（Interactive Application Security Testing）",
+    "key": "IAST",
     "description": "アプリケーション実行中の内部情報も利用して脆弱性を検査する解析技術"
   },
   {
@@ -3662,7 +3883,8 @@
   {
     "exam": "A-2",
     "category": "データベース・システム",
-    "term": "透過的データ暗号化（TDE）",
+    "term": "透過的データ暗号化（TDE：Transparent Data Encryption）",
+    "key": "透過的データ暗号化（TDE）",
     "description": "DBファイルなどの保存データをアプリに透過的に暗号化する方式"
   },
   {
@@ -3686,19 +3908,22 @@
   {
     "exam": "A-2",
     "category": "データベース・システム",
-    "term": "IaaS",
+    "term": "IaaS（Infrastructure as a Service）",
+    "key": "IaaS",
     "description": "仮想サーバー・ネットワーク・ストレージなどのインフラ資源を提供するクラウドサービス"
   },
   {
     "exam": "A-2",
     "category": "データベース・システム",
-    "term": "PaaS",
+    "term": "PaaS（Platform as a Service）",
+    "key": "PaaS",
     "description": "アプリの実行環境やミドルウェアなどのプラットフォームを提供するクラウドサービス"
   },
   {
     "exam": "A-2",
     "category": "データベース・システム",
-    "term": "SaaS",
+    "term": "SaaS（Software as a Service）",
+    "key": "SaaS",
     "description": "アプリケーション機能そのものをネットワーク経由で提供するクラウドサービス"
   },
   {
@@ -3752,13 +3977,15 @@
   {
     "exam": "A-2",
     "category": "監査・サービス管理",
-    "term": "IT全般統制（ITGC）",
+    "term": "IT全般統制（ITGC：IT General Controls）",
+    "key": "IT全般統制（ITGC）",
     "description": "IT環境全体を対象としたアクセス・変更・運用管理などの統制"
   },
   {
     "exam": "A-2",
     "category": "監査・サービス管理",
-    "term": "IT業務処理統制",
+    "term": "IT業務処理統制（Information Technology）",
+    "key": "IT業務処理統制",
     "description": "特定の業務処理が正確かつ適切に実施されるようにするITの統制"
   },
   {
@@ -3788,7 +4015,8 @@
   {
     "exam": "A-2",
     "category": "監査・サービス管理",
-    "term": "構成管理データベース（CMDB）",
+    "term": "構成管理データベース（CMDB：Configuration Management Database）",
+    "key": "構成管理データベース（CMDB）",
     "description": "IT資産や構成項目とその相互関係を管理するデータベース"
   },
   {
@@ -3800,19 +4028,22 @@
   {
     "exam": "A-2",
     "category": "監査・サービス管理",
-    "term": "事業継続マネジメント（BCM）",
+    "term": "事業継続マネジメント（BCM：Business Continuity Management）",
+    "key": "事業継続マネジメント（BCM）",
     "description": "事業中断の影響を分析し、継続・復旧能力を組織的に維持する活動"
   },
   {
     "exam": "A-2",
     "category": "監査・サービス管理",
-    "term": "事業影響度分析（BIA）",
+    "term": "事業影響度分析（BIA：Business Impact Analysis）",
+    "key": "事業影響度分析（BIA）",
     "description": "業務停止が事業に与える影響を評価し、復旧優先順位や目標を定める分析"
   },
   {
     "exam": "A-2",
     "category": "監査・サービス管理",
-    "term": "事業継続計画（BCP）",
+    "term": "事業継続計画（BCP：Business Continuity Plan）",
+    "key": "事業継続計画（BCP）",
     "description": "災害や障害が起きても重要な業務を続け、または早期復旧するための計画"
   },
   {
@@ -3824,31 +4055,36 @@
   {
     "exam": "A-2",
     "category": "IoT・制御・新技術",
-    "term": "IoT機器",
+    "term": "IoT機器（Internet of Things）",
+    "key": "IoT機器",
     "description": "ネットワークに接続し、センサー情報の取得や機器制御などを行う装置"
   },
   {
     "exam": "A-2",
     "category": "IoT・制御・新技術",
-    "term": "OT（運用技術）",
+    "term": "OT（Operational Technology：運用技術）",
+    "key": "OT（運用技術）",
     "description": "工場・設備などの物理的プロセスの監視・制御に使う技術"
   },
   {
     "exam": "A-2",
     "category": "IoT・制御・新技術",
-    "term": "ICS",
+    "term": "ICS（Industrial Control System）",
+    "key": "ICS",
     "description": "産業設備などの監視・制御を行う産業用制御システム"
   },
   {
     "exam": "A-2",
     "category": "IoT・制御・新技術",
-    "term": "SCADA",
+    "term": "SCADA（Supervisory Control And Data Acquisition）",
+    "key": "SCADA",
     "description": "遠隔の設備データを収集し監視・制御するためのシステム"
   },
   {
     "exam": "A-2",
     "category": "IoT・制御・新技術",
-    "term": "PLC",
+    "term": "PLC（Programmable Logic Controller）",
+    "key": "PLC",
     "description": "機械設備のシーケンス制御などを行う産業用のプログラマブル制御装置"
   },
   {
@@ -3908,7 +4144,8 @@
   {
     "exam": "A-1",
     "category": "ユーザーインタフェース",
-    "term": "ユーザーエクスペリエンス（UX）",
+    "term": "ユーザーエクスペリエンス（UX：User Experience）",
+    "key": "ユーザーエクスペリエンス（UX）",
     "description": "製品やサービスを利用する前後を含む利用者の体験や印象"
   },
   {
@@ -3926,7 +4163,8 @@
   {
     "exam": "A-1",
     "category": "ユーザーインタフェース",
-    "term": "WCAG",
+    "term": "WCAG（Web Content Accessibility Guidelines）",
+    "key": "WCAG",
     "description": "Webコンテンツをよりアクセシブルにするための国際的なガイドライン"
   },
   {
@@ -3962,55 +4200,64 @@
   {
     "exam": "A-1",
     "category": "情報メディア",
-    "term": "JPEG",
+    "term": "JPEG（Joint Photographic Experts Group）",
+    "key": "JPEG",
     "description": "主に写真などの静止画像で使われる非可逆圧縮を基本とした画像形式"
   },
   {
     "exam": "A-1",
     "category": "情報メディア",
-    "term": "PNG",
+    "term": "PNG（Portable Network Graphics）",
+    "key": "PNG",
     "description": "可逆圧縮と透過情報などに対応する画像形式"
   },
   {
     "exam": "A-1",
     "category": "情報メディア",
-    "term": "MPEG",
+    "term": "MPEG（Moving Picture Experts Group）",
+    "key": "MPEG",
     "description": "動画や音声などの圧縮符号化に関する規格群"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "ERP",
+    "term": "ERP（Enterprise Resource Planning）",
+    "key": "ERP",
     "description": "会計・生産・販売・人事など企業の基幹業務を統合管理するシステム"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "CRM",
+    "term": "CRM（Customer Relationship Management）",
+    "key": "CRM",
     "description": "顧客情報や接点を管理し、顧客との関係維持・強化を支援する仕組み"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "SCM",
+    "term": "SCM（Supply Chain Management）",
+    "key": "SCM",
     "description": "調達・生産・物流・販売など供給連鎖全体を最適化する管理手法"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "BPM",
+    "term": "BPM（Business Process Management）",
+    "key": "BPM",
     "description": "業務プロセスを可視化・分析・改善し、継続的に管理する考え方"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "RPA",
+    "term": "RPA（Robotic Process Automation）",
+    "key": "RPA",
     "description": "人が定型的に行うPC操作などをソフトウェアで自動化する技術"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "DX",
+    "term": "DX（Digital Transformation）",
+    "key": "DX",
     "description": "デジタル技術やデータで事業・業務・組織の変革を進めること"
   },
   {
@@ -4022,13 +4269,15 @@
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "3C分析",
+    "term": "3C分析（Customer, Competitor, Company）",
+    "key": "3C分析",
     "description": "顧客・競合・自社の三つの観点から事業環境を分析する手法"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "マーケティングの4P",
+    "term": "マーケティングの4P（Product, Price, Place, Promotion）",
+    "key": "マーケティングの4P",
     "description": "製品・価格・流通・販売促進の四つの視点で施策を整理する枠組み"
   },
   {
@@ -4052,13 +4301,15 @@
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "GPL",
+    "term": "GPL（GNU General Public License）",
+    "key": "GPL",
     "description": "派生物の配布時にソース公開など一定の条件を要求するコピーレフト型OSSライセンス"
   },
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "MITライセンス",
+    "term": "MITライセンス（Massachusetts Institute of Technology）",
+    "key": "MITライセンス",
     "description": "著作権表示と許諾表示の維持などを条件に広く利用を認めるOSSライセンス"
   },
   {
@@ -4100,7 +4351,8 @@
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "MVC",
+    "term": "MVC（Model-View-Controller）",
+    "key": "MVC",
     "description": "モデル・ビュー・コントローラに責務を分けるソフトウェア設計パターン"
   },
   {
@@ -4124,7 +4376,8 @@
   {
     "exam": "A-1",
     "category": "開発・運用",
-    "term": "DRY原則",
+    "term": "DRY原則（Don't Repeat Yourself）",
+    "key": "DRY原則",
     "description": "同じ知識や処理の重複を減らし、変更箇所を一元化する考え方"
   },
   {
@@ -4166,7 +4419,8 @@
   {
     "exam": "A-1",
     "category": "経営・法務",
-    "term": "MRP（資材所要量計画）",
+    "term": "MRP（Material Requirements Planning：資材所要量計画）",
+    "key": "MRP（資材所要量計画）",
     "description": "製品の生産計画・部品構成・在庫などを基に必要な資材量と手配時期を算定する仕組み"
   },
   {
