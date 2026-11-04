@@ -1,0 +1,171 @@
+{
+  "version": "2.0",
+  "initial_term_count": 161,
+  "new_terms": 535,
+  "total": 696,
+  "by_exam": {
+    "A-1": 303,
+    "A-2": 393
+  },
+  "categories": [
+    {
+      "exam": "A-1",
+      "category": "AI・データ分析",
+      "count": 12
+    },
+    {
+      "exam": "A-1",
+      "category": "アルゴリズム",
+      "count": 27
+    },
+    {
+      "exam": "A-1",
+      "category": "コンピュータ・OS",
+      "count": 35
+    },
+    {
+      "exam": "A-1",
+      "category": "システム構成・信頼性",
+      "count": 18
+    },
+    {
+      "exam": "A-1",
+      "category": "データベース",
+      "count": 30
+    },
+    {
+      "exam": "A-1",
+      "category": "ネットワーク基礎",
+      "count": 43
+    },
+    {
+      "exam": "A-1",
+      "category": "プロジェクト管理",
+      "count": 10
+    },
+    {
+      "exam": "A-1",
+      "category": "ユーザーインタフェース",
+      "count": 8
+    },
+    {
+      "exam": "A-1",
+      "category": "基礎理論・数理",
+      "count": 21
+    },
+    {
+      "exam": "A-1",
+      "category": "情報メディア",
+      "count": 8
+    },
+    {
+      "exam": "A-1",
+      "category": "経営・法務",
+      "count": 43
+    },
+    {
+      "exam": "A-1",
+      "category": "開発・運用",
+      "count": 48
+    },
+    {
+      "exam": "A-2",
+      "category": "IoT・制御・新技術",
+      "count": 10
+    },
+    {
+      "exam": "A-2",
+      "category": "Web攻撃・対策",
+      "count": 45
+    },
+    {
+      "exam": "A-2",
+      "category": "セキュア開発",
+      "count": 14
+    },
+    {
+      "exam": "A-2",
+      "category": "セキュリティ基礎",
+      "count": 18
+    },
+    {
+      "exam": "A-2",
+      "category": "データベース・システム",
+      "count": 15
+    },
+    {
+      "exam": "A-2",
+      "category": "ネットワーク・通信応用",
+      "count": 22
+    },
+    {
+      "exam": "A-2",
+      "category": "ネットワーク防御",
+      "count": 44
+    },
+    {
+      "exam": "A-2",
+      "category": "暗号・PKI",
+      "count": 45
+    },
+    {
+      "exam": "A-2",
+      "category": "監査・サービス管理",
+      "count": 16
+    },
+    {
+      "exam": "A-2",
+      "category": "監視・インシデント対応",
+      "count": 33
+    },
+    {
+      "exam": "A-2",
+      "category": "管理・標準",
+      "count": 31
+    },
+    {
+      "exam": "A-2",
+      "category": "脆弱性・脅威",
+      "count": 52
+    },
+    {
+      "exam": "A-2",
+      "category": "認証・アクセス制御",
+      "count": 48
+    }
+  ],
+  "corrected_original_entries": [
+    "スラッシング",
+    "ページング",
+    "仮想記憶",
+    "ACID",
+    "TTL",
+    "RPO",
+    "OAuth 2.0",
+    "ハイブリッド暗号",
+    "HMAC",
+    "デジタル署名",
+    "CSRFトークン",
+    "CVE",
+    "CVSS",
+    "SBOM",
+    "CIA（機密性・完全性・可用性）",
+    "ゼロデイ脆弱性",
+    "認可",
+    "第三正規形",
+    "クリティカルパス"
+  ],
+  "checks": {
+    "unique_exam_term_ids": "pass",
+    "unique_definitions": "pass",
+    "minimum_description_length": "pass",
+    "no_term_leaks_in_own_definition": "pass",
+    "minimum_choices_per_category": "pass",
+    "contrast_pair_presence": "pass"
+  },
+  "notes": [
+    "定義は独自に作成した学習用の短文であり、IPA公式解答ではありません。",
+    "実際の試験では用語問題以外に計算・読解・適用・記述問題が出題されます。",
+    "利用者がCSVで追加した用語の内容は自動点検の対象外です。"
+  ]
+}
