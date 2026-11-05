@@ -165,7 +165,7 @@
     "category": "ネットワーク基礎",
     "term": "IP（Internet Protocol）",
     "key": "IP",
-    "description": "宛先IPアドレスを基にパケットをネットワーク間で配送するプロトコル"
+    "description": "宛先アドレスを基にパケットをネットワーク間で配送するプロトコル"
   },
   {
     "exam": "A-1",
@@ -268,8 +268,9 @@
   {
     "exam": "A-1",
     "category": "データベース",
-    "term": "排他ロック",
-    "description": "他のトランザクションによる対象データへの読み書きを制限するロック"
+    "term": "排他ロック（専有ロック）",
+    "description": "他のトランザクションによる対象データへの読み書きを制限するロック",
+    "key": "排他ロック"
   },
   {
     "exam": "A-1",
@@ -545,8 +546,9 @@
   {
     "exam": "A-2",
     "category": "認証・アクセス制御",
-    "term": "クレデンシャルスタッフィング",
-    "description": "他所で漏えいしたIDとパスワードの組を別サービスで試す攻撃"
+    "term": "クレデンシャルスタッフィング（パスワードリスト攻撃）",
+    "description": "他所で漏えいしたIDとパスワードの組を別サービスで試す攻撃",
+    "key": "クレデンシャルスタッフィング"
   },
   {
     "exam": "A-2",
@@ -588,8 +590,9 @@
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "電子証明書",
-    "description": "公開鍵と主体の情報を結び付け、認証局などが署名したデータ"
+    "term": "電子証明書（デジタル証明書）",
+    "description": "公開鍵と主体の情報を結び付け、認証局などが署名したデータ",
+    "key": "電子証明書"
   },
   {
     "exam": "A-2",
@@ -645,8 +648,9 @@
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "ステートフルインスペクション",
-    "description": "通信の接続状態を追跡し、その状態に応じてパケットの通過可否を判定する方式"
+    "term": "ステートフルインスペクション（ステートフルパケットインスペクション）",
+    "description": "通信の接続状態を追跡し、その状態に応じてパケットの通過可否を判定する方式",
+    "key": "ステートフルインスペクション"
   },
   {
     "exam": "A-2",
@@ -927,8 +931,9 @@
   {
     "exam": "A-2",
     "category": "監視・インシデント対応",
-    "term": "デジタルフォレンジック",
-    "description": "電子的な証拠を保全・収集・解析し、事実関係を明らかにする技術や手続"
+    "term": "デジタルフォレンジック（デジタルフォレンジックス）",
+    "description": "電子的な証拠を保全・収集・解析し、事実関係を明らかにする技術や手続",
+    "key": "デジタルフォレンジック"
   },
   {
     "exam": "A-2",
@@ -952,7 +957,7 @@
     "exam": "A-2",
     "category": "監視・インシデント対応",
     "term": "サイバーキルチェーン",
-    "description": "攻撃を偵察から目的達成までの段階に分けて捉える分析モデル"
+    "description": "攻撃を偵察から目的の実行までの7段階に分けて捉える分析モデル"
   },
   {
     "exam": "A-2",
@@ -2731,7 +2736,7 @@
     "exam": "A-2",
     "category": "認証・アクセス制御",
     "term": "識別（Identification）",
-    "description": "利用者などが自分の識別子を提示して誰であるかを主張する行為"
+    "description": "利用者などが自分のIDを提示して誰であるかを主張する行為"
   },
   {
     "exam": "A-2",
@@ -3087,8 +3092,9 @@
   {
     "exam": "A-2",
     "category": "暗号・PKI",
-    "term": "ルートCA",
-    "description": "自身を信頼の起点として証明書チェーンの検証に利用される認証局"
+    "term": "ルートCA（ルート認証局）",
+    "description": "自身を信頼の起点として証明書チェーンの検証に利用される認証局",
+    "key": "ルートCA"
   },
   {
     "exam": "A-2",
@@ -3327,8 +3333,9 @@
   {
     "exam": "A-2",
     "category": "ネットワーク防御",
-    "term": "802.1X",
-    "description": "LAN接続時に端末などの認証情報を交換してポートアクセスを制御する規格"
+    "term": "IEEE 802.1X",
+    "description": "LAN接続時に端末などの認証情報を交換してポートアクセスを制御する規格",
+    "key": "802.1X"
   },
   {
     "exam": "A-2",
@@ -3701,8 +3708,9 @@
   {
     "exam": "A-2",
     "category": "管理・標準",
-    "term": "ISO/IEC 27002",
-    "description": "情報セキュリティ管理策に関する実践上の指針を定めた国際規格"
+    "term": "ISO/IEC 27002（JIS Q 27002）",
+    "description": "情報セキュリティ管理策に関する実践上の指針を定めた国際規格",
+    "key": "ISO/IEC 27002"
   },
   {
     "exam": "A-2",
@@ -4428,5 +4436,6905 @@
     "category": "経営・法務",
     "term": "正味所要量",
     "description": "総所要量から手持在庫や入荷予定などを差し引き、新たに必要となる資材の数量"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "CRYPTREC（Cryptography Research and Evaluation Committees）",
+    "description": "電子政府で利用する暗号技術の安全性を評価・監視し、実装法や運用法を検討する国内のプロジェクト"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "電子政府推奨暗号リスト",
+    "description": "安全性と実装性能が確認され、市場での利用実績も踏まえて政府調達での利用を推奨する暗号の区分"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "推奨候補暗号リスト",
+    "description": "安全性と実装性能は確認済みで、今後推奨区分へ掲載される可能性がある暗号の区分"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "運用監視暗号リスト",
+    "description": "解読リスクが高まったなどの理由で、互換性維持の目的に限り継続利用を認める暗号の区分"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "PQC（Post-Quantum Cryptography：耐量子計算機暗号）",
+    "description": "量子コンピュータによる攻撃に対しても、従来のコンピュータ上で実行して安全性を保てる暗号技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "量子暗号",
+    "description": "量子通信路で安全に共有した乱数を使い捨ての鍵に用い、原理的に第三者に解読されない秘匿通信を行う方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "量子鍵配送（QKD：Quantum Key Distribution）",
+    "description": "光子の量子状態を利用して鍵を共有し、途中の盗聴を検知できるようにする鍵共有の技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "量子アニーリング",
+    "description": "量子効果を利用して組合せ最適化問題の解を探索する計算方式で、暗号方式そのものではない"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "ショアのアルゴリズム",
+    "description": "量子コンピュータで素因数分解や離散対数問題を効率よく解き、既存の公開鍵暗号を脅かす計算手順"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "ワンタイムパッド",
+    "description": "平文と同じ長さの真の乱数列を一度だけ鍵に使い、情報理論的に解読不能となる暗号"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "情報理論的安全性",
+    "description": "攻撃者の計算能力が無限であっても解読できないことを示す暗号の安全性の概念"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "計算量的安全性",
+    "description": "解読に現実的でない計算量を要することを根拠にした暗号の安全性の概念"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "衝突発見困難性",
+    "description": "同じハッシュ値を持つ異なる二つの入力を見つけるのが計算量的に難しい性質"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "第二原像計算困難性",
+    "description": "ある入力が与えられたとき、同じハッシュ値を持つ別の入力を見つけるのが難しい性質"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "原像計算困難性",
+    "description": "ハッシュ値だけから元の入力を見つけるのが難しい性質で、一方向性とも呼ばれる"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "SHA-512/256",
+    "description": "SHA-512系の内部処理を専用の初期値で実行し、結果を256ビットに切り詰めるハッシュ関数"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "SHA-3",
+    "description": "スポンジ構造のKeccakを基に標準化された、SHA-2とは内部構造が異なるハッシュ関数"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "鍵ストリーム",
+    "description": "平文との排他的論理和で暗号文を作るために生成する疑似乱数の列"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "パディング",
+    "description": "ブロック暗号で平文の長さをブロック長の倍数にそろえるため、データを詰め足す処理"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "ECBモード（Electronic Codebook）",
+    "description": "各ブロックを独立に暗号化する利用モードで、同じ平文ブロックが同じ暗号文になる弱点がある"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "OFBモード（Output Feedback）",
+    "description": "暗号器の出力を次の入力に戻して鍵ストリームを作る、ブロック暗号の利用モード"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "CFBモード（Cipher Feedback）",
+    "description": "直前の暗号文を暗号化した結果と平文の排他的論理和を取る、ブロック暗号の利用モード"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "メッセージ認証符号（MAC：Message Authentication Code）",
+    "description": "共通鍵とメッセージから生成し、受信者が完全性と送信者の真正性を確認できる短い符号"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "CMAC（Cipher-based Message Authentication Code）",
+    "description": "ブロック暗号を基に生成するメッセージ認証の方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "メッセージダイジェスト",
+    "description": "任意長のデータをハッシュ関数で変換して得られる固定長の値"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "RA（Registration Authority：登録局）",
+    "description": "本人確認を行い、デジタル証明書の発行申請を承認または却下する機関"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "VA（Validation Authority：検証局）",
+    "description": "デジタル証明書の失効状態についての問合せに応答する機関"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "属性証明書",
+    "description": "公開鍵証明書にひも付けて、権限や役職などの属性情報を証明するための電子文書"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "CP（Certificate Policy：証明書ポリシー）",
+    "description": "証明書の適用範囲や利用条件など、認証局の基本方針を定めた文書"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "CPS（Certification Practice Statement：認証局運用規程）",
+    "description": "認証局の認証業務の運用などに関する詳細を規定した文書"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "X.509",
+    "description": "公開鍵証明書と証明書失効リストの形式を定めたITU-Tの規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "RFC 5280",
+    "description": "インターネットで用いる公開鍵証明書と失効リストのプロファイルを定めた技術文書"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "ASN.1（Abstract Syntax Notation One）",
+    "description": "データ構造を抽象的に記述する記法で、公開鍵証明書の形式定義にも用いられる"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "CMS（Cryptographic Message Syntax）",
+    "description": "署名や暗号化されたデータの構文を定めた規格で、S/MIMEの基礎となる"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "XMLデジタル署名（XML Signature）",
+    "description": "文書の一部または全体に署名でき、複数の署名形式を選べるW3C勧告の署名方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "デタッチ署名（Detached Signature）",
+    "description": "署名対象と署名を分離して作成する署名形式で、同じ文書内の別要素を対象にもできる"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "エンベロープ署名（Enveloped Signature）",
+    "description": "署名対象の文書の内部に署名要素を含める署名形式"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "エンベローピング署名（Enveloping Signature）",
+    "description": "署名要素の内部に署名対象データを含める署名形式"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "XKMS（XML Key Management Specification）",
+    "description": "デジタル署名や暗号に使う鍵情報を管理するためのWebサービスの仕様"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "EV証明書（Extended Validation Certificate）",
+    "description": "厳格な手続で組織の実在性を審査したうえで発行されるサーバ証明書"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "DNS CAA（Certification Authority Authorization）",
+    "description": "ドメインの証明書を発行してよい認証局を指定し、不正な証明書の発行を防ぐDNSレコード"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "OCSPレスポンダ",
+    "description": "証明書の失効情報の問合せを受け、有効・失効などの状態をオンラインで返すサーバ"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "サーバ証明書",
+    "description": "Webサーバなどの実在性の確認と暗号通信の鍵交換に用いるデジタル証明書"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "コードサイニング証明書",
+    "description": "ソフトウェアの発行元の確認と改ざん検知のためのプログラム署名に用いる証明書"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "トラストアンカー",
+    "description": "証明書の検証で信頼の起点となる証明書や公開鍵"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "証明書パス検証",
+    "description": "利用者の証明書から信頼の起点まで署名と有効性を順にたどって確認する処理"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "CA/Browser Forum",
+    "description": "認証局とブラウザベンダーが参加し、サーバ証明書の発行基準などを定める業界団体"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "S/MIME（Secure/Multipurpose Internet Mail Extensions）",
+    "description": "公開鍵証明書を用いて電子メールの暗号化と署名を行う規格で、鍵はメールアドレスごとに用意する"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "PGP（Pretty Good Privacy）",
+    "description": "利用者同士の信頼の輪で公開鍵を検証し、電子メールの暗号化と署名を行う方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "SMTP over TLS",
+    "description": "メールサーバ間などのSMTP通信経路をサーバの鍵で暗号化する方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "STARTTLS",
+    "description": "平文で接続を開始した後、途中から通信をTLSへ切り替えるためのコマンド"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "TLS 1.3",
+    "description": "暗号スイートがAEADとハッシュアルゴリズムの組で構成され、古い暗号や静的RSA鍵交換を廃止した版"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "DTLS（Datagram Transport Layer Security）",
+    "description": "UDPなどのデータグラム通信のペイロードを暗号化できるセキュリティプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "FIPS（Federal Information Processing Standards）",
+    "description": "NISTが発行する米国連邦政府の情報処理標準"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "FIPS PUB 140-3",
+    "description": "暗号モジュールのセキュリティ要求事項を定めた米国連邦政府の標準"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "JCMVP（Japan Cryptographic Module Validation Program）",
+    "description": "暗号モジュールが要件を満たすことを第三者が試験・認証する国内の制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "危殆化",
+    "description": "暗号アルゴリズムの安全性低下や鍵の漏えいで、暗号を安全に使えなくなること"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "ゼロ知識証明",
+    "description": "秘密そのものを明かさずに、秘密を知っていることだけを相手に証明する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "秘密分散（電子割符）",
+    "description": "秘密情報を複数の断片に分け、一定数以上を集めたときだけ復元できるようにする手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "軽量暗号",
+    "description": "処理能力や電力に制約のあるIoT機器などでも実装しやすいよう設計した暗号"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "疑似乱数生成器（PRNG）",
+    "description": "初期値から決定的な計算で乱数のように見える数列を生成する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "ブラインド署名",
+    "description": "署名者が内容を見ることなくメッセージに署名できる方式で、電子投票などに応用される"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "グループ署名",
+    "description": "グループの一員が署名したことは検証できるが、誰が署名したかは隠せる方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "タイムスタンプ（時刻認証）",
+    "description": "文書がある時刻に存在し、以降改ざんされていないことを第三者が証明する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "ブロックチェーン",
+    "description": "取引データのハッシュ値で各ブロックを連結し、複数ノードで共有して改ざんを検出しやすくする分散台帳技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "暗号強度（ビットセキュリティ）",
+    "description": "暗号の解読に必要な計算量を、等価な鍵全探索のビット長で表した指標"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "電子透かし",
+    "description": "画像や音声などに識別情報を知覚しにくい形で埋め込み、権利保護や不正流出の追跡に用いる技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "Identity Proofing（身元確認）",
+    "description": "登録時に利用者本人と身分証などを照合し、申請者の実在と同一性を確認する手続"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "NIST SP 800-63-3",
+    "description": "身元確認・認証・フェデレーションの保証レベルなど、デジタルアイデンティティの指針を示す文書"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "AAA（Authentication, Authorization and Accounting）",
+    "description": "認証・認可・利用記録の3機能をまとめた、アクセス管理の枠組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "Diameter",
+    "description": "RADIUSの後継として設計された、認証・認可・課金情報を扱うプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "アサーション",
+    "description": "利用者の認証結果や属性、権限についてIdPが発行し、SPが検証する情報"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "エージェント方式（SSO）",
+    "description": "業務サーバに導入したモジュールが認証サーバと連携し、cookieなどで利用者を判別する実現方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "リバースプロキシ方式（SSO）",
+    "description": "全トラフィックを中継サーバに集めて認証を代行する実現方式で、中継サーバが単一障害点になり得る"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "代理認証方式（SSO）",
+    "description": "クライアントのソフトウェアがログイン画面を監視し、認証情報を代行入力する実現方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "認可サーバ",
+    "description": "リソース所有者の許可を得て、クライアントにアクセストークンを発行するサーバ"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "サプリカント",
+    "description": "IEEE 802.1Xで認証を要求するクライアント側の装置やソフトウェア"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "オーセンティケータ",
+    "description": "IEEE 802.1Xでクライアントと認証サーバを仲介するアクセスポイントやスイッチ"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "EAP（Extensible Authentication Protocol）",
+    "description": "PPPやIEEE 802.1Xで多様な認証方式を扱えるようにした拡張可能な認証プロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "EAP-TLS",
+    "description": "デジタル証明書によって認証サーバとクライアントが相互認証する方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "PEAP（Protected EAP）",
+    "description": "TLSトンネルの中で利用者認証を行う方式で、サーバ側のみ証明書を必須とする"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "SMTP-AUTH",
+    "description": "メールクライアントからの送信時に利用者IDとパスワードなどで認証を行う仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "APOP（Authenticated POP）",
+    "description": "パスワードをチャレンジレスポンスで保護するPOPの認証方式で、本文は暗号化しない"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "虹彩認証",
+    "description": "目の虹彩パターンを照合する生体認証で、成人では経年変化がほとんどなく更新がほぼ不要"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "本人拒否率（FRR：False Rejection Rate）",
+    "description": "生体認証などで、正当な本人を誤って拒否してしまう割合"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "他人受入率（FAR：False Acceptance Rate）",
+    "description": "生体認証などで、他人を誤って本人として受け入れてしまう割合"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "IDaaS（Identity as a Service）",
+    "description": "ID管理やシングルサインオンの機能をクラウドで提供するサービス"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "CAPTCHA",
+    "description": "ゆがんだ文字の判読などを課し、操作しているのが人間かプログラムかを判別する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "EMV 3-Dセキュア",
+    "description": "クレジットカードのオンライン決済でリスク判定や追加認証により本人確認を行う仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "FIDO（Fast IDentity Online）",
+    "description": "生体情報などを端末内で検証し、公開鍵暗号でサーバに認証結果を伝える認証技術の標準"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "トランザクション署名",
+    "description": "送金内容などの取引情報を別デバイスに入力して署名値を作り、MITB攻撃などの改ざんを検知する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "BLPモデル（Bell-LaPadula）",
+    "description": "下位の者が上位の情報を読むことと、上位の者が下位へ書き込むことを禁じる、機密性重視のアクセス制御モデル"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "Active Directory",
+    "description": "Windows環境で利用者やコンピュータの情報を一元管理し、認証を提供するディレクトリサービス"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "多段階認証",
+    "description": "認証を複数の段階に分けて行う方式で、同じ種類の要素を重ねる場合も含む"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "エンティティ認証",
+    "description": "通信相手が主張するとおりの主体であることを確認する認証"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "セキュリティクリアランス",
+    "description": "情報を取り扱う者の信頼性を確認し、重要情報へのアクセスを許可する制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "認証VLAN",
+    "description": "認証結果に応じて利用者や端末を適切なVLANに割り当てる仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "Pass the Hash攻撃",
+    "description": "パスワードのハッシュ値だけでログインできる仕組みを悪用し、平文を知らずになりすます攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "リバースブルートフォース攻撃",
+    "description": "パスワードを固定し、利用者IDを次々に変えてログインを試みる攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "バックスキャッタ",
+    "description": "攻撃者が送信元を偽装した結果、偽装された未使用アドレスへ届く応答パケット"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ドメインフロンティング",
+    "description": "CDNの機能を悪用し、実際の通信先を隠蔽して攻撃者のサーバに接続する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ドメイン名ハイジャック",
+    "description": "ドメイン情報を管理するサイトへの不正アクセスなどで登録情報を書き換え、ドメインを乗っ取る攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "DRDoS（Distributed Reflection Denial of Service）",
+    "description": "多数のサーバに送信元を偽装した要求を送り、その応答を標的へ集中させる攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "リフレクション攻撃",
+    "description": "送信元を標的に偽装した要求をサーバへ送り、応答を標的に向かわせる攻撃の総称"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "NTPリフレクション攻撃",
+    "description": "送信元を偽って時刻サーバに応答の大きな要求を送り、増幅した応答を標的へ送らせる攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "Memcached",
+    "description": "キャッシュ用のキーバリューストアで、UDP経由で増幅攻撃に悪用された事例がある"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "Smurf攻撃",
+    "description": "送信元を標的に偽装したICMPエコー要求をブロードキャスト宛に送り、応答を標的へ集中させる攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "Slowloris（スローHTTP攻撃）",
+    "description": "HTTPリクエストを長時間かけて少しずつ送り続け、サーバのセッションを占有する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ICMP Flood攻撃",
+    "description": "大量のICMPエコー要求を送り付け、標的の帯域や処理能力を消費させる攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "DNS水責め攻撃（ランダムサブドメイン攻撃）",
+    "description": "存在しないランダムなサブドメインを大量に問い合わせ、権威サーバなどに負荷をかける攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "カミンスキー攻撃",
+    "description": "存在しないサブドメインの問合せを繰り返して偽応答を送り、キャッシュを汚染するDNS攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "送信元ポートランダム化",
+    "description": "DNS問合せのポート番号を推測しにくくし、キャッシュ汚染の成功率を大幅に下げる対策"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "Mirai",
+    "description": "ランダムなIPアドレスでIoT機器を探して感染を広げ、C&Cサーバの指令でDDoS攻撃を行うマルウェア"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "コネクトバック",
+    "description": "侵入したシステムから攻撃者のサーバへ通信を開始し、遠隔操作の経路を確立する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "サイドチャネル攻撃",
+    "description": "処理時間や消費電力、電磁波など暗号装置の物理情報から内部の秘密を推定する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "タイミング攻撃",
+    "description": "処理時間の差異を計測して秘密情報を推定する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "電力解析攻撃",
+    "description": "暗号処理中の消費電力の変化を統計処理して秘密鍵を推定する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "テンペスト攻撃",
+    "description": "機器から放射される電磁波を観測して処理中の情報を解析する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "フォールト攻撃",
+    "description": "暗号化演算を故意に誤動作させ、正しい結果との差異から秘密を解析する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "プロービング攻撃",
+    "description": "チップの信号線に探針を当て、処理中のデータを直接観測する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "耐タンパ性",
+    "description": "内部の秘密情報を不正に読み取ったり改変したりされにくい、機器の性質"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "モデルインバージョン攻撃",
+    "description": "AIモデルの出力を繰り返し解析し、学習に用いた元のデータを推測する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "モデル抽出攻撃",
+    "description": "入出力の観察結果からAIモデルを模倣し、同等の性能のモデルを得る攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "データポイズニング",
+    "description": "学習データに悪意あるデータを混入して、AIに誤った学習をさせる攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "Adversarial Examples攻撃（敵対的サンプル）",
+    "description": "人間に知覚できないノイズを入力に加えてAIに誤認識させる攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "プロンプトインジェクション",
+    "description": "細工した指示を入力して、生成AIに想定外の動作や情報の出力をさせる攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ディープフェイク",
+    "description": "深層学習を用いて本物に見える偽の映像や音声を作成する技術やその悪用"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "適応的選択メッセージ攻撃",
+    "description": "攻撃者が選んだメッセージの署名を順次入手し、それを手掛かりに署名の偽造を試みる攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "選択平文攻撃",
+    "description": "攻撃者が選んだ平文と対応する暗号文から数学的手法で鍵を推定する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ショルダーハッキング",
+    "description": "操作中の人の背後や横から入力内容を盗み見て、IDやパスワードを取得する行為"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ホモグラフ攻撃",
+    "description": "見た目の似た文字をドメイン名に用いて、正規サイトのように見せかける攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "タイポスクワッティング",
+    "description": "利用者のURL入力誤りを狙って似たドメインを取得し、偽サイトに誘導する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "SEOポイズニング",
+    "description": "検索結果の上位に悪意あるサイトが表示されるよう細工する攻撃"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ラテラルムーブメント（横展開）",
+    "description": "侵入した端末を足掛かりに、内部ネットワークの他の機器へ侵害を広げる行動"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "権限昇格",
+    "description": "脆弱性や設定不備を悪用し、本来より高い権限を不正に取得すること"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "踏み台",
+    "description": "攻撃者が自身の身元を隠すなどの目的で、次の攻撃の中継に悪用する他者の機器"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "第三者中継（オープンリレー）",
+    "description": "外部から外部宛のメールを無制限に転送してしまうメールサーバの設定不備"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "RaaS（Ransomware as a Service）",
+    "description": "身代金要求型マルウェアや攻撃基盤をサービスとして他の犯罪者に提供するビジネス形態"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "リークサイト",
+    "description": "攻撃者が窃取したデータを公開し、被害組織に支払いを迫るために用いるサイト"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ダークウェブ",
+    "description": "特殊なソフトウェアでのみ接続でき、匿名性が高く不正取引にも使われるWeb空間"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "エクスプロイトキット",
+    "description": "複数の脆弱性を悪用する攻撃コードをまとめ、感染を自動化するツール集"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ボットハーダー",
+    "description": "多数の感染機器を遠隔操作して攻撃などに利用する者"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "スクリプトキディ",
+    "description": "他者の作った攻撃ツールを十分に理解しないまま使う攻撃者"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ハクティビズム",
+    "description": "政治的・社会的な主張を目的としたサイバー攻撃などの活動"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "OWASP Top 10",
+    "description": "Webアプリケーションの重大なセキュリティリスクをまとめた、非営利団体による定番の一覧"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "CCE（Common Configuration Enumeration）",
+    "description": "セキュリティに関連する設定項目を識別するための識別子"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "SCAP（Security Content Automation Protocol）",
+    "description": "脆弱性管理、測定、評価を自動化するためにNISTが策定した基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "JVN（Japan Vulnerability Notes）",
+    "description": "国内で利用される製品の脆弱性情報と対策情報を公開するポータルサイト"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "MyJVN",
+    "description": "JVNの脆弱性対策情報を利用者が効率よく活用するための仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "NOTICE",
+    "description": "総務省とNICTが国内のIoT機器を調査し、推測されやすいパスワードなどの機器についてプロバイダ経由で注意喚起する取組"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ダークネット",
+    "description": "未使用のIPアドレス空間で、到達する通信の観測によりマルウェア活動の把握に利用される"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "脆弱性報奨金制度（バグバウンティ）",
+    "description": "脆弱性を発見・報告した外部の研究者などに報奨金を支払う制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "ソフトウェア等の脆弱性開示（ISO/IEC 29147）",
+    "description": "製品ベンダーが脆弱性情報を受け付けて公開するための手順を定めた国際規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "脆弱性・脅威",
+    "term": "脆弱性情報取扱手順（ISO/IEC 30111）",
+    "description": "製品ベンダーが脆弱性報告を内部で調査・修正する手順を定めた国際規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "HTTPステータスコード（クラス）",
+    "description": "1xxは情報、2xxは成功、3xxはリダイレクト、4xxはクライアントエラー、5xxはサーバエラーを示す応答の区分"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "Refererヘッダ",
+    "description": "リンク元のURLを示すHTTPリクエストヘッダで、遷移元の確認に利用できるが必ず送られるとは限らない"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "GETメソッド",
+    "description": "入力データをリクエスト行のURLに含めて送信するHTTPのメソッド"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "POSTメソッド",
+    "description": "入力データをメッセージボディに含めて送信するHTTPのメソッド"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "Cache-Control: no-store",
+    "description": "応答内容をブラウザやプロキシのキャッシュに保持させないよう指示するヘッダ値"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "Cache-Control: no-cache",
+    "description": "キャッシュの保存は許すが、再利用前にサーバへの検証を要求するヘッダ値"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "X-Frame-Options",
+    "description": "ページをframe内に表示することを制限し、クリックジャッキングを防ぐHTTPレスポンスヘッダ"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "HSTSプリロード",
+    "description": "常時HTTPS接続するサイトの一覧をブラウザに組み込み、初回アクセスから平文通信を防ぐ仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "Ajax（Asynchronous JavaScript + XML）",
+    "description": "スクリプトからサーバと非同期通信し、画面全体を再読込みせずに表示を更新する技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "CSS（Cascading Style Sheets）",
+    "description": "HTML文書の見た目やレイアウトを指定する言語"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "DOM（Document Object Model）",
+    "description": "HTMLやXML文書をツリー構造のオブジェクトとして扱い、プログラムから操作するためのAPI"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "SAX（Simple API for XML）",
+    "description": "文書を先頭から読みながらイベント駆動で処理する、XML解析のAPI"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "SOAP",
+    "description": "XMLベースのメッセージを交換してWebサービスを呼び出すプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "cookie",
+    "description": "Webサーバがブラウザに保存させ、以降の要求で送信される小さなデータ"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "静的プレースホルダ",
+    "description": "SQL文の雛形をDB側で先にコンパイルし、後から値を結合することでインジェクションを防ぐ手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "User-Agent",
+    "description": "ブラウザやOSなどクライアントの種類を示すHTTPリクエストヘッダ"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "CGI（Common Gateway Interface）",
+    "description": "WebサーバからOS上の外部プログラムを起動して動的な応答を生成する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "Web攻撃・対策",
+    "term": "QUIC",
+    "description": "UDP上で暗号化と多重化を実現するトランスポートプロトコルで、HTTP/3の基盤となる"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "アプリケーションゲートウェイ型ファイアウォール",
+    "description": "アプリケーションプロトコルごとに中継し、通信内容を検査してから転送する方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "インラインモード（IPS）",
+    "description": "監視対象の通信を通過させる経路上に設置し、不正と判断した通信を遮断する動作形態"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "ミラーポート",
+    "description": "スイッチを流れる通信を複製して出力するポートで、監視装置の接続に用いる"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "ネットワークタップ",
+    "description": "光ファイバなどの信号を光学的・電気的に分岐し、トラフィックを取り出す装置"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "アノマリ型検知",
+    "description": "通常時の通信を定義し、そこから外れた通信を不正と判断する検知方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "シグネチャ型検知",
+    "description": "既知の攻撃パターンを定義し、それと合致する通信を不正と判断する検知方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "OP25B（Outbound Port 25 Blocking）",
+    "description": "管理下の動的IPアドレスなどから外部のメールサーバのTCP25番への通信を遮断し、迷惑メール送信を抑制する対策"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "IP25B（Inbound Port 25 Blocking）",
+    "description": "外部の動的IPアドレスからメールサーバのTCP25番への接続を遮断する対策"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "サブミッションポート（587/TCP）",
+    "description": "メールクライアントからメールサーバへの送信専用で、利用者認証と組み合わせて使うポート"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "Enhanced Open（OWE：Opportunistic Wireless Encryption）",
+    "description": "RFC 8110に基づき、パスワード入力なしで端末とアクセスポイントの通信を暗号化する無線LANの仕様"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "WPA3-Enterprise",
+    "description": "IEEE 802.1Xによる利用者認証と動的に配布される鍵で暗号化通信を行う無線LANのモード"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "WPS（Wi-Fi Protected Setup）",
+    "description": "ボタンやPINで無線LAN機器の設定を簡易に行う規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "プライバシーセパレータ",
+    "description": "同じアクセスポイントに接続した無線機器同士の通信を禁止する機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "MACアドレスフィルタリング",
+    "description": "登録済みのMACアドレスをもつ機器だけに無線LANなどへの接続を許可する機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "L2TP（Layer 2 Tunneling Protocol）",
+    "description": "データリンク層のフレームをカプセル化してトンネリングするプロトコルで、暗号化機能は持たない"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "PPTP（Point-to-Point Tunneling Protocol）",
+    "description": "PPPフレームをIP上でカプセル化してVPNを実現する、古いトンネリングプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "VDI（Virtual Desktop Infrastructure）",
+    "description": "サーバ上の仮想マシンでデスクトップ環境を実行し、端末には画面だけを転送する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "Webアイソレーション",
+    "description": "Web閲覧を隔離環境で実行し、端末への不正コードの到達を防ぐ技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "要塞化（ハードニング）",
+    "description": "不要なサービスの停止や設定強化により、サーバなどの攻撃対象を減らす作業"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "セキュリティゾーニング",
+    "description": "重要度に応じてネットワークを区画に分け、区画間の通信を制御する設計手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "検疫ネットワーク",
+    "description": "接続する端末のパッチ適用状況などを検査し、問題があれば隔離して修復させる仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "DLP（Data Loss Prevention）",
+    "description": "機密情報を識別し、外部への送信やコピーなどを監視・遮断する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "MDM（Mobile Device Management）",
+    "description": "スマートフォンなどの端末設定や紛失時の遠隔消去を一元管理する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "URLフィルタリング",
+    "description": "閲覧先のURLを許可・拒否の一覧やカテゴリで制限する機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "サンドボックス",
+    "description": "隔離した環境で不審なプログラムを動かし、外部に影響を与えずに挙動を確認する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "ビヘイビア法",
+    "description": "感染や発病で生じる読み書きや通信などの動作を監視してマルウェアを検出する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "パターンマッチング法",
+    "description": "特徴的なコードを登録した定義ファイルと比較してマルウェアを検出する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "コンペア法",
+    "description": "安全な場所に保管した原本と検査対象を比較してマルウェア感染を検出する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "チェックサム法",
+    "description": "検査対象にあらかじめ付加した検証情報との不整合からマルウェアを検出する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "ヒューリスティック法",
+    "description": "プログラムの構造や動作の特徴から未知のマルウェアも推定する検出手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "UTM（Unified Threat Management）",
+    "description": "ファイアウォールやウイルス対策など複数のセキュリティ機能を一つの機器に統合したもの"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "CSPM（Cloud Security Posture Management）",
+    "description": "クラウドサービスの設定を継続的に監視し、不適切な設定を検知する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "CWPP（Cloud Workload Protection Platform）",
+    "description": "クラウド上の仮想マシンやコンテナなどのワークロードを保護する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "ハニーネット",
+    "description": "攻撃者を誘い込んで活動を観察するため、おとりの機器で構成したネットワーク"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "EPP（Endpoint Protection Platform）",
+    "description": "端末でのマルウェア感染を未然に防ぐことを主目的としたセキュリティ製品"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "WORM機能（Write Once Read Many）",
+    "description": "一度書き込んだデータの変更や削除をできなくする機能で、ランサムウェア対策のバックアップにも用いる"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "3-2-1ルール",
+    "description": "データを3つのコピーで、2種類の媒体に、1つは別拠点に保管するバックアップの原則"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "UEBA（User and Entity Behavior Analytics）",
+    "description": "利用者や機器の行動を分析し、通常と異なる振る舞いを検知する技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "PSIRT（Product Security Incident Response Team）",
+    "description": "自社製品の脆弱性に起因するリスクに対応する社内機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "JPCERT/CC",
+    "description": "国内のインシデントの報告受付や対応支援、技術的な調整を行う組織"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "MITRE",
+    "description": "CVEの事務局を務め、攻撃手法の知識ベースを公開する米国の非営利組織"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "ENISA（European Union Agency for Cybersecurity）",
+    "description": "EU加盟国が高いレベルのサイバーセキュリティを達成するための支援を行う機関"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "NICT（情報通信研究機構）",
+    "description": "情報通信分野の研究開発を行う日本の国立研究開発法人で、ダークネット観測も実施する"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "J-CSIP（サイバー情報共有イニシアティブ）",
+    "description": "標的型サイバー攻撃などの情報を参加組織間で共有し、高度な攻撃対策につなげるIPAの取組"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "J-CRAT（サイバーレスキュー隊）",
+    "description": "標的型サイバー攻撃の被害拡大防止のために組織の初動対応を支援するIPAの活動"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "NISC（内閣サイバーセキュリティセンター）",
+    "description": "政府のサイバーセキュリティ戦略の立案や横断的な対策の推進を担った組織で、2025年に国家サイバー統括室へ改組された"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "SIM3（Security Incident Management Maturity Model）",
+    "description": "組織のインシデント管理の成熟度を評価するためにOpen CSIRT Foundationが開発したモデル"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "WHOIS",
+    "description": "ドメイン名やIPアドレスの登録者情報を検索するサービス"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "TLP（Traffic Light Protocol）",
+    "description": "共有する情報の配布範囲を色分けで示す、インシデント情報共有のルール"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "証拠保全",
+    "description": "調査対象の機器やログなどを改変せず、証拠としての価値を保ったまま確保する作業"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "揮発性情報",
+    "description": "メモリやルーティングテーブルなど、電源断で失われるため優先的に保全する情報"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "メモリダンプ",
+    "description": "主記憶の内容をファイルに書き出したもので、不正プログラムの解析などに用いる"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "トリアージ",
+    "description": "インシデントの緊急度や影響を判断し、対応の優先順位を決めること"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "テイクダウン",
+    "description": "フィッシングサイトなど不正なサイトをプロバイダなどに依頼して停止させること"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "インシデント対応ライフサイクル",
+    "description": "準備、検知と分析、封じ込め・根絶・復旧、事件後の対応から成るNISTの整理"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "OODAループ",
+    "description": "観察、状況判断、意思決定、行動を素早く繰り返す意思決定の枠組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "Snort",
+    "description": "通信を監視して不正なパケットを検知するオープンソースの侵入検知システム"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "パケットキャプチャ",
+    "description": "ネットワークを流れるパケットを取得して記録・解析すること"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "逆アセンブル",
+    "description": "機械語の実行ファイルをアセンブリ言語に変換してマルウェアなどの解析に用いること"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "難読化",
+    "description": "コードの動作を変えずに読みにくく変換し、解析を困難にすること"
+  },
+  {
+    "exam": "A-2",
+    "category": "監視・インシデント対応",
+    "term": "PEファイル（Portable Executable）",
+    "description": "Windowsの実行ファイル形式で、マルウェアの静的解析の対象となる"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "JIS Q 27000",
+    "description": "情報セキュリティマネジメントシステムの用語を定めた日本産業規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "JIS Q 27017（ISO/IEC 27017）",
+    "description": "クラウドサービス固有の情報セキュリティ管理策を示した実践の規範"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "ISO/IEC 27018",
+    "description": "パブリッククラウドで個人識別情報を処理する際の保護の実施基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "ISO/IEC 15408（コモンクライテリア）",
+    "description": "IT製品やシステムのセキュリティ評価基準で、独立した評価結果の比較を可能にする規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "ISO/IEC 30147",
+    "description": "IoTシステムの信頼性を確保するための実装方法を示した国際規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "JISEC（ITセキュリティ評価及び認証制度）",
+    "description": "IT製品のセキュリティ機能と品質を国際基準で第三者が評価・認証する国内制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "ISMS適合性評価制度",
+    "description": "組織の情報セキュリティ管理の仕組みが要求事項に適合することを第三者が審査・認証する制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "ISMAP（政府情報システムのためのセキュリティ評価制度）",
+    "description": "政府が求める要求を満たすクラウドサービスをあらかじめ評価・登録し、調達の水準を確保する制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "ISMAP-LIU",
+    "description": "リスクの小さな業務・情報の処理に用いるSaaSを対象とする政府の評価枠組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "ISMAP管理基準",
+    "description": "政府向けクラウド評価の基準で、クラウド情報セキュリティ管理基準を基礎として作成されたもの"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "クラウド情報セキュリティ管理基準",
+    "description": "クラウドサービスの利用者と提供者のための管理項目を整理した、日本セキュリティ監査協会の基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "NIST CSF 2.0",
+    "description": "コアの機能に識別・防御・検知・対応・復旧に加えて統治（GOVERN）を定めたフレームワークの版"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "フレームワークコア",
+    "description": "サイバーセキュリティ対策の活動を機能ごとに整理した、NISTの枠組みの中心要素"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "NIST SP 800シリーズ",
+    "description": "NISTが公開するコンピュータセキュリティ関連のガイドライン群"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "CMMC（Cybersecurity Maturity Model Certification）",
+    "description": "米国防総省が委託先に求めるサイバーセキュリティ成熟度の認証制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "SAMM（Software Assurance Maturity Model）",
+    "description": "ソフトウェア開発組織のセキュリティ保証の成熟度を評価するモデル"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "PCI DSS",
+    "description": "クレジットカード会員データを保護するための国際的なセキュリティ基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "CSMS適合性評価制度",
+    "description": "産業用オートメーション制御システムのセキュリティ管理を認証する制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "EDSA認証",
+    "description": "制御機器のセキュリティ保証に関する認証制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "サイバーセキュリティ経営ガイドライン",
+    "description": "経営者が認識すべき原則と、リーダーシップを発揮して取り組むべき重要項目をまとめた経済産業省とIPAの指針"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "SECURITY ACTION",
+    "description": "中小企業が情報セキュリティ対策に取り組むことを自己宣言する制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "中小企業の情報セキュリティ対策ガイドライン",
+    "description": "中小企業が実施すべき対策の考え方と進め方を示したIPAの指針"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "政府機関等のサイバーセキュリティ対策のための統一基準群",
+    "description": "国の機関などの情報セキュリティ水準を向上させるための共通ルール"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "サイバー・フィジカル・セキュリティ対策フレームワーク",
+    "description": "サプライチェーン全体の産業セキュリティ対策の考え方を示した経済産業省の枠組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "情報セキュリティサービス基準",
+    "description": "情報セキュリティサービスの品質維持・向上のために経済産業省が定めた基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "情報セキュリティ早期警戒パートナーシップ",
+    "description": "脆弱性関連情報をIPAとJPCERT/CCが受け付け、関係者と調整して公表する国内の枠組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "コンピュータ不正アクセス届出制度",
+    "description": "不正アクセスの被害をIPAに届け出て、情報を集約・公開する制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "コンピュータウイルス届出制度",
+    "description": "マルウェアの発見や感染の情報をIPAに届け出て、被害防止に役立てる制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "リスク対応",
+    "description": "リスクを修正するために管理策を選択・実施するプロセス"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "リスク源",
+    "description": "それ自体またはほかとの組合せによって、リスクを生じさせる力をもつ要素"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "リスク基準",
+    "description": "リスクの重大性を評価するための目安とする条件"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "リスクマネジメント（JIS Q 31000）",
+    "description": "組織のリスクを指揮・管理する活動についての原則と指針を示した規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "リスク保有",
+    "description": "対策費用などを考慮し、リスクを受容して損失発生時に自ら負担すること"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "リスクファイナンシング",
+    "description": "保険や積立などにより、損失発生に備えて資金面で手当てすること"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "サイバー保険",
+    "description": "サイバー攻撃などで生じた損害賠償や対応費用を補償する保険"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "年間予想損失額（ALE）",
+    "description": "発生頻度と1回当たりの損失額を掛けて求める、定量的リスク分析の指標"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "情報セキュリティ方針",
+    "description": "組織の情報セキュリティに対する基本的な考え方を経営層が示した文書"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "情報セキュリティ事象",
+    "description": "方針違反や管理策の不具合などの可能性を示す、システムやネットワークの状態の発生"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "情報セキュリティインシデント",
+    "description": "事業運営を危うくする確率や脅威の可能性が高い、望まない事象の発生"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "情報資産台帳",
+    "description": "組織が管理すべき情報資産と管理責任者、重要度などをまとめた一覧"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "サイバーハイジーン",
+    "description": "パッチ適用や設定管理など基本的な対策を日常的に維持すること"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "クリアデスク・クリアスクリーン",
+    "description": "離席時に書類を机上に放置せず、画面もロックするという物理的な管理策"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "ソーシャルメディアガイドライン",
+    "description": "従業員のSNS利用に関する行動基準を定めた組織内の指針"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "秘密保持契約（NDA）",
+    "description": "取引などで知り得た秘密情報を第三者に開示しないことを約束する契約"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "アンチパスバック",
+    "description": "入室記録のないカードでの退室などを拒否し、共連れを防止する入退室管理の仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "暗号化消去（CE：Cryptographic Erase）",
+    "description": "保存データの暗号鍵を消去することで、データを読み出せなくする手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "トラステッドOS",
+    "description": "強制アクセス制御などのセキュリティ機能を強化したOS"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "システム監査基準",
+    "description": "システム監査人の行為規範や、監査の実施と報告の基準を定めた経済産業省の基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "システム管理基準",
+    "description": "情報システムのガバナンスとマネジメントに関する実践規範を示した経済産業省の基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "リスクアプローチ",
+    "description": "リスクの大きい領域に監査資源を重点的に配分して監査計画を策定する考え方"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "監査リスク",
+    "description": "監査対象の不備を見逃すなどして、監査人が結論を誤ってしまう可能性"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "固有リスク",
+    "description": "統制がないと仮定したときに、業務に重要な誤りや不正が生じる可能性"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "統制リスク",
+    "description": "重要な誤りや不正が内部統制で防止・発見されない可能性"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "発見リスク",
+    "description": "重要な誤りや不正が監査手続によって発見されない可能性"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "システム監査報告書",
+    "description": "監査の結論や指摘事項、改善提案をまとめて依頼者に提出する文書"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "指摘事項",
+    "description": "監査で判明した不備のうち、改善を求めて報告書に記載する事項"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "監査証跡",
+    "description": "処理の経過を後から追跡・検証できるようにした記録"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "ウォークスルー法",
+    "description": "データの生成から出力までの流れを実際にたどって統制の有効性を確認する監査技法"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "テストデータ法",
+    "description": "架空のデータを本番環境のプログラムで処理させ、結果を確認する監査技法"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "監査モジュール法",
+    "description": "監査用のプログラムをあらかじめ本番プログラムに組み込んでデータを収集する監査技法"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "突合・照合法",
+    "description": "関連する記録同士を突き合わせて整合を確認する監査技法"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "情報セキュリティ監査基準",
+    "description": "情報セキュリティ監査の品質を確保するために経済産業省が定めた基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "情報セキュリティ管理基準",
+    "description": "組織が情報セキュリティマネジメントを実施する際の管理項目を示した経済産業省の基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "財務報告に係る内部統制の評価及び監査の基準",
+    "description": "金融庁が定めた、内部統制の基本的枠組みや評価と監査の基準"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "内部統制報告制度（J-SOX）",
+    "description": "上場企業に財務報告の内部統制の評価と監査人による監査を義務付ける制度"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "IT統制の目標",
+    "description": "有効性、効率性、準拠性、信頼性、可用性、機密性から成る、ITの統制で確保すべき事項"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "信頼性（IT統制目標）",
+    "description": "記録した取引に漏れ・重複がないなど、情報が組織の意思・意図に沿っていること"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "準拠性（IT統制目標）",
+    "description": "情報が関係法令、会計基準、社内規則などに合致して処理されていること"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "統制活動",
+    "description": "不正や誤りを防ぐために業務プロセスに組み込む承認や職務分離などの活動"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "JIS Q 20000-1",
+    "description": "サービスマネジメントシステムの要求事項を定めた日本産業規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "サービス可用性（計算）",
+    "description": "合意したサービス時間から計画外の停止時間を除いた割合で示す、サービスを利用できる度合い"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "計画停止時間",
+    "description": "顧客と合意し、サービス提供時間に含めないシステム停止の時間"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "継続的改善の定義",
+    "description": "パフォーマンスを向上するために繰り返し行われる活動"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "内部監査（SMS）",
+    "description": "要求事項への適合と有効な実施を確認するため、あらかじめ定めた間隔で組織が実施する監査"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "マネジメントレビュー",
+    "description": "マネジメントシステムの適切性や有効性を確認するため、トップマネジメントが行う評価"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "根本原因",
+    "description": "インシデントや問題を発生させた根源的な要因"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "ワークアラウンド（回避策）",
+    "description": "根本原因が未解決のまま影響を軽減し、サービスを一時的に回復させる手段"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "既知の誤り",
+    "description": "根本原因や回避策が特定された問題"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "サービスデスク",
+    "description": "利用者からの問合せやインシデントを受け付ける単一の窓口機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "SPOC（Single Point Of Contact）",
+    "description": "利用者がサービス提供者へ連絡する際の窓口を一本化すること"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "エスカレーション",
+    "description": "自部門で解決できない事案を上位者や専門部署へ引き継ぐこと"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "SLO（Service Level Objective）",
+    "description": "提供者が達成を目指すサービスレベルの目標値"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "サービスカタログ",
+    "description": "提供するサービスの内容や条件、提供方法をまとめた文書"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "変更諮問委員会（CAB）",
+    "description": "変更要求の評価や優先順位付け、承認について助言する関係者の会議体"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "MTRS（Mean Time to Restore Service）",
+    "description": "サービス中断から回復するまでの平均時間"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "MTBSI（Mean Time Between Service Incidents）",
+    "description": "サービスインシデントの発生間隔の平均時間"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "逓減課金方式",
+    "description": "利用量が増えるほど単位当たりの料金が下がる課金方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "ソフトウェアアセットマネジメント（SAM）",
+    "description": "ソフトウェア資産とライセンスを適正に管理する活動"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "コールドアイル",
+    "description": "サーバの吸気側を冷気の通路としてまとめ、空調効率を高めるデータセンターの配置"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "PUE（Power Usage Effectiveness）",
+    "description": "データセンター全体の消費電力をIT機器の消費電力で割った省エネ指標"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "IoTセキュリティガイドライン",
+    "description": "総務省と経済産業省が策定した、IoT機器やサービスの対策の指針"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "つながる世界の開発指針",
+    "description": "IoT製品の安全安心のために開発者が考慮すべき事項をIPAが整理した指針"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "連合学習",
+    "description": "データを手元に置いたまま各端末で学習し、モデルの更新情報だけを集約する機械学習"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "AIのロバスト性",
+    "description": "入力の変動や敵対的なノイズなどに対してAIが安定した性能を保つ性質"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "説明可能なAI（XAI：Explainable AI）",
+    "description": "AIの判断根拠を人間が理解できる形で示す技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "ヒューマンインザループ（HITL）",
+    "description": "AIの判断過程に人間の確認や介入を組み込む仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "アルゴリズムのバイアス",
+    "description": "学習データの偏りなどによりAIの判断が特定の属性に不公平になること"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "NB-IoT（Narrow Band-IoT）",
+    "description": "LTEの帯域を利用した、省電力で広域通信できるIoT向けの通信規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "eDRX（extended Discontinuous Reception）",
+    "description": "受信待ちの間隔を延ばしてIoT端末の消費電力を抑えるLTEの機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "サブGHz帯",
+    "description": "到達距離が長く障害物に強いためIoT通信に用いられる1GHz未満の周波数帯"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "ISMバンド",
+    "description": "産業・科学・医療用に割り当てられ、無線LANなどにも広く利用される周波数帯"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "CAN（Controller Area Network）",
+    "description": "自動車などの制御機器間で用いられ、認証機能を標準では持たない車載ネットワーク"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "コネクテッドカー",
+    "description": "通信機能を備え、外部と情報をやり取りする自動車"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "デジタルツイン",
+    "description": "現実の機器や環境の情報を収集して、仮想空間に再現する技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "サイバーフィジカルシステム（CPS）",
+    "description": "実世界のデータを仮想空間で分析し、結果を実世界にフィードバックする仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "エッジコンピューティング",
+    "description": "データの発生源の近くで処理を行い、遅延や通信量を減らす形態"
+  },
+  {
+    "exam": "A-2",
+    "category": "IoT・制御・新技術",
+    "term": "コンテナセキュリティ",
+    "description": "コンテナのイメージや実行環境、オーケストレーションを保護する取組"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "シャーディング",
+    "description": "データを複数のサーバに水平分割して格納し、負荷を分散する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "CAP定理",
+    "description": "分散システムで一貫性、可用性、分断耐性の三つを同時に完全には満たせないという定理"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "BASE特性",
+    "description": "基本的に利用可能で、状態が柔軟に変わり、最終的に一貫する、という分散DBの考え方"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "結果整合性",
+    "description": "更新直後は不一致があっても時間が経つと全複製が同じ値になるという性質"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "補償トランザクション",
+    "description": "完了済みの処理の結果を打ち消す別の処理を実行して整合性を取り戻す手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "Sagaパターン",
+    "description": "複数サービスの処理を局所トランザクションの連鎖と補償処理で整合させる手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "TCCパターン",
+    "description": "試行・確定・取消しの3段階で複数サービスの処理の整合性を取る手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "分散トランザクション",
+    "description": "複数のデータベースにまたがる更新を一つの処理単位として扱うこと"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "スプリットブレイン",
+    "description": "クラスタの通信断で各ノードが自身を現用と認識し、データ不整合を招く状態"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "Wait-Die方式",
+    "description": "タイムスタンプの古い処理は待ち、新しい処理は中止させるデッドロック防止策"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "Wound-Wait方式",
+    "description": "タイムスタンプの古い処理が新しい処理を中止させ、新しい処理は待つデッドロック防止策"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "隔離性水準",
+    "description": "同時実行されるトランザクションが互いに影響する度合いを定めた段階"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "同時実行制御",
+    "description": "複数のトランザクションが同時に動いても一貫性を保つよう調整する機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "データリネージ",
+    "description": "データの発生元や変換・加工の経路を示すメタデータで、影響調査に利用できる"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "データディクショナリ",
+    "description": "ユーザー情報やデータ構造など、データベースの管理情報を格納したもの"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "GRANT文",
+    "description": "表などに対する権限を利用者に付与するSQL文"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "WITH GRANT OPTION",
+    "description": "付与された権限を他者に付与する権利も併せて与えるSQLの指定"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "チェックポイント",
+    "description": "バッファの更新内容をディスクへ反映し、障害回復の起点とする時点"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "WAL（Write Ahead Logging）",
+    "description": "データの更新前に更新ログを先に書き出し、回復を可能にする手順"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "ロールフォワード",
+    "description": "バックアップからの復元後、更新後ログを適用して障害直前の状態まで回復する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "チェックポイントリスタート",
+    "description": "記録した途中経過からプログラムの処理を再開する回復の方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "参照制約",
+    "description": "外部キーの値が参照先の候補キーの値と一致するよう制限する、データベースの制約"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "相関副問合せ",
+    "description": "外側の問合せの行の値を参照して、行ごとに評価される副問合せ"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "EXISTS述語",
+    "description": "副問合せの結果に行が存在するかどうかを判定するSQLの述語"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "左外部結合（LEFT OUTER JOIN）",
+    "description": "左の表の全行を残し、結合相手がない列をNULLで埋める結合"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "ODBC（Open Database Connectivity）",
+    "description": "アプリケーションから各種DBMSへ共通の方法で接続するためのAPI"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "静的コード解析ツール（SonarQube）",
+    "description": "バグ、コードの重複、脆弱性につながるコードを自動で検出するOSSツール"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "Jenkins",
+    "description": "ビルドやテストの自動実行に用いる継続的インテグレーションのOSSツール"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "カオスエンジニアリング",
+    "description": "本番相当の環境で意図的に障害を起こして挙動を観察し、耐障害性を高める手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "DevSecOps",
+    "description": "開発と運用の流れの全体にセキュリティを組み込む考え方"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "ウォークスルー（レビュー）",
+    "description": "作成者を含む複数人でシステムの振る舞いを机上でシミュレーションして問題点を発見する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "インスペクション",
+    "description": "モデレーターや記録役などの役割を決めた複数人で、成果物の欠陥を検証する形式的なレビュー"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "形式手法",
+    "description": "厳密に意味を定義した言語で仕様を記述し、性質との整合を論理的に検証する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "モデル検査",
+    "description": "システムの状態を網羅的に探索し、満たすべき性質を自動で検証する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "探索的テスト",
+    "description": "担当者がソフトウェアの動きを学習しながら、以降のテストを動的に計画して進める方法"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "モデルベースドテスト",
+    "description": "対象の振る舞いをモデル化し、そこからテストケースを導出する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "実験計画法",
+    "description": "少ない試行で要因の影響を分析できるよう、組合せを統計的に設計する手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "並行シミュレーション",
+    "description": "同じ入力を旧システムと新システムで処理して結果を比較する検証手法"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "テーラリング",
+    "description": "目的の達成のためにライフサイクルプロセスを修正または新たに定義すること"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "リバースエンジニアリング",
+    "description": "製品やソフトウェアを分解・解析し、その仕組みや仕様を明らかにすること"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "逆コンパイル",
+    "description": "実行形式のプログラムからソースコード相当を再構成すること"
+  },
+  {
+    "exam": "A-2",
+    "category": "セキュア開発",
+    "term": "セキュアOS",
+    "description": "強制アクセス制御などでプロセスの権限を厳しく制限できるOS"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "CSMA/CD",
+    "description": "有線LANで送信前にキャリアを検知し、衝突を検出したら待機して再送するアクセス制御方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "CSMA/CA",
+    "description": "IEEE 802.11で採用され、送信前に一定時間待つことで衝突を回避するアクセス制御方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "トークンパッシング",
+    "description": "送信権を表す特別なフレームを巡回させ、受け取った局が送信するアクセス制御方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "LAPB（Link Access Procedure Balanced）",
+    "description": "HDLCを基にしたX.25のデータリンク層の伝送制御手順"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "HDLC（High-level Data Link Control）",
+    "description": "フレーム単位で連続転送と誤り制御を行うデータリンク制御手順"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "RIP-2（Routing Information Protocol version 2）",
+    "description": "可変長サブネットマスクに対応し、マルチキャストで経路情報を30秒ごとに交換する距離ベクトル型ルーティングプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "RIP（Routing Information Protocol）",
+    "description": "ホップ数を基準に経路を選択する距離ベクトル型のルーティングプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "リンクステート型ルーティング",
+    "description": "ネットワークの接続状態のデータベースを共有し、最短経路を計算する方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "VLSM（Variable Length Subnet Mask）",
+    "description": "同じネットワーク内でサブネットごとに異なるマスク長を使う方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "スパニングツリープロトコル（STP）",
+    "description": "ブリッジ間で情報を交換し、ループの発生を防いで障害時の迂回経路を決定するプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "RSTP（Rapid Spanning Tree Protocol）",
+    "description": "経路の再計算を高速化した、レイヤ2のループ防止プロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ルートブリッジ",
+    "description": "スパニングツリーの起点となるブリッジで、ブリッジIDが最小のものが選ばれる"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ルートポート",
+    "description": "ルートブリッジへの経路コストが最小となる、各ブリッジのポート"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "代表ポート（Designated Port）",
+    "description": "リンクの両端のうち、ルートブリッジまでの経路コストが小さいブリッジ側のポート"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "アクセスポート",
+    "description": "一つのVLANだけに所属し、端末を接続するスイッチのポート"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "トランクポート",
+    "description": "複数のVLANのフレームをタグで区別して運ぶスイッチのポート"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "IEEE 802.1Q",
+    "description": "イーサネットフレームにタグを付加してVLANを識別する規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "IEEE 802.1ad（QinQ）",
+    "description": "VLANタグを二重に付加することで、通信事業者網で顧客のVLANを転送する規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "VXLAN（Virtual eXtensible LAN）",
+    "description": "レイヤ3ネットワーク内に論理的なレイヤ2ネットワークをカプセル化によって構築するプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "PPPoE（PPP over Ethernet）",
+    "description": "イーサネット上でPPPの認証やセッション管理を行うプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "PPP（Point-to-Point Protocol）",
+    "description": "2点間を接続するデータリンク層のプロトコルで、認証機能なども備える"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "リンクアグリゲーション",
+    "description": "複数の物理ポートを束ねて一つの論理ポートとして扱い、帯域と冗長性を高める技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "コリジョン",
+    "description": "同じ伝送路で複数の端末が同時に送信し、信号が衝突すること"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "コリジョンドメイン",
+    "description": "信号の衝突が伝搬する範囲で、ブリッジやスイッチ、ルータで分割される"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ブロードキャストドメイン",
+    "description": "同報フレームが届く範囲で、ルータによって分割される"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "クラスDアドレス",
+    "description": "先頭4ビットが1110で、224.0.0.0～239.255.255.255のマルチキャスト用のIPアドレス範囲"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ディレクテッドブロードキャスト",
+    "description": "特定のサブネットのホスト部をすべて1にした宛先への同報で、ルータ越しに悪用されることがある"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "リミテッドブロードキャスト",
+    "description": "255.255.255.255宛に同一サブネット内へ送信する同報で、ルータでは転送されない"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ループバックアドレス",
+    "description": "127.0.0.1など、同じコンピュータ上のプログラム同士の通信に使う自身宛のアドレス"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "APIPA",
+    "description": "DHCPで取得できないときに169.254.0.0/16から自動で割り当てるIPアドレスの仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "IPv6拡張ヘッダ",
+    "description": "8オクテットの整数倍の長さで、経路制御や暗号化の情報を基本ヘッダの後に追加する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "RARP（Reverse ARP）",
+    "description": "MACアドレスからIPアドレスを問い合わせるプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ICMP Redirect",
+    "description": "転送元に対してより適切なルータの存在を通知し、経路の変更を促すメッセージ"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ICMP Destination Unreachable",
+    "description": "パケットを宛先に届けられなかったときに、送信元へ返すメッセージ"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ICMP Time Exceeded",
+    "description": "生存時間が0になった場合や再組立てのタイムアウトで送信元へ返すメッセージ"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ICMP Echo Request/Reply",
+    "description": "pingなどで到達確認に用いる要求と応答のメッセージ"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ICMPv6",
+    "description": "エラー通知に加えて近隣探索なども担う、IPv6の制御プロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "IGMP（Internet Group Management Protocol）",
+    "description": "ホストとルータの間でマルチキャストグループへの参加を管理するプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "TFTP（Trivial File Transfer Protocol）",
+    "description": "UDPを使い認証機能を持たない簡易なファイル転送プロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "SNTP（Simple Network Time Protocol）",
+    "description": "PCなどの時刻合わせに用いる、簡略化した時刻同期プロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "NNTP（Network News Transfer Protocol）",
+    "description": "ネットニュースの記事を配信するプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "RTP（Real-time Transport Protocol）",
+    "description": "音声や動画をリアルタイムに伝送するプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "RTCP（RTP Control Protocol）",
+    "description": "リアルタイム伝送の品質情報などをやり取りする制御プロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "RTSP（Real Time Streaming Protocol）",
+    "description": "動画配信の再生や停止などを制御するプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "SIP（Session Initiation Protocol）",
+    "description": "IP電話などのセッションの開始、変更、終了を制御するプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "Telnet",
+    "description": "TCP23番を用いて遠隔操作する平文通信のプロトコルで、IoT機器への不正ログインに悪用される"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "IMAPS",
+    "description": "TLSで暗号化した経路でメール受信を行うプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "MIME（Multipurpose Internet Mail Extensions）",
+    "description": "電子メールで多様な文字セットや添付ファイルを扱うための規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "MIMO（Multiple Input Multiple Output）",
+    "description": "複数のアンテナで同時に送受信し、無線の通信速度を高める技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "OFDMA",
+    "description": "サブキャリアを複数の利用者に割り当てる多元接続方式で、Wi-Fi 6などで用いる"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "CDMA（Code Division Multiple Access）",
+    "description": "符号を用いて同じ周波数帯を複数の利用者で共有する多元接続方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "TDMA（Time Division Multiple Access）",
+    "description": "時間を分割して複数の利用者に割り当てる多元接続方式"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "波長分割多重（WDM）",
+    "description": "一本の光ファイバで波長の異なる複数の光信号を同時に伝送する技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ETSI（欧州電気通信標準化機構）",
+    "description": "ネットワーク機能仮想化を提唱するなど、欧州で通信規格を策定する標準化機関"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "NFV（Network Functions Virtualisation）",
+    "description": "ルータやファイアウォールなどの機能を、汎用サーバ上の仮想マシンのソフトウェアで実現する考え方"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "SDN（Software-Defined Networking）",
+    "description": "ネットワークの制御機能とデータ転送機能を分離し、ソフトウェアで柔軟に制御する技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "OpenFlow",
+    "description": "コントローラがスイッチの転送を制御する、ソフトウェア定義ネットワーク向けのプロトコル"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "SD-WAN",
+    "description": "広域網をソフトウェアで制御し、複数の回線を効率よく利用する技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "MPLS（Multi-Protocol Label Switching）",
+    "description": "ラベルに基づいて高速に転送する、通信事業者網で広く使われる技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "HTTP/2",
+    "description": "一つの接続上で複数のリクエストを多重化し、ヘッダ圧縮にも対応するHTTPの版"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "HTTP/3",
+    "description": "UDPベースの通信基盤の上で動作する、遅延の低減を図ったHTTPの版"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "Wi-Fi 6（IEEE 802.11ax）",
+    "description": "OFDMAなどにより混雑環境での効率を高めた無線LAN規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "BSSID",
+    "description": "無線LANのアクセスポイントごとの識別子で、通常はMACアドレスを用いる"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ゾーン（DNS）",
+    "description": "権威サーバが管理するドメイン名空間の範囲とその情報"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "リソースレコード",
+    "description": "DNSで管理する、ドメイン名とIPアドレスなどを対応付けた情報の単位"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "FQDN（Fully Qualified Domain Name）",
+    "description": "ホスト名とドメイン名を省略せずに記述した完全なドメイン名"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "nslookup",
+    "description": "DNSサーバに問い合わせ、ドメイン名に対応するIPアドレスなどを調べるコマンド"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "traceroute",
+    "description": "宛先までに経由するルータを順に調べるコマンド"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "netstat",
+    "description": "通信中の接続やポートの状態、ルーティングテーブルを表示するコマンド"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "トンネリング",
+    "description": "あるプロトコルのパケットを別のプロトコルでカプセル化して転送すること"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "QoS（Quality of Service）",
+    "description": "通信の種類ごとに帯域や遅延を制御して品質を確保する仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "デュアルスタック",
+    "description": "一つの機器でIPv4とIPv6の両方を同時に扱う移行技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "マルチホーミング",
+    "description": "複数のプロバイダに接続し、回線の冗長性や負荷分散を図ること"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "プロキシARP",
+    "description": "ルータが別ネットワークのホストに代わってARPに応答する機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "IP-VPN",
+    "description": "通信事業者のIP網を使って拠点間を閉域接続するサービス"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "広域Ethernet",
+    "description": "通信事業者の網を介して拠点間をレイヤ2で接続するサービス"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ネットワークスライシング",
+    "description": "5Gなどで一つの物理網を用途ごとの仮想網に分割する技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ローカル5G",
+    "description": "企業や自治体が自らの敷地内で構築・運用する第5世代移動通信のネットワーク"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ビームフォーミング",
+    "description": "電波を特定方向へ集中させて通信品質を高める技術"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "テザリング",
+    "description": "スマートフォンの通信回線を介して他の機器をインターネットへ接続する機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "隠れ端末問題",
+    "description": "互いの電波が届かない端末が同時に送信し、受信側で衝突が起こる無線LANの問題"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "IPマスカレード",
+    "description": "複数の内部端末で一つのグローバルアドレスをポート番号で共用する方式で、LinuxなどでのNAPTの呼び名"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "プライベートIPアドレス",
+    "description": "組織内で自由に使用でき、インターネット上では経路制御されないIPアドレス"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "グローバルIPアドレス",
+    "description": "インターネット上で一意に割り当てられるIPアドレス"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ユニキャスト",
+    "description": "一つの宛先へデータを送る通信方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ブロードキャスト",
+    "description": "同じネットワークのすべての機器へデータを同報する通信方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "マルチキャスト",
+    "description": "特定のグループに属する複数の機器へデータを送る通信方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ポート番号",
+    "description": "同じホスト内で通信先のアプリケーションを識別する番号"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "リピータ",
+    "description": "物理層で信号を増幅・整形して伝送距離を延ばす機器"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ブリッジ",
+    "description": "データリンク層でMACアドレスを基にフレームを中継する機器"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ルータ",
+    "description": "ネットワーク層でIPアドレスを基に異なるネットワーク間のパケットを中継する機器"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ゲートウェイ",
+    "description": "プロトコルの異なるネットワークを上位層で変換して接続する機器"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "スイッチングハブ",
+    "description": "宛先のMACアドレスを学習して該当ポートだけにフレームを転送する機器"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "物理層",
+    "description": "ビット列を信号として伝送するOSIの第1層"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "データリンク層",
+    "description": "隣接機器間のフレーム転送を担うOSIの第2層"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ネットワーク層",
+    "description": "経路制御によって宛先までパケットを届けるOSIの第3層"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "トランスポート層",
+    "description": "端末間の信頼性や品質を確保するOSIの第4層"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "セション層",
+    "description": "通信の開始や終了などの対話を管理するOSIの第5層"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "プレゼンテーション層",
+    "description": "文字コードや暗号化などのデータ形式を変換するOSIの第6層"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "アプリケーション層",
+    "description": "メールやWebなど利用者向けの機能を提供するOSIの第7層"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "回線交換",
+    "description": "通信中は端末間の経路を専有して通信する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "パケット交換",
+    "description": "データを小さな単位に分割し、回線を共用して転送する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "全二重通信",
+    "description": "送信と受信を同時に行える通信方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "半二重通信",
+    "description": "双方向に通信できるが、送信と受信を同時には行えない方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "フロー制御",
+    "description": "受信側の処理能力に合わせて送信量を調節する制御"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "伝送効率",
+    "description": "回線容量のうち実際のデータ転送に利用できる割合"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "呼量（アーラン）",
+    "description": "単位時間当たりの通信回線の利用時間を示すトラフィックの量"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "呼損率",
+    "description": "回線がふさがっていて通信を接続できない確率"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "チェックサム",
+    "description": "データの値の合計などから算出し、誤りの検出に利用する値"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "コネクション型通信",
+    "description": "データ送受の前に通信路を確立する通信方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "コネクションレス型通信",
+    "description": "通信路を確立せずにデータを送る通信方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "光ファイバケーブル",
+    "description": "光信号で伝送し、高速で電磁ノイズの影響を受けにくい伝送媒体"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "より対線",
+    "description": "2本の導線をより合わせてノイズの影響を抑えた、LANなどで用いる伝送媒体"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "1000BASE-T",
+    "description": "より対線を用いて1Gビット/秒で通信するイーサネット規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "FTTH（Fiber To The Home）",
+    "description": "光ファイバを利用者宅まで引き込むブロードバンドサービス"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "LTE（Long Term Evolution）",
+    "description": "第3.9～第4世代の移動通信の規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "5G（第5世代移動通信システム）",
+    "description": "高速大容量、超低遅延、多数同時接続を特徴とする移動通信の規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ベストエフォート",
+    "description": "通信速度を保証せず、可能な範囲で最大限の品質を提供する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ローミング",
+    "description": "契約事業者のサービス範囲外でも提携事業者の網で通信を利用できる仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ハンドオーバー",
+    "description": "移動中の端末の接続先基地局を通信を切らずに切り替えること"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "Bluetooth",
+    "description": "数m～数十mの近距離で機器間を接続する無線規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "BLE（Bluetooth Low Energy）",
+    "description": "省電力に特化した近距離無線の規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ZigBee",
+    "description": "センサーネットワークなどで用いる低速、省電力の近距離無線規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "NFC（Near Field Communication）",
+    "description": "約10cmの至近距離で通信する無線規格で、非接触ICカードなどに用いる"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "ping",
+    "description": "ICMPを使って宛先との疎通と応答時間を確認するコマンド"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "インフラストラクチャモード",
+    "description": "アクセスポイントを介して無線端末同士が通信する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "ネットワーク基礎",
+    "term": "アドホックモード",
+    "description": "アクセスポイントを介さずに無線端末同士が直接通信する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ビッグエンディアン",
+    "description": "多バイトのデータを上位バイトから順にメモリに格納する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "リトルエンディアン",
+    "description": "多バイトのデータを下位バイトから順にメモリに格納する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "GPU（Graphics Processing Unit）",
+    "description": "画像処理や並列演算に特化した演算装置で、機械学習にも広く利用される"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "スーパースカラ",
+    "description": "複数の演算器で複数の命令を同時に実行し、処理性能を高める方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "スーパーパイプライン",
+    "description": "パイプラインの段数を増やして細分化し、動作周波数を高める方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "VLIW（Very Long Instruction Word）",
+    "description": "複数の演算をまとめた長い命令語で並列実行する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "パイプラインハザード",
+    "description": "分岐や資源の競合などでパイプラインの効率が低下する要因"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "SIMD（Single Instruction Multiple Data）",
+    "description": "一つの命令で複数のデータを同時に処理する並列方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "MIMD（Multiple Instruction Multiple Data）",
+    "description": "複数のプロセッサがそれぞれ異なる命令とデータを処理する並列方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "アムダールの法則",
+    "description": "並列化できない部分の割合によって高速化の上限が決まるという法則"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "密結合マルチプロセッサ",
+    "description": "複数のプロセッサが主記憶を共有し、一つのOSで制御する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "疎結合マルチプロセッサ",
+    "description": "各プロセッサが独自の主記憶とOSを持ち、通信で連携する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "DRAM（Dynamic RAM）",
+    "description": "コンデンサに電荷で記憶し、リフレッシュが必要で主記憶に用いられるメモリ"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "SRAM（Static RAM）",
+    "description": "フリップフロップで記憶し、高速でリフレッシュ不要でキャッシュメモリに用いられるメモリ"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "フラッシュメモリ",
+    "description": "電気的に一括消去・書込みでき、電源を切っても内容が消えない半導体メモリ"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ウェアレベリング",
+    "description": "書込み回数を素子全体で平準化し、SSDなどの寿命を延ばす技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ダイレクトマッピング方式",
+    "description": "主記憶のブロックの格納先がキャッシュ上の一か所に決まる方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "フルアソシエイティブ方式",
+    "description": "主記憶のブロックをキャッシュの任意の場所に格納できる方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "セットアソシエイティブ方式",
+    "description": "キャッシュを複数のセットに分け、セット内の任意の場所に格納する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "キャッシュヒット率",
+    "description": "アクセスしたデータがキャッシュ上に存在する割合"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "プログラムカウンタ",
+    "description": "次に実行する命令のアドレスを保持するレジスタ"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "命令フェッチ",
+    "description": "実行する命令を主記憶から読み出す動作"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "インデックスアドレス指定",
+    "description": "命令のアドレス部に指標レジスタの値を加えて実効アドレスを求める方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "相対アドレス指定",
+    "description": "プログラムカウンタの値を基準に実効アドレスを求める方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "即値アドレス指定",
+    "description": "命令のアドレス部の値をそのまま演算対象として使う方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "MIPS（Million Instructions Per Second）",
+    "description": "1秒間に実行できる命令数を百万単位で表す性能指標"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "FLOPS",
+    "description": "1秒間に実行できる浮動小数点演算の回数を示す性能指標"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "PCI Express",
+    "description": "シリアル転送で機器を接続する、拡張カードなどのインタフェース規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "NVMe（NonVolatile Memory Express）",
+    "description": "SSDの性能を生かすためPCI Express上で動作するストレージのプロトコル"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "USB（Universal Serial Bus）",
+    "description": "周辺機器をシリアル接続する汎用の規格で、電力供給にも対応する"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "HDMI",
+    "description": "映像と音声を1本のケーブルでデジタル伝送する規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "シリアルATA",
+    "description": "ストレージとの接続に用いるシリアル転送のインタフェース"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ポーリング方式",
+    "description": "入出力装置の状態を定期的に確認して処理する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "メモリマップドI/O",
+    "description": "入出力装置のレジスタをメモリと同じアドレス空間に割り当てる方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "シークタイム",
+    "description": "磁気ヘッドが目的のトラックまで移動する時間"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "サーチタイム（回転待ち時間）",
+    "description": "目的のセクタが磁気ヘッドの位置に回転してくるまでの時間"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "デフラグメンテーション",
+    "description": "ディスク上で断片化したファイルを連続した領域に再配置すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ストライピング",
+    "description": "データを複数のディスクに分散して書き込み、速度を高める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ミラーリング",
+    "description": "同じデータを複数のディスクに書き込んで冗長性を確保する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "RAID 10（RAID 1+0）",
+    "description": "同じ内容を保持するディスクの組を複数作り、それらに分散して書き込む構成"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ハイパーバイザー型",
+    "description": "ハードウェア上で直接仮想化ソフトを動かし、その上で複数のOSを実行する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ホスト型仮想化",
+    "description": "OS上のアプリケーションとして仮想化ソフトを動かす方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ライブマイグレーション",
+    "description": "稼働中の仮想マシンを停止せずに別の物理サーバへ移動する技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "マイクロカーネル",
+    "description": "カーネルの機能を最小限にし、その他を別のプロセスとして動かすOS構造"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "モノリシックカーネル",
+    "description": "OSの機能の大部分をカーネル空間で一体として動かす構造"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "カーネルモード（特権モード）",
+    "description": "すべての命令と資源を扱える、OSが動作するCPUのモード"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ユーザーモード",
+    "description": "特権命令の実行が制限された、アプリケーションが動作するCPUのモード"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "コンパイラ",
+    "description": "ソースプログラム全体を機械語などの目的プログラムに変換するソフトウェア"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "インタプリタ",
+    "description": "ソースプログラムを一文ずつ解釈しながら実行するソフトウェア"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "リンカ",
+    "description": "複数の目的プログラムやライブラリを結合して実行可能なプログラムを作るソフトウェア"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ローダ",
+    "description": "実行可能なプログラムを主記憶に読み込むソフトウェア"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ミドルウェア",
+    "description": "OSとアプリケーションの中間で共通機能を提供するソフトウェア"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "リエントラント（再入可能）",
+    "description": "同時に複数のタスクから呼び出しても正しく動作する、プログラムの性質"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "リカーシブ",
+    "description": "実行中に自分自身を呼び出しても正しく動作する、プログラムの性質"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "リロケータブル",
+    "description": "主記憶のどのアドレスに配置しても実行できる、プログラムの性質"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "動的リンキング",
+    "description": "実行時に必要なライブラリを結合する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ガベージコレクション",
+    "description": "使われなくなったメモリ領域を自動で回収する機能"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "メモリリーク",
+    "description": "確保した領域が解放されず、利用可能なメモリが徐々に減少する現象"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ノンプリエンプティブ方式",
+    "description": "実行中のタスクが自発的にCPUを手放すまで切り替わらないスケジューリング"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "リアルタイムOS",
+    "description": "タスクの応答時間を保証することを重視したOS"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "SJF（Shortest Job First）",
+    "description": "処理時間の短いジョブから実行するスケジューリング方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "排他制御",
+    "description": "共有資源に対する同時アクセスを制限し、データの矛盾を防ぐ制御"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "スワップアウト",
+    "description": "主記憶上のプロセスなどを補助記憶へ退避すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "スワップイン",
+    "description": "補助記憶へ退避したプロセスなどを主記憶へ戻すこと"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "セグメント方式",
+    "description": "プログラムを論理的な単位の可変長領域に分けて管理する記憶管理の方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ワーキングセット",
+    "description": "プロセスが一定時間内に参照するページの集合"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "デマンドページング",
+    "description": "実際に必要となった時点でページを主記憶に読み込む方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "メモリコンパクション",
+    "description": "断片化した空き領域を一つにまとめる処理"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "バッチ処理",
+    "description": "データを一定量ためてまとめて処理する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "cron",
+    "description": "あらかじめ指定した日時にコマンドを定期実行する、UNIX系OSの機能"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "フリップフロップ",
+    "description": "2値の状態を保持できる順序回路で、SRAMやレジスタの基本素子"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "NAND回路",
+    "description": "論理積の結果を反転して出力する論理回路"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "NOR回路",
+    "description": "論理和の結果を反転して出力する論理回路"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "XOR回路",
+    "description": "入力の値が異なるときに1を出力する論理回路"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "順序回路",
+    "description": "現在の入力と過去の状態によって出力が決まる論理回路"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "組合せ回路",
+    "description": "現在の入力だけで出力が決まる論理回路"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "ASIC（Application Specific IC）",
+    "description": "特定の用途向けに設計された集積回路"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "FPGA（Field Programmable Gate Array）",
+    "description": "製造後に利用者が回路構成を書き換えられる集積回路"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "SoC（System on a Chip）",
+    "description": "複数の機能を一つのチップに集積したもの"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "MEMS",
+    "description": "微細加工技術により機械要素と電子回路を一つの基板に集積したデバイス"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "アクチュエーター",
+    "description": "電気信号などを機械的な動きに変換する装置"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "フィードバック制御",
+    "description": "出力を測定して目標値との差を入力に反映する制御方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "シーケンス制御",
+    "description": "あらかじめ定めた順序や条件に従って各段階を進める制御方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "PWM制御",
+    "description": "パルスの幅を変えて平均電圧を調節し、モーターの速度などを制御する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "A/D変換",
+    "description": "アナログ信号をデジタル信号に変換すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "コンピュータ・OS",
+    "term": "エネルギーハーベスティング",
+    "description": "光や振動などの微小なエネルギーを電力に変換して利用する技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "固定小数点数",
+    "description": "小数点の位置を固定して数値を表す形式"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "単精度浮動小数点数",
+    "description": "IEEE 754で32ビットを用いて実数を表す形式"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "倍精度浮動小数点数",
+    "description": "IEEE 754で64ビットを用いて実数を表す形式"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "情報落ち",
+    "description": "絶対値の差が大きい数の加減算で、小さい方の値が結果に反映されなくなる誤差"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "打切り誤差",
+    "description": "無限に続く計算を有限回で打ち切ることにより生じる誤差"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "アンダーフロー",
+    "description": "計算結果の絶対値が小さすぎて表現できる範囲を下回ること"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "パック10進数",
+    "description": "1バイトに2桁の数字を詰め、最後に符号を付加する数値の表現形式"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "BCD（Binary Coded Decimal）",
+    "description": "10進数の各桁を4ビットの2進数で表す形式"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "命題論理",
+    "description": "真偽を判定できる文を論理演算で扱う論理の体系"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "加法定理",
+    "description": "互いに排反な事象のいずれかが起こる確率は各確率の和になるという定理"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "乗法定理",
+    "description": "二つの事象が同時に起こる確率を条件付き確率の積で求める定理"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "順列",
+    "description": "異なるものを順序を考慮して並べる場合の数"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "組合せ",
+    "description": "異なるものを順序を考慮せずに選ぶ場合の数"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "行列",
+    "description": "数を縦横に並べたもので、機械学習や線形変換の計算に用いる"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "固有値",
+    "description": "線形変換で向きの変わらないベクトルに対して掛かる倍率"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "テンソル",
+    "description": "スカラ、ベクトル、行列を一般化した多次元の数の配列"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "ニュートン法",
+    "description": "接線を用いて方程式の近似解を反復して求める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "シンプソン法",
+    "description": "区間を放物線で近似して定積分の値を求める数値計算の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "ハフマン符号",
+    "description": "出現頻度の高い記号に短い符号を割り当てる可変長の圧縮符号"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "ランレングス符号",
+    "description": "同じ記号の連続をその記号と繰り返し数で表す圧縮手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "Unicode",
+    "description": "世界中の文字を一つの体系で扱うための文字コード規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "ASCIIコード",
+    "description": "英数字や記号を7ビットで表現する文字コード"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "逆ポーランド表記法",
+    "description": "演算子を被演算子の後ろに置く数式の記法で、スタックで計算しやすい"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "BNF（Backus-Naur Form）",
+    "description": "プログラミング言語などの構文を形式的に定義する記法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "オートマトン",
+    "description": "入力と現在の状態によって次の状態が決まる計算モデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "有限オートマトン",
+    "description": "状態の数が有限で、正規言語を受理できる計算モデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "チューリングマシン",
+    "description": "無限のテープとヘッドを持つ、計算可能性を論じるための理論モデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "正規表現",
+    "description": "文字列のパターンを記号の組合せで表す記法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "文脈自由文法",
+    "description": "各生成規則の左辺が一つの非終端記号から成る形式文法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "有向グラフ",
+    "description": "辺に向きのあるグラフ"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "無向グラフ",
+    "description": "辺に向きのないグラフ"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "ナップサック問題",
+    "description": "容量の制約の中で品物の価値の合計が最大になる組合せを求める問題"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "巡回セールスマン問題",
+    "description": "すべての都市を一度ずつ回って戻る最短経路を求める組合せ最適化問題"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "ポアソン分布",
+    "description": "単位時間当たりにまれに起こる事象の発生回数が従う確率分布"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "指数分布",
+    "description": "ランダムに発生する事象の発生間隔が従う確率分布"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "正規分布",
+    "description": "平均を中心とする左右対称の釣鐘形をした代表的な確率分布"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "中央値（メジアン）",
+    "description": "データを大きさの順に並べたときに中央に位置する値"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "最頻値（モード）",
+    "description": "データの中で最も多く現れる値"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "分散",
+    "description": "各データの平均からの差を2乗した値の平均で、ばらつきを表す指標"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "最小二乗法",
+    "description": "誤差の2乗和を最小にして、データに当てはまる直線などを求める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "回帰分析",
+    "description": "目的変数と説明変数の関係を式で表して予測などに用いる分析手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "モンテカルロ法",
+    "description": "乱数を使った多数回の試行で近似解を求める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "ベン図",
+    "description": "集合の関係を図で表現する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "シャノンの通信路符号化定理",
+    "description": "通信路容量以下の速度なら符号化により誤りを任意に小さくできるという定理"
+  },
+  {
+    "exam": "A-1",
+    "category": "基礎理論・数理",
+    "term": "サンプリング定理",
+    "description": "信号の最高周波数の2倍を超える周波数で標本化すれば元の信号を再現できるという定理"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "挿入ソート",
+    "description": "整列済みの部分の適切な位置に要素を順に挿入していく整列法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "選択ソート",
+    "description": "未整列部分の最小値を選んで先頭と交換することを繰り返す整列法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "シェルソート",
+    "description": "一定間隔ごとの要素を整列し、間隔を狭めていく整列法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "B木",
+    "description": "一つの節に複数のキーを持つ多分木で、データベースの索引などに用いられる"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "B+木",
+    "description": "葉の節にデータを集めて連結し、範囲検索に強くした多分木"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "AVL木",
+    "description": "左右の部分木の高さの差を1以内に保つ平衡二分探索木"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "完全二分木",
+    "description": "最下層を除くすべての節が子を二つ持ち、葉の深さの差が1以内である木"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "ヒープ（データ構造）",
+    "description": "親の値が子の値以上または以下という条件を満たす完全二分木"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "先行順走査",
+    "description": "節、左部分木、右部分木の順で木をたどる方法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "中間順走査",
+    "description": "左部分木、節、右部分木の順で木をたどる方法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "後行順走査",
+    "description": "左部分木、右部分木、節の順で木をたどる方法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "双方向リスト",
+    "description": "前後の要素へのポインタを持つ線形リスト"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "環状リスト",
+    "description": "末尾の要素が先頭の要素を指す線形リスト"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "BM法（ボイヤ・ムーア法）",
+    "description": "パターンを後方から照合し、不一致時に大きくずらして高速化する文字列照合法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "KMP法（クヌース・モリス・プラット法）",
+    "description": "パターンの情報を用いて照合位置を戻さずに進める文字列照合法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "ベルマンフォード法",
+    "description": "負の重みの辺があっても単一始点の最短経路を求められるアルゴリズム"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "ワーシャルフロイド法",
+    "description": "すべての頂点間の最短経路を動的計画法で求めるアルゴリズム"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "クラスカル法",
+    "description": "重みの小さい辺から順に選んで最小全域木を求めるアルゴリズム"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "ユークリッドの互除法",
+    "description": "割り算の余りを繰り返し用いて最大公約数を求める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "エラトステネスのふるい",
+    "description": "小さい素数の倍数を順に取り除いて素数を求める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "形態素解析",
+    "description": "文章を意味を持つ最小の単位に分割し、品詞を判別する自然言語処理"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "構文解析",
+    "description": "文の構造を文法に従って解析する処理"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "n-gram",
+    "description": "連続するn個の文字や単語の組を単位として文章を扱う手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "オーバーライド",
+    "description": "スーパークラスのメソッドをサブクラスで再定義すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "オーバーロード",
+    "description": "同じ名前で引数の異なるメソッドを複数定義すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "値呼出し",
+    "description": "引数の値の複製を渡す呼出し方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "参照呼出し",
+    "description": "引数のアドレスを渡し、呼出し先で元の変数を変更できる方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "アルゴリズム",
+    "term": "循環的複雑度（サイクロマティック数）",
+    "description": "プログラムの制御構造の分岐の多さを示す指標"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "半教師あり学習",
+    "description": "少量のラベル付きデータと大量のラベルなしデータを併用する学習"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "線形回帰",
+    "description": "入力と出力の関係を直線的な式でモデル化する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ロジスティック回帰",
+    "description": "事象が起こる確率を推定する分類の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "決定木",
+    "description": "条件分岐を重ねて分類や回帰を行うモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ランダムフォレスト",
+    "description": "多数の決定木の結果を統合するアンサンブル学習の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "サポートベクトルマシン（SVM）",
+    "description": "クラス間のマージンを最大にする境界を求める分類の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "k-means法",
+    "description": "データをk個のグループに分け、重心の更新を繰り返す手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "Q学習",
+    "description": "行動の価値を更新して最適な方策を学習する強化学習の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ハイパーパラメータ",
+    "description": "学習の前に人が設定する、学習率などのパラメータ"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "グリッドサーチ",
+    "description": "候補となる値の組合せを網羅的に試して最良の設定を探す手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "正則化",
+    "description": "モデルの複雑さに罰則を加えて過学習を抑える手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "アンサンブル学習",
+    "description": "複数のモデルの結果を組み合わせて精度を高める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ホールドアウト検証",
+    "description": "データを学習用と評価用に分割して性能を評価する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ROC曲線",
+    "description": "しきい値を変えたときの真陽性率と偽陽性率の関係を描いた曲線"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "AUC（Area Under the Curve）",
+    "description": "曲線の下側の面積で分類モデルの性能を評価する指標"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ニューラルネットワーク",
+    "description": "神経細胞を模した層状の計算モデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "バックプロパゲーション（誤差逆伝播法）",
+    "description": "出力の誤差を入力側へ伝えて重みを更新する学習の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "活性化関数",
+    "description": "ニューロンの入力の総和から出力を決める非線形の関数"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "勾配消失問題",
+    "description": "層が深くなると誤差の勾配が小さくなり、学習が進まなくなる問題"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ドロップアウト",
+    "description": "学習時にニューロンの一部を無効化して過学習を抑える手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "転移学習",
+    "description": "あるタスクで学習したモデルを別のタスクの学習に流用する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ファインチューニング",
+    "description": "学習済みモデルの重みを初期値として新しいデータで微調整する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ミニバッチ学習",
+    "description": "データを小さな単位に分けて重みを更新する学習法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "畳み込みニューラルネットワーク（CNN）",
+    "description": "局所的な特徴を抽出する層を持ち、画像認識に適したネットワーク"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "リカレントニューラルネットワーク（RNN）",
+    "description": "時系列データを扱うため、前の出力を次の入力に利用するネットワーク"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "LSTM（Long Short Term Memory）",
+    "description": "ゲート機構により長期の依存関係を学習できる再帰型のネットワーク"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "オートエンコーダ",
+    "description": "入力を圧縮して復元するよう学習し、特徴抽出に利用するネットワーク"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "敵対的生成ネットワーク（GAN）",
+    "description": "生成器と識別器を競わせて学習し、本物らしいデータを生成するモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "拡散モデル",
+    "description": "ノイズを徐々に除去する過程を学習して画像などを生成するモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "大規模言語モデル（LLM）",
+    "description": "大量の文章で学習し、自然言語を生成・理解する言語モデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "Transformer",
+    "description": "注意機構を中心に構成された、自然言語処理などに用いるモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "プロンプトエンジニアリング",
+    "description": "生成AIから望ましい出力を得るための指示の設計手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ハルシネーション",
+    "description": "生成AIが事実に基づかない情報をもっともらしく出力する現象"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "基盤モデル",
+    "description": "大量のデータで事前学習され、多様な用途へ転用できる汎用的なAIモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "データマイニング",
+    "description": "大量のデータから有用な規則性やパターンを見つけ出す手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "テキストマイニング",
+    "description": "文章データから有用な情報を抽出して分析する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "アソシエーション分析",
+    "description": "データ項目間の関連性を発見する分析手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "BI（Business Intelligence）",
+    "description": "企業内のデータを分析して経営の意思決定に役立てる手法やツール"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ビッグデータ",
+    "description": "多量、多様で高頻度に発生し、従来の手法では扱いにくいデータ"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "データレイク",
+    "description": "構造化・非構造化を問わず元の形式のまま大量に蓄積するデータの保管場所"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "データクレンジング",
+    "description": "データの誤りや重複、表記ゆれを修正して品質を高める処理"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ETL（Extract/Transform/Load）",
+    "description": "データを抽出し、変換して、データウェアハウスなどへ格納する処理"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "名寄せ",
+    "description": "複数のデータに分散した同一人物や企業の情報を統合すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "アノテーション",
+    "description": "学習データに正解のラベルや意味情報を付与する作業"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "外れ値",
+    "description": "他のデータから大きく離れた値"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "オープンデータ",
+    "description": "誰でも二次利用できる形で公開されたデータ"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "パレート図",
+    "description": "項目を多い順に並べた棒グラフと累積比率の折れ線を組み合わせた図"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "特性要因図",
+    "description": "問題と原因の関係を魚の骨状に整理する図"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "散布図",
+    "description": "二つの変数の値を点で描き、相関関係を調べる図"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ヒストグラム",
+    "description": "データを区間に分けて度数を棒で表し、分布の形を示す図"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "管理図",
+    "description": "工程が管理状態にあるかを上下の限界線で判断する図"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "親和図法",
+    "description": "言語データを類似性でまとめて問題の構造を整理する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "連関図法",
+    "description": "複雑に絡み合う原因と結果の関係を矢印で図示する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "系統図法",
+    "description": "目的と手段を階層的に展開して方策を探る手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "マトリックス図法",
+    "description": "要素を行と列に並べて関連の度合いを整理する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "デルファイ法",
+    "description": "複数の専門家への反復アンケートで意見を収束させ、将来を予測する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ブレーンストーミング",
+    "description": "批判せず自由に多くの意見を出し合う発想法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "移動平均法",
+    "description": "一定期間の平均を順にずらして算出し、変動をならす手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "指数平滑法",
+    "description": "直近のデータほど大きな重みを付けて予測する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "線形計画法",
+    "description": "一次式の制約条件のもとで目的関数を最大化・最小化する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ゲーム理論",
+    "description": "複数の主体の利害が関わる意思決定を数理的に分析する理論"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "マクシミン原理",
+    "description": "各選択肢の最小利益のうち最大のものを選ぶ意思決定の基準"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ナッシュ均衡",
+    "description": "どの参加者も自分だけが戦略を変えても利益が増えない状態"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "デシジョンツリー",
+    "description": "選択肢と結果を木の形で示し、期待値などで意思決定する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "AI・データ分析",
+    "term": "ABC分析",
+    "description": "品目を重要度で三つに分類し、管理に重点を付ける手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "概念スキーマ",
+    "description": "データベース全体の論理的な構造を定義するもの"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "外部スキーマ",
+    "description": "利用者やプログラムから見たデータの構造を定義するもの"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "内部スキーマ",
+    "description": "データの物理的な格納方法を定義するもの"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "サロゲートキー",
+    "description": "業務上の意味を持たず、一意識別のために付与する代理の値"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "一意性制約",
+    "description": "列の値が表内で重複しないよう制限する制約"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "検査制約",
+    "description": "列の値が指定した条件を満たすよう制限する制約"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "完全関数従属",
+    "description": "キー全体によって属性が決まり、キーの一部では決まらない関係"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "部分関数従属",
+    "description": "キーの一部によって他の属性が決まる関係"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "推移関数従属",
+    "description": "キー以外の属性を介して別の属性が決まる関係"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "ボイスコッド正規形",
+    "description": "すべての関数従属の決定項が候補キーである状態の正規形"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "非正規化",
+    "description": "性能向上のため、あえてデータの重複を許して表を統合すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "射影",
+    "description": "表から特定の列を取り出す関係代数の演算"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "選択（表の演算）",
+    "description": "表から条件に合う行を取り出す関係演算"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "副問合せ",
+    "description": "SQL文の中に入れ子にして記述する問合せ"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "外部結合",
+    "description": "結合条件に一致しない行も結果に残す表の結合"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "HAVING句",
+    "description": "グループ化した結果に対して条件を指定するSQLの句"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "GROUP BY句",
+    "description": "指定した列の値が同じ行をまとめて集計するSQLの句"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "ウィンドウ関数",
+    "description": "行の集約を行わずに順位や累計などを求めるSQLの関数"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "カーソル",
+    "description": "問合せ結果を1行ずつ処理するためのSQLの仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "共有ロック",
+    "description": "他の処理の読取りを許し、更新は禁じるロック"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "ロック粒度",
+    "description": "ロックを掛ける単位の大きさで、細かいほど並行性が高まる"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "2相ロッキングプロトコル",
+    "description": "ロックの獲得と解放の段階を分離して直列化可能性を確保する手順"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "2相コミットメント",
+    "description": "準備と確定の2段階で分散したデータベースの更新の整合性を保つ手順"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "ログファイル（ジャーナル）",
+    "description": "更新前後のデータを記録し、障害回復に用いるファイル"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "ウォームスタート",
+    "description": "システム障害の後、ログを用いてデータベースをチェックポイントから回復して再開する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "コールドスタート",
+    "description": "媒体障害などの後、バックアップからデータベースを復元して再開する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "フルバックアップ",
+    "description": "対象のデータ全体を複製するバックアップ"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "差分バックアップ",
+    "description": "前回のフルバックアップ以降に更新されたデータだけを保存する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "増分バックアップ",
+    "description": "前回のバックアップ以降に更新されたデータだけを保存する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "ビットマップインデックス",
+    "description": "値ごとのビット列で行の該当を表す、カーディナリティの低い列に適した索引"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "ハッシュインデックス",
+    "description": "キーの変換値で格納位置を決める、等価検索に適した索引"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "クラスタ化インデックス",
+    "description": "索引の順序にデータの物理的な並びをそろえた索引"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "NoSQL",
+    "description": "関係モデルにとらわれず、拡張性や柔軟性を重視したデータベースの総称"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "キーバリュー型データベース",
+    "description": "キーと値の組でデータを扱う単純なデータベース"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "ドキュメント指向データベース",
+    "description": "JSONなどの文書の単位でデータを格納するデータベース"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "グラフデータベース",
+    "description": "ノードとエッジで関係性を格納するデータベース"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "列指向データベース",
+    "description": "データを列単位で格納し、集計を高速化するデータベース"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "インメモリデータベース",
+    "description": "データを主記憶上に置いて高速に処理するデータベース"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "構造化データ",
+    "description": "表形式など、あらかじめ定めた構造に従ったデータ"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "半構造化データ",
+    "description": "JSONやXMLのようにタグなどで緩やかに構造が示されたデータ"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "非構造化データ",
+    "description": "文章や画像など、定まった構造を持たないデータ"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "OLTP（Online Transaction Processing）",
+    "description": "多数の短いトランザクションをオンラインで処理する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "データベース",
+    "term": "メタデータ",
+    "description": "データの意味や構造、作成者などを説明する属性情報"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "デュアルシステム",
+    "description": "2系統で同じ処理を行い、結果を照合しながら運用する構成"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "デュプレックスシステム",
+    "description": "現用系と待機系を用意し、障害時に切り替える構成"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "ウォームスタンバイ",
+    "description": "待機系をOSなどのみ起動した状態にしておく方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "ホットサイト",
+    "description": "常に運用可能な状態で待機する遠隔の代替拠点"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "ウォームサイト",
+    "description": "機器は準備するが、切替えにはデータの反映などが必要な代替拠点"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "コールドサイト",
+    "description": "設備のみ用意し、障害時に機器を搬入して立ち上げる代替拠点"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "クラスタリング（システム）",
+    "description": "複数のコンピュータを連携させて一つのシステムとして動かす構成"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "シェアードナッシング",
+    "description": "ノードごとに資源を独立させて並列処理を行う構成"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "シェアードエブリシング",
+    "description": "全ノードでディスクを共有して並列処理を行う構成"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "シンクライアント",
+    "description": "端末に最小限の機能だけを持たせ、処理をサーバで実行する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "クライアントサーバシステム",
+    "description": "サービスを要求する側と提供する側で役割を分担する構成"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "3層クライアントサーバ",
+    "description": "プレゼンテーション、ファンクション、データベースアクセスの層に分ける構成"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "ピアツーピア（P2P）",
+    "description": "端末同士が対等な立場で直接通信する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "グリッドコンピューティング",
+    "description": "ネットワーク上の多数のコンピュータを連携させて大きな処理を行う形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "クラウドコンピューティング",
+    "description": "ネットワーク経由で計算資源をサービスとして利用する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "サーバレス（FaaS）",
+    "description": "サーバ管理を意識せず、イベントに応じて関数を実行する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "プライベートクラウド",
+    "description": "特定の組織専用に構築・運用するクラウド環境"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "パブリッククラウド",
+    "description": "事業者の基盤を不特定多数で共有して利用するクラウド環境"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "ハイブリッドクラウド",
+    "description": "複数の形態の環境を連携させて利用する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "オンプレミス",
+    "description": "自社の設備内に機器やソフトウェアを設置して運用する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "ハウジングサービス",
+    "description": "事業者のデータセンターに利用者の機器を設置して運用する形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "ホスティングサービス",
+    "description": "事業者が所有する機器を利用者に貸し出す形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "HaaS（Hardware as a Service）",
+    "description": "サーバなどの機器をサービスとして提供する区分の呼び名"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "SAN（Storage Area Network）",
+    "description": "サーバとストレージを専用の高速ネットワークで接続する構成"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "NAS（Network Attached Storage）",
+    "description": "LANに接続してファイル共有を提供するストレージ"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "スループット",
+    "description": "単位時間当たりに処理できる仕事の量"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "レスポンスタイム",
+    "description": "要求を入力し終えてから最初の応答が始まるまでの時間"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "ターンアラウンドタイム",
+    "description": "ジョブを投入してから結果がすべて得られるまでの時間"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "ベンチマーク",
+    "description": "標準的なプログラムを実行して処理性能を比較する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "TPC（Transaction Processing Performance Council）",
+    "description": "トランザクション処理の性能指標を定める団体"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "SPECint",
+    "description": "CPUの整数演算の性能を測定するベンチマーク"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "バスタブ曲線",
+    "description": "初期故障期、偶発故障期、摩耗故障期から成る故障率の時間変化"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "RAS技術",
+    "description": "信頼性、可用性、保守性を高める技術の総称"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "UPS（Uninterruptible Power Supply）",
+    "description": "停電時に蓄電池から電力を供給し、機器を安全に停止させる装置"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "最大許容停止時間（MTPD）",
+    "description": "事業の存続に影響を与えずに業務を止められる時間の上限"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "プロビジョニング",
+    "description": "需要に応じて計算資源を準備して利用可能にすること"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "単一障害点（SPOF）",
+    "description": "そこが故障すると全体が停止してしまう構成要素"
+  },
+  {
+    "exam": "A-1",
+    "category": "システム構成・信頼性",
+    "term": "フォールトマスキング",
+    "description": "故障の影響を冗長構成などで外部から隠すこと"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "トップダウンテスト",
+    "description": "上位モジュールから順に結合し、未完成の下位モジュールはスタブで代替するテスト方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ボトムアップテスト",
+    "description": "下位モジュールから順に結合し、上位モジュールはドライバで代替するテスト方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "サンドイッチテスト",
+    "description": "上位からと下位からの結合を組み合わせて中間に向かって進めるテスト方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ビッグバンテスト",
+    "description": "すべてのモジュールを一度に結合して行うテスト方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "スタブ",
+    "description": "テスト時に未完成の下位モジュールの代わりをするプログラム"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ドライバ（検証用プログラム）",
+    "description": "テスト時に未完成の上位モジュールの代わりに対象を呼び出すプログラム"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "命令網羅",
+    "description": "すべての命令を少なくとも1回は実行するテストケースの基準"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "判定条件網羅（分岐網羅）",
+    "description": "判定の真と偽の両方を少なくとも1回は実行するテストケースの基準"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "条件網羅",
+    "description": "判定内の各条件の真と偽を少なくとも1回は実行するテストケースの基準"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "複数条件網羅",
+    "description": "判定内の条件の真偽のすべての組合せを実行するテストケースの基準"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "カバレッジ（網羅率）",
+    "description": "テストで実行されたプログラムの範囲の割合"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "エラー埋込み法",
+    "description": "意図的に誤りを入れ、その発見率から残存バグ数を推定する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "原因結果グラフ法",
+    "description": "入力と出力の論理関係を図に表してテストケースを設計する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ミューテーションテスト",
+    "description": "コードに小さな変更を加え、テストがそれを検出できるかを評価する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "負荷テスト",
+    "description": "想定以上の負荷をかけて処理性能や安定性を確認するテスト"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "受入れテスト",
+    "description": "発注者が納入されたシステムを業務で使えるか確認するテスト"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ピアレビュー",
+    "description": "同僚などの同じ立場の技術者が成果物を確認するレビュー"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "デザインレビュー",
+    "description": "設計の工程で設計書の妥当性を確認するレビュー"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "GoFデザインパターン",
+    "description": "生成、構造、振る舞いの三つのカテゴリに分類される、オブジェクト指向の設計パターン集"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "Singletonパターン",
+    "description": "クラスのインスタンスが一つだけであることを保証する設計パターン"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "Observerパターン",
+    "description": "状態変化を複数のオブジェクトへ通知する設計パターン"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "カプセル化",
+    "description": "データと操作をまとめ、内部の詳細を隠蔽するオブジェクト指向の考え方"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "継承（インヘリタンス）",
+    "description": "スーパークラスの属性や操作をサブクラスが引き継ぐ仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "多相性（ポリモーフィズム）",
+    "description": "同じメッセージでもオブジェクトごとに異なる動作をする性質"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "クラス図",
+    "description": "クラスの属性と操作、クラス間の関連を表すUMLの図"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ステートマシン図",
+    "description": "オブジェクトの状態とその遷移を表すUMLの図"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "コミュニケーション図",
+    "description": "オブジェクト間の接続とメッセージのやり取りを表すUMLの図"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "DFD（Data Flow Diagram）",
+    "description": "データの流れと処理を表す構造化分析の図"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "CRUDマトリクス",
+    "description": "機能とデータの生成・参照・更新・削除の関係を整理した表"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "E-Rモデル",
+    "description": "実体と関連でデータの構造を表すモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "機能要件",
+    "description": "システムが実現すべき業務上の機能に関する要件"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "非機能要件",
+    "description": "性能や信頼性、セキュリティなど機能以外に求められる要件"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ユーザーストーリー",
+    "description": "利用者の視点で欲しい機能と価値を短文で記述したもの"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "トレーサビリティ",
+    "description": "要件から設計、実装、テストまでの対応関係を追跡できること"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "モジュールの結合度",
+    "description": "モジュール間の依存の強さで、データ結合が最も望ましいとされる"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "データ結合",
+    "description": "単純な引数の受渡しだけで連携する、依存が弱いモジュールの関係"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "内容結合",
+    "description": "他のモジュールの内部を直接参照する、依存が最も強いモジュールの関係"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "機能的強度",
+    "description": "モジュールが単一の機能だけを実行する、最も望ましい凝集の状態"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "STS分割",
+    "description": "データの流れに着目し、源泉、変換、吸収に分ける構造化設計の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ジャクソン法",
+    "description": "入出力データの構造からプログラム構造を導く設計手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ワーニエ法",
+    "description": "入力データの構造を基に繰返しと選択で処理を設計する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "NS図",
+    "description": "順次、選択、繰返しの制御構造を箱で表す図"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "アスペクト指向プログラミング",
+    "description": "ログ出力など複数の箇所に横断する関心事を分離する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ドメイン駆動設計",
+    "description": "業務知識をモデルと共通の用語で表現して設計を進める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "SOLID原則",
+    "description": "単一責任など五つから成るオブジェクト指向設計の原則"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "エクストリームプログラミング（XP）",
+    "description": "コミュニケーションや勇気などの価値を基礎に、テスト駆動開発などのプラクティスを重視するアジャイル開発手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "適応型ソフトウェア開発（ASD）",
+    "description": "推測、協調、学習のサイクルを持つアジャイル開発手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ユーザー機能駆動開発（FDD）",
+    "description": "全体モデルと機能のリストを作成し、機能単位で計画と設計、構築を繰り返す手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "リーンソフトウェア開発",
+    "description": "無駄の排除など製造業の考え方をソフトウェアに応用した手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "プロダクトオーナー",
+    "description": "スクラムで製品の価値を最大化する責任を持ち、要望の順位付けをする役割"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "スクラムマスター",
+    "description": "スクラムの理解と実践を促し、チームの障害を取り除く役割"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "プロダクトバックログ",
+    "description": "製品に必要な項目を優先順位順に並べた一覧"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "スプリントバックログ",
+    "description": "現在の反復期間に実施する項目と計画をまとめたもの"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "スプリント",
+    "description": "スクラムで開発を繰り返す、1か月以内の固定された期間"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "スプリントレビュー",
+    "description": "完成した成果物を関係者に示して意見を得るイベント"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "デイリースクラム",
+    "description": "チームが毎日短時間で進捗と計画を確認するイベント"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "レトロスペクティブ（ふりかえり）",
+    "description": "チームが作業の進め方を振り返って改善を検討するイベント"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "KPT法",
+    "description": "Keep、Problem、Tryの三つの視点で振り返る手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ベロシティ",
+    "description": "反復期間ごとにチームが完了させた作業量の指標"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "バーンダウンチャート",
+    "description": "残作業量の推移を時間に沿って示すグラフ"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ストーリーポイント",
+    "description": "ユーザーストーリーの相対的な規模を表す値"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "プランニングポーカー",
+    "description": "チームがカードを使って相対的な見積りを合意する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "タイムボックス",
+    "description": "作業に割り当てる時間を固定し、超過させない管理の考え方"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "イテレーション",
+    "description": "短い期間で計画から実装、評価までを繰り返す開発の単位"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "モブプログラミング",
+    "description": "チーム全員で一つの画面を見ながら開発する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "スパイラルモデル",
+    "description": "設計から評価までをリスク分析とともに螺旋状に繰り返す開発モデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "プロトタイピングモデル",
+    "description": "試作品を作って利用者の評価を得ながら要件を固める開発モデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "MLOps",
+    "description": "機械学習モデルの開発と運用を連携させて継続的に改善する仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "オブザーバビリティ（可観測性）",
+    "description": "ログやメトリクス、トレースからシステムの内部状態を把握できる性質"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "SRE（Site Reliability Engineering）",
+    "description": "ソフトウェア工学の手法で運用の信頼性を高める取組"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "サービスメッシュ",
+    "description": "マイクロサービス間の通信の制御や監視を専用の層で担う仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "サーキットブレーカー",
+    "description": "障害が起きた接続先への呼出しを一時的に遮断し、障害の連鎖を防ぐ仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "イミュータブルインフラストラクチャ",
+    "description": "稼働中の環境を変更せず、更新時は新しい環境に置き換える考え方"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "Docker",
+    "description": "アプリケーションと実行環境をコンテナとしてまとめて動かすソフトウェア"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "Kubernetes",
+    "description": "コンテナの配置やスケーリングを自動管理するオーケストレーションソフトウェア"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "JSON（JavaScript Object Notation）",
+    "description": "名前と値の組を基本とするテキスト形式のデータ交換形式"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "XML（Extensible Markup Language）",
+    "description": "タグを独自に定義して文書やデータの構造を表現できるマークアップ言語"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "SGML",
+    "description": "文書の論理構造を定義する言語で、HTMLやXMLの元となった規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "HTML",
+    "description": "Webページの構造をタグで記述するマークアップ言語"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "WebAssembly",
+    "description": "ブラウザ上で高速に動作する、バイナリ形式の実行コード"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "JIS X 25010（SQuaRE）",
+    "description": "機能適合性や性能効率性、使用性、保守性などを定めたシステム及びソフトウェアの品質モデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "機能適合性",
+    "description": "明示された状況で明示的・暗黙のニーズを満足させる機能を提供する度合い"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "性能効率性",
+    "description": "明記された状態で使用する資源の量に関係する性能の度合い"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "使用性",
+    "description": "指定された利用者が有効性や効率性、満足性をもって目標を達成できる度合い"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "保守性",
+    "description": "意図した保守者が有効かつ効率的に製品を修正できる度合い"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "移植性",
+    "description": "ある環境から別の環境へ製品を移せる度合い"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "JIS X 0160",
+    "description": "ソフトウェアライフサイクルプロセスの枠組みを定めた規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "共通フレーム（SLCP-JCF）",
+    "description": "ソフトウェア取引の関係者が共通の言葉で作業を定義するための枠組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "CMMI（Capability Maturity Model Integration）",
+    "description": "組織のプロセスの成熟度を5段階で評価するモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ファンクションポイント法",
+    "description": "外部入出力や内部論理ファイルなどの機能の数と複雑さから開発規模を見積もる手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "COCOMO",
+    "description": "プログラムの規模と補正係数から工数を算出する見積りモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "LOC法",
+    "description": "プログラムの行数から開発規模を見積もる手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "是正保守",
+    "description": "発見された欠陥を修正する保守"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "予防保守",
+    "description": "故障の発生前に潜在的な欠陥を修正する保守"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "適応保守",
+    "description": "環境の変化に対応するための保守"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "完全化保守",
+    "description": "性能や保守性を向上させるための保守"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "FMEA（Failure Mode and Effects Analysis）",
+    "description": "構成要素の故障形態が及ぼす影響を分析する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "FTA（Fault Tree Analysis）",
+    "description": "望ましくない事象の原因を論理記号で樹形図に展開する分析手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "一斉移行",
+    "description": "旧システムから新システムへ一度に切り替える移行方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "段階移行",
+    "description": "機能や拠点ごとに順に切り替える移行方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "並行運用",
+    "description": "旧システムと新システムを一定期間同時に動かしながら移行する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "コピーレフト",
+    "description": "改変版にも同じ条件での再配布を求める、ライセンスの考え方"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "Apacheライセンス",
+    "description": "商用利用や改変が可能で、特許についての条項も含むOSSのライセンス"
+  },
+  {
+    "exam": "A-1",
+    "category": "開発・運用",
+    "term": "ファームウェア",
+    "description": "機器の基本的な制御を行うために組み込まれたソフトウェア"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "プロジェクト憲章",
+    "description": "プロジェクトの目的やスポンサーを示し、開始を正式に認可する文書"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "PMBOK",
+    "description": "プロジェクトマネジメントの知識体系をまとめたガイド"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "JIS Q 21500",
+    "description": "プロジェクトマネジメントの概念とプロセスの手引きを示した規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "PMO（Project Management Office）",
+    "description": "組織内のプロジェクトの管理を横断的に支援する部門"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "ワークパッケージ",
+    "description": "作業の階層構造の最下位の管理単位"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "スコープクリープ",
+    "description": "管理されないまま作業範囲が拡大していくこと"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "クラッシング",
+    "description": "資源を追加投入して所要期間を短縮する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "ファストトラッキング",
+    "description": "順番に行う作業を並行して進めて期間を短縮する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "類推見積り",
+    "description": "過去の類似プロジェクトの実績を基に見積もる手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "パラメトリック見積り",
+    "description": "過去のデータと統計的な関係から数式で見積もる手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "三点見積り",
+    "description": "楽観値、最可能値、悲観値から期待値を求める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "PERT",
+    "description": "作業の順序関係と所要時間を図で表して日程を管理する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "マイルストーン",
+    "description": "プロジェクトの重要な節目となる時点"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "コンティンジェンシー予備",
+    "description": "特定されたリスクへの対応に備えて確保する予算や時間"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "マネジメント予備",
+    "description": "未知のリスクに備えて確保する予算"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "コストベースライン",
+    "description": "承認された時間軸に沿った予算で、実績の比較基準となるもの"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "感度分析",
+    "description": "ある要素の変化が結果へ与える影響の大きさを調べる手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "What-Ifシナリオ分析",
+    "description": "様々な前提を仮定してスケジュールなどへの影響を評価する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "RACIチャート",
+    "description": "作業ごとの実行、説明責任、相談、報告の役割を整理した表"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "タックマンモデル",
+    "description": "形成期、混乱期、統一期、機能期、散会期から成るチーム形成の段階"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "調達作業範囲記述書（SOW）",
+    "description": "調達する作業の内容や成果物を記述した文書"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "プッシュ型コミュニケーション",
+    "description": "電子メールなど情報を受け手に一方的に送る伝達方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "プル型コミュニケーション",
+    "description": "情報を置き場に公開し、受け手が取りに行く伝達方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "定額契約",
+    "description": "あらかじめ決めた総額で作業を請け負う契約"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "実費償還契約",
+    "description": "発生した実費に利益を上乗せして支払う契約"
+  },
+  {
+    "exam": "A-1",
+    "category": "プロジェクト管理",
+    "term": "タイムアンドマテリアル契約",
+    "description": "作業時間の単価と材料費を基に支払う契約"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "アフォーダンス",
+    "description": "物の形状などから、どう扱えるかを人が自然に感じ取れる性質"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "シグニファイア",
+    "description": "どう操作すればよいかを人に伝える手掛かり"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "ユニバーサルデザイン",
+    "description": "年齢や障害の有無などにかかわらず誰でも利用しやすくする設計"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "JIS X 8341",
+    "description": "高齢者や障害者などへの配慮を定めた、アクセシブルデザインの日本産業規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "ユーザビリティテスト",
+    "description": "実際の利用者に操作してもらい、使いやすさの問題を発見する評価"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "認知的ウォークスルー",
+    "description": "専門家が利用者の立場で操作を順にたどり、問題点を評価する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "思考発話法",
+    "description": "利用者に考えていることを声に出しながら操作してもらう評価法"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "ワイヤーフレーム",
+    "description": "画面の要素の配置を簡略に示した設計図"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "ストーリーボード",
+    "description": "利用の流れを絵コンテのように時系列で示したもの"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "モバイルファースト",
+    "description": "小さい画面での利用を最優先に設計する考え方"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "カスタマージャーニーマップ",
+    "description": "顧客の行動や感情の流れを時系列で可視化した図"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "ニューメリックチェック",
+    "description": "入力値が数値であるかを確認する入力チェック"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "リミットチェック",
+    "description": "入力値が許容範囲内にあるかを確認する入力チェック"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "チェックディジット",
+    "description": "コードの数字から算出した検査用の桁を付加して入力誤りを検出する仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "ラジオボタン",
+    "description": "複数の選択肢から一つだけを選ぶ画面部品"
+  },
+  {
+    "exam": "A-1",
+    "category": "ユーザーインタフェース",
+    "term": "チェックボックス",
+    "description": "複数の選択肢からいくつでも選べる画面部品"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "AACS（Advanced Access Content System）",
+    "description": "ブルーレイディスクで使われているコンテンツ保護技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "CPRM（Content Protection for Recordable Media）",
+    "description": "SDメモリカードなどの記録メディアで使用される著作権保護技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "CPPM（Content Protection for Prerecorded Media）",
+    "description": "DVD-Audioなどの再生専用メディアで使用される著作権保護技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "DTCP（Digital Transmission Content Protection）",
+    "description": "機器間のデジタル伝送を暗号化する著作権保護技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "HDCP（High-bandwidth Digital Content Protection）",
+    "description": "映像機器とディスプレイの間の信号を暗号化する著作権保護技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "WMRM（Windows Media Rights Manager）",
+    "description": "Windows Media形式のコンテンツを保護するデジタル著作権管理技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "DRM（Digital Rights Management）",
+    "description": "デジタルコンテンツの利用を技術的に制限して著作権を保護する仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "H.264",
+    "description": "動画圧縮の標準規格で、MPEG-4 AVCとも呼ばれる"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "H.265（HEVC）",
+    "description": "前の世代の約2倍の圧縮効率を目指した動画圧縮の標準規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "MP3",
+    "description": "音声データの非可逆圧縮形式"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "GIF",
+    "description": "256色までの画像を可逆圧縮する形式で、アニメーションも扱える"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "ストリーミング",
+    "description": "データを受信しながら順次再生する配信方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "AR（Augmented Reality：拡張現実）",
+    "description": "現実の視界にデジタル情報を重ねて表示する技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "VR（Virtual Reality：仮想現実）",
+    "description": "コンピュータで作った環境をあたかも現実のように体験させる技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "メタバース",
+    "description": "インターネット上の3次元仮想空間で利用者が交流するサービス"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "レンダリング",
+    "description": "データを基に画像や映像を生成する処理"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "アンチエイリアシング",
+    "description": "画像の輪郭のぎざぎざを目立たなくする処理"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "加法混色",
+    "description": "赤、緑、青の光を混ぜて色を作り、混ぜるほど明るくなる方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "減法混色",
+    "description": "シアン、マゼンタ、イエローのインクを混ぜて色を作る方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "解像度（dpi）",
+    "description": "1インチ当たりの点の数で表す画像の細かさの単位"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ROE（Return On Equity：自己資本利益率）",
+    "description": "株主から調達した資本で利益をどれだけ上げたかを示す指標"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ROA（Return On Assets：総資産利益率）",
+    "description": "総資産に対する利益の割合を示す指標"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "PBP（Pay Back Period）",
+    "description": "投資額を回収するまでの期間を評価する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "DCF法（Discounted Cash Flow）",
+    "description": "将来の収支を現在価値に換算して投資を評価する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "IRR（Internal Rate of Return）",
+    "description": "正味現在価値が0となる割引率で投資を評価する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "流動比率",
+    "description": "短期的な支払能力を示す、流動資産の流動負債に対する割合"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "自己資本比率",
+    "description": "総資本に占める自己資本の割合で、安全性を示す指標"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "貸借対照表（B/S）",
+    "description": "一定時点の資産、負債、純資産の状態を示す財務諸表"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "損益計算書（P/L）",
+    "description": "一定期間の収益と費用、利益を示す財務諸表"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "キャッシュフロー計算書",
+    "description": "一定期間の資金の増減を営業、投資、財務の活動別に示す財務諸表"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "限界利益",
+    "description": "売上高から変動費を差し引いた利益"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "営業利益",
+    "description": "売上総利益から販売費及び一般管理費を差し引いた利益"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "経常利益",
+    "description": "営業利益に営業外の損益を加減した利益"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "先入先出法",
+    "description": "先に仕入れたものから先に払い出したとして在庫を評価する方法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "総平均法",
+    "description": "期間全体の平均単価で在庫を評価する方法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "定率法",
+    "description": "毎期一定の割合で資産の価値を減らす償却の方法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "定額法",
+    "description": "毎期一定の額で資産の価値を減らす償却の方法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "コアコンピタンス",
+    "description": "他社が模倣しにくい、自社の中核となる強み"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "M&A（Mergers and Acquisitions）",
+    "description": "企業の合併や買収によって事業を拡大・再編する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "アライアンス",
+    "description": "複数の企業が協力関係を結ぶ戦略的な提携"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ベンチマーキング",
+    "description": "優れた他社などの実践と比較して自社の改善点を見いだす手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "アンゾフの成長マトリクス",
+    "description": "製品と市場の新旧で市場浸透や多角化などに分類する成長戦略の枠組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "プロダクトライフサイクル",
+    "description": "導入期、成長期、成熟期、衰退期から成る製品の市場での推移"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ブルーオーシャン戦略",
+    "description": "競争のない新しい市場を切り開く戦略"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "VRIO分析",
+    "description": "価値、希少性、模倣可能性、組織の観点で経営資源の強みを評価する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "STP分析",
+    "description": "市場細分化、標的の選定、位置付けの順に戦略を決める手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "4C分析",
+    "description": "顧客価値、コスト、利便性、対話の観点で買い手から考える枠組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "AIDMA",
+    "description": "注意、関心、欲求、記憶、行動から成る消費者の購買心理のモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "コンジョイント分析",
+    "description": "商品の属性の組合せから顧客の選好を分析する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "スキミングプライシング",
+    "description": "初期に高い価格を設定し、早期に投資を回収する価格戦略"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ペネトレーションプライシング",
+    "description": "初期に低い価格を設定し、市場シェアを早く獲得する価格戦略"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ダイナミックプライシング",
+    "description": "需要や供給の状況に応じて価格を変動させる手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "LTV（Life Time Value：顧客生涯価値）",
+    "description": "一人の顧客が取引期間全体でもたらす利益"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "オムニチャネル",
+    "description": "実店舗やWebなどの販売経路を統合して顧客に対応する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "リスティング広告",
+    "description": "検索語に連動して表示されるインターネット広告"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "A/Bテスト",
+    "description": "二つの案を別々の利用者に見せて効果を比較する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "SEO（Search Engine Optimization）",
+    "description": "検索結果で上位に表示されるようサイトを最適化する取組"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ロングテール",
+    "description": "販売機会の少ない多数の商品の合計がインターネット販売で大きな売上となる現象"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "フリーミアム",
+    "description": "基本機能を無料で提供し、高度な機能を有料とするビジネスモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "サブスクリプション",
+    "description": "一定期間の利用に対して定額の料金を支払うモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "レベニューシェア",
+    "description": "発注者と受注者が事業の収益を分け合う契約形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "オープンイノベーション",
+    "description": "社外の技術やアイデアも取り込んで革新を生み出す手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "イノベーションのジレンマ",
+    "description": "優良企業が既存顧客を重視した結果、破壊的技術に後れを取る現象"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "キャズム",
+    "description": "初期の採用者と多数の採用者との間にある普及の溝"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "死の谷",
+    "description": "研究成果を事業化する段階で資金などの壁に直面すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ダーウィンの海",
+    "description": "事業化した製品が市場競争を生き残るまでの困難"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ハイプサイクル",
+    "description": "新技術への期待の時間的な変化を示す図"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "リーンスタートアップ",
+    "description": "最小限の製品で仮説を検証し、素早く改善する起業の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "PoC（Proof of Concept：概念実証）",
+    "description": "新しい考え方の実現可能性を小規模に検証すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "デザイン思考",
+    "description": "利用者への共感から課題を定義し、試作を繰り返して解決策を生み出す手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ハッカソン",
+    "description": "技術者などが短期間で集中的に開発を競うイベント"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "パテントプール",
+    "description": "複数の権利者が特許を持ち寄って一括で利用許諾する仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "クロスライセンス",
+    "description": "企業間で互いの特許の利用を許諾し合うこと"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "知識創造理論（SECIモデル）",
+    "description": "共同化、表出化、連結化、内面化で知識が組織に広がるという理論"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "EDI（Electronic Data Interchange）",
+    "description": "企業間で受発注などの取引データを標準形式で電子的に交換する仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "XBRL",
+    "description": "財務情報を記述するためのXMLベースの言語"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "RFID",
+    "description": "電波でICタグの情報を非接触で読み書きする技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "フィンテック",
+    "description": "金融とITを融合した新しいサービスや技術"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "CBDC（中央銀行発行デジタル通貨）",
+    "description": "中央銀行が発行するデジタル形式の法定通貨"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "NFT（Non-Fungible Token）",
+    "description": "ブロックチェーンで唯一性を管理するデジタル資産の証明"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "シェアリングエコノミー",
+    "description": "個人の持つ資産やスキルをインターネットを介して共有する経済活動"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "MaaS（Mobility as a Service）",
+    "description": "複数の交通手段を一つのサービスとして統合して提供する考え方"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "Society 5.0",
+    "description": "サイバー空間と現実空間を融合させて社会課題の解決を目指す日本の構想"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "SDGs",
+    "description": "2030年までの達成を目指す国連の持続可能な開発目標"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "コーポレートガバナンス",
+    "description": "企業経営を監視し、規律する仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "コンプライアンス",
+    "description": "法令や社会規範を遵守すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ITガバナンス",
+    "description": "経営目標の達成のためにIT戦略と活用を統制する組織の能力"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "COBIT",
+    "description": "ITガバナンスと管理のために国際団体ISACAが定めたフレームワーク"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "エンタープライズアーキテクチャ",
+    "description": "業務とシステムを四つの体系で整理し、全体最適を図る手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "As-isモデル",
+    "description": "業務やシステムの現状を表したモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "To-beモデル",
+    "description": "業務やシステムのあるべき姿を表したモデル"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "BABOK",
+    "description": "ビジネスアナリシスの知識体系をまとめたガイド"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "RFI（Request For Information）",
+    "description": "ベンダーに技術や製品の情報の提供を依頼する文書"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "RFP（Request For Proposal）",
+    "description": "発注者がベンダーに具体的な提案を依頼する文書"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "職務著作",
+    "description": "法人の業務で従業員が作成した著作物の権利を法人に帰属させる制度"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "著作者人格権",
+    "description": "公表権、氏名表示権、同一性保持権など著作者の人格を守る権利で、譲渡できない"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "請負契約における著作権",
+    "description": "契約に定めがなければ、開発したプログラムの権利は開発者である受託者に帰属するという原則"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "実用新案権",
+    "description": "物品の形状などの考案を保護する権利"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "意匠権",
+    "description": "物品や画像などのデザインを保護する権利"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "不正競争防止法",
+    "description": "営業秘密の不正取得やドメイン名の不正取得などを規制する法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "サイバーセキュリティ基本法",
+    "description": "サイバーセキュリティ施策の基本理念と国や事業者の責務を定めた法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "電子署名法",
+    "description": "一定の要件を満たす電子署名に手書き署名と同様の効力を認める法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "プロバイダ責任制限法（情報流通プラットフォーム対処法）",
+    "description": "権利侵害情報への対応や発信者情報の開示を定めた法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "刑法の不正指令電磁的記録に関する罪",
+    "description": "正当な理由なくマルウェアを作成・提供などする行為を処罰する規定"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "電子計算機使用詐欺罪",
+    "description": "虚偽の情報を入力して不法な財産上の利益を得る行為を処罰する罪"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "電子計算機損壊等業務妨害罪",
+    "description": "コンピュータの損壊や不正な指令で業務を妨害する行為を処罰する罪"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "要配慮個人情報",
+    "description": "人種、信条、病歴、犯罪の経歴など特に配慮を要する個人情報"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "仮名加工情報",
+    "description": "他の情報と照合しない限り個人を識別できないよう加工した情報"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "個人情報保護委員会",
+    "description": "個人情報の適正な取扱いを確保するために設置された行政委員会"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "GDPR（一般データ保護規則）",
+    "description": "EU域内の個人データの保護と域外移転を定めた規則"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "オプトイン",
+    "description": "事前に本人の同意を得てから広告の送信などを行う方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "オプトアウト",
+    "description": "本人が拒否するまでは同意があったとみなして提供などを行う方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "プライバシー影響アセスメント（PIA）",
+    "description": "個人情報を扱うシステムの導入前に影響を評価する手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "マイナンバー法",
+    "description": "社会保障や税などで用いる個人番号の取扱いを定めた法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "偽装請負",
+    "description": "契約上は請負だが、発注者が労働者に直接指揮命令している違法な状態"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "二重派遣",
+    "description": "派遣された労働者を派遣先がさらに別の企業に派遣する禁止行為"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "準委任契約",
+    "description": "法律行為でない事務の遂行を委託する契約で、完成の義務は負わない"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "36協定",
+    "description": "法定時間を超える労働について労使で結ぶ協定"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "フレックスタイム制",
+    "description": "一定期間の総労働時間の範囲で始業と終業の時刻を労働者が決める制度"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "裁量労働制",
+    "description": "実際の労働時間によらず定められた時間を働いたとみなす制度"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "公益通報者保護法",
+    "description": "組織の法令違反を通報した労働者を不利益な扱いから守る法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "製造物責任法（PL法）",
+    "description": "製品の欠陥による損害について製造業者の賠償責任を定めた法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "取適法（中小受託取引適正化法、旧下請法）",
+    "description": "委託事業者に不当な代金減額などを禁じ、中小受託事業者を保護する法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "特定商取引法",
+    "description": "通信販売などの取引について消費者を保護するための規制を定めた法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "景品表示法",
+    "description": "不当な表示や過大な景品を規制する法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "資金決済法",
+    "description": "暗号資産の交換業や前払式支払手段などを規定する法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "金融商品取引法",
+    "description": "内部統制報告書の提出などを定めた、金融市場の公正を図る法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "会社法",
+    "description": "株式会社などの設立、運営、組織について定めた法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "外国為替及び外国貿易法（外為法）",
+    "description": "国際取引の管理や安全保障に関わる貨物・技術の輸出を規制する法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "電気通信事業法",
+    "description": "通信の秘密の保護や電気通信事業者の義務を定めた法律"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "クリエイティブコモンズ",
+    "description": "著作者が再利用の条件を意思表示するためのライセンスの仕組み"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "パブリックドメイン",
+    "description": "著作権が消滅または放棄され、自由に利用できる状態"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "シュリンクラップ契約",
+    "description": "パッケージの開封によって使用許諾に同意したとみなす契約方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ボリュームライセンス",
+    "description": "まとめて購入することで割安に利用権を得られるソフトウェアのライセンス"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ISO 9000シリーズ",
+    "description": "品質マネジメントシステムの国際規格群"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ISO 14000シリーズ",
+    "description": "環境マネジメントシステムの国際規格群"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "JIS Q 22301",
+    "description": "事業継続マネジメントシステムの要求事項を定めた規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "W3C",
+    "description": "Web技術の標準化を進める国際的な団体"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "IETF",
+    "description": "インターネットで使われる技術の標準化を進める団体"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "OASIS",
+    "description": "SAMLなどの標準を策定した構造化情報の標準化団体"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "デファクトスタンダード",
+    "description": "市場での普及によって事実上の標準となった規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "デジュレスタンダード",
+    "description": "公的な標準化機関が定めた規格"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "QRコード",
+    "description": "縦横の2方向に情報を持つ、日本発の2次元シンボル"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "マトリックス組織",
+    "description": "職能と事業の二つの指揮系統を組み合わせた組織形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "事業部制組織",
+    "description": "製品や地域などの単位に分けて権限を委譲する組織形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "カンパニー制",
+    "description": "社内の事業を独立した会社のように運営する組織形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "持株会社",
+    "description": "他社の株式を保有して支配することを主な事業とする会社"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "CIO（Chief Information Officer）",
+    "description": "情報戦略に責任を持つ経営幹部"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "CISO（Chief Information Security Officer）",
+    "description": "情報セキュリティに責任を持つ経営幹部"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "コーチング",
+    "description": "対話を通じて本人の自発的な行動と成長を促す人材開発の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "OJT（On the Job Training）",
+    "description": "実務を通じて行う職場内の教育訓練"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "コンピテンシー",
+    "description": "高い成果を出す人に共通する行動特性"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "タレントマネジメント",
+    "description": "人材の能力を一元的に把握して配置や育成に生かす活動"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ダイバーシティ",
+    "description": "多様な人材を受け入れて組織の力に生かす考え方"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "リスキリング",
+    "description": "新しい業務に必要な技能を働く人が習得すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "マズロの欲求段階説",
+    "description": "人の欲求は生理的なものから自己実現まで段階的に高まるという理論"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "動機づけ・衛生理論",
+    "description": "満足につながる要因と不満を防ぐ要因は別であるという理論"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "PM理論",
+    "description": "目標達成と集団維持の二つの軸でリーダーシップを分類する理論"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "SL理論",
+    "description": "部下の成熟度に応じて有効なリーダーシップは変わるという理論"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "サーバントリーダーシップ",
+    "description": "リーダーがメンバーに奉仕して目標達成を支援する考え方"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "安全在庫",
+    "description": "需要の変動や調達の遅れに備えて持つ在庫"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "定量発注方式",
+    "description": "在庫が一定量を下回ったときに決まった量を発注する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "定期発注方式",
+    "description": "決まった周期にその時々の必要量を発注する方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "経済的発注量（EOQ）",
+    "description": "発注費用と在庫費用の合計を最小にする1回の発注量"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "かんばん方式",
+    "description": "必要なものを必要な時に必要なだけ生産する生産管理の手法"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "セル生産方式",
+    "description": "少人数のチームが一連の工程を担当して製品を組み立てる方式"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "CAD（Computer Aided Design）",
+    "description": "コンピュータで製品の設計や製図を支援するシステム"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "CAM（Computer Aided Manufacturing）",
+    "description": "設計データを基に工作機械の制御など製造を支援するシステム"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "OEM（Original Equipment Manufacturer）",
+    "description": "他社ブランドの製品を受託して製造すること"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ファブレス",
+    "description": "自社で工場を持たず、設計や販売に特化する事業形態"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "ファウンドリ",
+    "description": "半導体の製造を専門に受託する企業"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "グリーンIT",
+    "description": "IT機器の省エネや、ITの活用による環境負荷の低減を図る取組"
+  },
+  {
+    "exam": "A-1",
+    "category": "経営・法務",
+    "term": "カーボンニュートラル",
+    "description": "温室効果ガスの排出量と吸収量を均衡させること"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "接触型ICカード",
+    "description": "カード表面の端子を読取り装置に接触させて電力供給と通信を行うカード"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "非接触型ICカード",
+    "description": "内蔵コイルの誘導起電力で動作し、電波で読取り装置と通信するカード"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "静電容量方式（指紋認証）",
+    "description": "指の凹凸による静電容量の違いから指紋を読み取る方式で、照明の影響を受けにくい"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "TCPヘッダ",
+    "description": "送信元と宛先のポート番号、シーケンス番号、制御フラグなどを含むトランスポート層の制御情報"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "IPヘッダのプロトコル番号",
+    "description": "上位のTCPやUDP、ICMPなどの種別を示す識別番号"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "HTTPリクエスト行",
+    "description": "メソッド、リクエストの対象、HTTPのバージョンを示すHTTP要求の先頭行"
+  },
+  {
+    "exam": "A-2",
+    "category": "監査・サービス管理",
+    "term": "データの直接修正",
+    "description": "アプリケーションの機能を経由せず、特権IDでデータを変更する行為で、承認と記録が監査の対象となる"
+  },
+  {
+    "exam": "A-1",
+    "category": "情報メディア",
+    "term": "MIDI",
+    "description": "電子楽器の演奏情報をやり取りする規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "暗号・PKI",
+    "term": "CRYPTREC暗号リスト",
+    "description": "デジタル庁、総務省及び経済産業省が策定した、電子政府の調達で参照すべき暗号技術の一覧"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "CDN（Content Delivery Network）",
+    "description": "多数の配信サーバにコンテンツを分散配置し、利用者の近くから効率よく届ける仕組み"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "X.400",
+    "description": "電子メールなどのメッセージ通信を定めたITU-Tの規格で、公開鍵証明書の規格ではない"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク・通信応用",
+    "term": "ONF（Open Networking Foundation）",
+    "description": "ソフトウェア定義ネットワークとOpenFlowの普及を推進する団体"
+  },
+  {
+    "exam": "A-2",
+    "category": "データベース・システム",
+    "term": "ログバッファ",
+    "description": "更新ログを一時的に保持する主記憶上の領域で、コミット完了にはログファイルへの書出しが必要"
+  },
+  {
+    "exam": "A-2",
+    "category": "認証・アクセス制御",
+    "term": "XRI（Extensible Resource Identifier）",
+    "description": "URLに似た形式で資源を抽象的に識別する識別子で、OpenIDの利用者IDにも使えた"
+  },
+  {
+    "exam": "A-2",
+    "category": "ネットワーク防御",
+    "term": "chroot",
+    "description": "プロセスから見えるルートディレクトリを変更し、アクセスできるファイルの範囲を制限する機能"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "JIS X 9401",
+    "description": "クラウドコンピューティングの概要と用語を定めた規格"
+  },
+  {
+    "exam": "A-2",
+    "category": "管理・標準",
+    "term": "JIS Q 27001附属書A",
+    "description": "情報セキュリティマネジメントシステムの要求事項の規格に付された管理策の一覧"
   }
 ]
